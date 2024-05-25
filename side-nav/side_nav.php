@@ -24,11 +24,11 @@
                   <div class="parent-wrapper label-1">
                     <ul class="nav collapse parent " data-bs-parent="#navbarVerticalCollapse" id="nv-project-management">
                       <!-- <li class="collapsed-nav-item-title d-none">Project management</li> -->
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="project-type.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Project type</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="project-category.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Project category</span></div>
                         </a><!-- more inner pages-->
                       </li>
@@ -36,11 +36,11 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">Create new</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="phase.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Phases</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="deliverable.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Deliverable</span></div>
                         </a><!-- more inner pages-->
                       </li>
@@ -83,11 +83,11 @@
                   <div class="parent-wrapper label-1">
                     <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-user-management">
                       <li class="collapsed-nav-item-title d-none">User management</li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="collapse" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="user.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">User list</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="collapse" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Role list</span></div>
                         </a><!-- more inner pages-->
                       </li>

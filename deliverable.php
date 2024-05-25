@@ -10,17 +10,17 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>Phoenix</title>
+    <title>Project management System</title>
 
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="imagesapple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagesfavicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="imagesfavicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="imagesfavicon.ico">
-    <link rel="manifest" href="imagesmanifest.json">
-    <meta name="msapplication-TileImage" content="imagesmstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileImage" content="images/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/simplebar.min.js"></script>
@@ -29,12 +29,10 @@
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="css/choices.min.css" rel="stylesheet">
-    <link href="css/flatpickr.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link href="../../vendors/simplebar/simplebar.min.css" rel="stylesheet">
+    <link href="css/simplebar.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href="css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
     <link href="css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
@@ -72,18 +70,18 @@
     <!-- ===============================================-->
     <!--    Side navigation-->
     <!-- ===============================================-->
-    <?php include('side-nav/side_nav.php');?>
-    
-        <div class="navbar-vertical-footer"><button class="btn navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center"><span class="uil uil-left-arrow-to-left fs-8"></span><span class="uil uil-arrow-from-right fs-8"></span><span class="navbar-vertical-footer-text ms-2">Collapsed View</span></button></div>
+        <?php include('side-nav/side_nav.php');?>
+
+      <div class="navbar-vertical-footer"><button class="btn navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center"><span class="uil uil-left-arrow-to-left fs-8"></span><span class="uil uil-arrow-from-right fs-8"></span><span class="navbar-vertical-footer-text ms-2">Collapsed View</span></button></div>
       </nav>
       <nav class="navbar navbar-top fixed-top navbar-expand" id="navbarDefault" style="display:none;">
         <div class="collapse navbar-collapse justify-content-between">
           <div class="navbar-logo">
             <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-            <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
+            <a class="navbar-brand me-1 me-sm-3" href="../../index.php">
               <div class="d-flex align-items-center">
-                <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
-                  <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
+                <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="" width="27" />
+                  <p class="logo-text ms-2 d-none d-sm-block">PMS</p>
                 </div>
               </div>
             </a>
@@ -99,12 +97,12 @@
                   <h6 class="dropdown-header text-body-highlight fs-10 py-2">24 <span class="text-body-quaternary">results</span></h6>
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Recently Searched </h6>
-                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-clock-rotate-left" data-fa-transform="shrink-2"></span> Store Macbook</div>
                       </div>
                     </a>
-                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-clock-rotate-left" data-fa-transform="shrink-2"></span> MacBook Air - 13″</div>
                       </div>
@@ -112,15 +110,15 @@
                   </div>
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
-                  <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.html">
-                      <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../../assets/img/products/60x60/3.png" alt="" /></div>
+                  <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.php">
+                      <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                       </div>
                     </a>
-                    <a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.html">
-                      <div class="file-thumbnail me-2"><img class="img-fluid" src="../../assets/img/products/60x60/3.png" alt="" /></div>
+                    <a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.php">
+                      <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -129,12 +127,12 @@
                   </div>
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Quick Links</h6>
-                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-link text-body" data-fa-transform="shrink-2"></span> Support MacBook House</div>
                       </div>
                     </a>
-                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-link text-body" data-fa-transform="shrink-2"></span> Store MacBook″</div>
                       </div>
@@ -142,17 +140,17 @@
                   </div>
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Files</h6>
-                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-file-zipper text-body" data-fa-transform="shrink-2"></span> Library MacBook folder.rar</div>
                       </div>
                     </a>
-                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-file-lines text-body" data-fa-transform="shrink-2"></span> Feature MacBook extensions.txt</div>
                       </div>
                     </a>
-                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-image text-body" data-fa-transform="shrink-2"></span> MacBook Pro_13.jpg</div>
                       </div>
@@ -160,18 +158,18 @@
                   </div>
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
-                  <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.html">
+                  <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.php">
                       <div class="avatar avatar-l status-online  me-2 text-body">
-                        <img class="rounded-circle " src="../../assets/img/team/40x40/10.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
                       </div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary">anna@technext.it</p>
                       </div>
                     </a>
-                    <a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.html">
+                    <a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.php">
                       <div class="avatar avatar-l  me-2 text-body">
-                        <img class="rounded-circle " src="../../assets/img/team/40x40/12.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
                       </div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -181,12 +179,12 @@
                   </div>
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Related Searches</h6>
-                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                  <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"><span class="fa-brands fa-firefox-browser text-body" data-fa-transform="shrink-2"></span> Search in the Web MacBook</div>
                       </div>
                     </a>
-                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                       <div class="d-flex align-items-center">
                         <div class="fw-normal text-body-highlight title"> <span class="fa-brands fa-chrome text-body" data-fa-transform="shrink-2"></span> Store MacBook″</div>
                       </div>
@@ -217,7 +215,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -249,7 +247,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -264,7 +262,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -279,7 +277,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -294,7 +292,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -309,7 +307,7 @@
                     </div>
                   </div>
                   <div class="card-footer p-0 border-top border-translucent border-0">
-                    <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                    <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                   </div>
                 </div>
               </div>
@@ -330,46 +328,46 @@
                 <div class="card bg-body-emphasis position-relative border-0">
                   <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                     <div class="row text-center align-items-center gx-0 gy-0">
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                         </a></div>
                     </div>
@@ -379,7 +377,7 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                 <div class="avatar avatar-l ">
-                  <img class="rounded-circle " src="../../assets/img/team/40x40/57.webp" alt="" />
+                  <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
                 </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -387,7 +385,7 @@
                   <div class="card-body p-0">
                     <div class="text-center pt-4 pb-3">
                       <div class="avatar avatar-xl ">
-                        <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                       </div>
                       <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                     </div>
@@ -421,7 +419,7 @@
         <div class="collapse navbar-collapse justify-content-between">
           <div class="navbar-logo">
             <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-            <a class="navbar-brand navbar-brand" href="../../index.html">phoenix <span class="text-body-highlight d-none d-sm-inline">slim</span></a>
+            <a class="navbar-brand navbar-brand" href="../../index.php">phoenix <span class="text-body-highlight d-none d-sm-inline">slim</span></a>
           </div>
           <ul class="navbar-nav navbar-nav-icons flex-row">
             <li class="nav-item">
@@ -442,7 +440,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -474,7 +472,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -489,7 +487,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -504,7 +502,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -519,7 +517,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -534,7 +532,7 @@
                     </div>
                   </div>
                   <div class="card-footer p-0 border-top border-translucent border-0">
-                    <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                    <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                   </div>
                 </div>
               </div>
@@ -555,46 +553,46 @@
                 <div class="card bg-body-emphasis position-relative border-0">
                   <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                     <div class="row text-center align-items-center gx-0 gy-0">
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                         </a></div>
                     </div>
@@ -608,7 +606,7 @@
                   <div class="card-body p-0">
                     <div class="text-center pt-4 pb-3">
                       <div class="avatar avatar-xl ">
-                        <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                       </div>
                       <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                     </div>
@@ -641,9 +639,9 @@
       <nav class="navbar navbar-top fixed-top navbar-expand-lg" id="navbarTop" style="display:none;">
         <div class="navbar-logo">
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-          <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
+          <a class="navbar-brand me-1 me-sm-3" href="../../index.php">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -653,16 +651,16 @@
           <ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-chart-pie"></span>Home</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../index.html">
+                <li><a class="dropdown-item" href="../../index.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="shopping-cart"></span>E commerce</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/project-management.html">
+                <li><a class="dropdown-item" href="../../dashboard/project-management.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clipboard"></span>Project management</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/crm.html">
+                <li><a class="dropdown-item" href="../../dashboard/crm.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="phone"></span>CRM</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../apps/social/feed.html">
+                <li><a class="dropdown-item" href="../../apps/social/feed.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="share-2"></span>Social feed</div>
                   </a></li>
               </ul>
@@ -677,25 +675,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Admin</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add product</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customers</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customer details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Orders</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Refund</div>
                           </a></li>
                       </ul>
@@ -704,37 +702,37 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Customer</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Homepage</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Product details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products filter</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Cart</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Checkout</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Shipping info</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Favourite stores</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Wishlist</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order tracking</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Invoice</div>
                           </a></li>
                       </ul>
@@ -745,28 +743,28 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="phone"></span>CRM</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/crm/analytics.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/analytics.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Analytics</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deals.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deals.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deals</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deal details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/leads.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/leads.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Leads</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lead details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add contact</div>
                       </a></li>
                   </ul>
@@ -775,40 +773,40 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
+                    <li><a class="dropdown-item active" href="project-list-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project list view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project card view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project details</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/chat.html">
+                <li><a class="dropdown-item" href="../../apps/chat.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="mail"></span>Email</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/email/inbox.html">
+                    <li><a class="dropdown-item" href="../../apps/email/inbox.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Inbox</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/email-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/email/email-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Email detail</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/compose.html">
+                    <li><a class="dropdown-item" href="../../apps/email/compose.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Compose</div>
                       </a></li>
                   </ul>
@@ -817,10 +815,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="bookmark"></span>Events</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.html">
+                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create an event</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/events/event-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/events/event-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Event detail</div>
                       </a></li>
                   </ul>
@@ -829,13 +827,13 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="trello"></span>Kanban</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Kanban</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/boards.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/boards.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Boards</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create board</div>
                       </a></li>
                   </ul>
@@ -844,32 +842,32 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="share-2"></span>Social</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/social/profile.html">
+                    <li><a class="dropdown-item" href="../../apps/social/profile.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/social/settings.html">
+                    <li><a class="dropdown-item" href="../../apps/social/settings.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Settings</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/calendar.html">
+                <li><a class="dropdown-item" href="../../apps/calendar.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-files-landscapes-alt"></span>Pages</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../pages/starter.html">
+                <li><a class="dropdown-item" href="../../pages/starter.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="compass"></span>Starter</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="faq" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="help-circle"></span>Faq</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq accordion</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq tab</div>
                       </a></li>
                   </ul>
@@ -878,10 +876,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="globe"></span>Landing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/landing/default.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/default.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Default</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/landing/alternate.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/alternate.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Alternate</div>
                       </a></li>
                   </ul>
@@ -890,34 +888,34 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="tag"></span>Pricing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing column</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing grid</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../pages/notifications.html">
+                <li><a class="dropdown-item" href="../../pages/notifications.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="bell"></span>Notifications</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/members.html">
+                <li><a class="dropdown-item" href="../../pages/members.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="users"></span>Members</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/timeline.html">
+                <li><a class="dropdown-item" href="../../pages/timeline.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clock"></span>Timeline</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="errors" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="alert-triangle"></span>Errors</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/errors/404.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/404.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>404</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/403.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/403.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>403</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/500.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/500.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>500</div>
                       </a></li>
                   </ul>
@@ -930,25 +928,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Simple</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -957,25 +955,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Split</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -984,25 +982,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Card</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -1013,37 +1011,37 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="layout"></span>Layouts</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.html">
+                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical sidenav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../demo/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.html">
+                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sidenav collapse</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/darknav.html">
+                    <li><a class="dropdown-item" href="../../demo/darknav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Darknav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/topnav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/topnav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Topnav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
@@ -1058,26 +1056,26 @@
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="file-text" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Forms</h6>
-                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.html">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.html">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.html">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.html">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.html">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.html">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.html">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.html">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.html">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.html">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.html">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.html">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.html">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.html">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.html">Wizard</a>
+                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.php">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.php">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.php">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.php">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.php">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.php">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.php">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.php">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.php">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.php">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.php">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.php">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.php">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.php">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.php">Wizard</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="grid" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Icons</h6>
-                        </div><a class="dropdown-link" href="../../modules/icons/feather.html">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.html">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.html">Unicons</a>
+                        </div><a class="dropdown-link" href="../../modules/icons/feather.php">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.php">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.php">Unicons</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="bar-chart-2" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">ECharts</h6>
-                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.html">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.html">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.html">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.html">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.html">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.html">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.html">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.html">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.html">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.html">How to use</a>
+                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.php">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.php">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.php">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.php">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.php">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.php">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.php">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.php">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.php">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.php">How to use</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="package" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Components</h6>
-                        </div><a class="dropdown-link" href="../../modules/components/accordion.html">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.html">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.html">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.html">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.html">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.html">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.html">Calendar</a><a class="dropdown-link" href="../../modules/components/card.html">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.html">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.html">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.html">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.html">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.html">List group</a><a class="dropdown-link" href="../../modules/components/modal.html">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.html">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.html">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.html">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.html">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.html">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.html">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.html">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.html">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.html">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.html">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.html">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.html">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.html">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.html">Chat widget</a>
+                        </div><a class="dropdown-link" href="../../modules/components/accordion.php">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.php">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.php">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.php">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.php">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.php">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.php">Calendar</a><a class="dropdown-link" href="../../modules/components/card.php">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.php">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.php">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.php">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.php">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.php">List group</a><a class="dropdown-link" href="../../modules/components/modal.php">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.php">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.php">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.php">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.php">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.php">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.php">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.php">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.php">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.php">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.php">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.php">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.php">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.php">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.php">Chat widget</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="columns" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Tables</h6>
-                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.html">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.html">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.html">Bulk Select</a>
+                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.php">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.php">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.php">Bulk Select</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="tool" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Utilities</h6>
-                        </div><a class="dropdown-link" href="../../modules/utilities/background.html">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.html">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.html">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.html">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.html">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.html">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.html">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.html">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.html">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.html">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.html">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.html">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.html">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.html">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.html">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.html">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.html">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.html">Visibility</a>
+                        </div><a class="dropdown-link" href="../../modules/utilities/background.php">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.php">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.php">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.php">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.php">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.php">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.php">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.php">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.php">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.php">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.php">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.php">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.php">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.php">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.php">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.php">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.php">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.php">Visibility</a>
                       </div>
                     </div>
                   </div>
@@ -1086,26 +1084,26 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-document-layout-right"></span>Documentation</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../documentation/getting-started.html">
+                <li><a class="dropdown-item" href="../../documentation/getting-started.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="life-buoy"></span>Getting started</div>
                   </a></li>
                 <li class="dropdown dropdown-inside"><a class="dropdown-item dropdown-toggle" id="customization" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="settings"></span>Customization</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Configuration</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/styling.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/styling.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Styling</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/color.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/color.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Color</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Plugin</div>
                       </a></li>
                   </ul>
@@ -1114,30 +1112,30 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="table"></span>Layouts doc</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../documentation/gulp.html">
+                <li><a class="dropdown-item" href="../../documentation/gulp.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 fa-brands fa-gulp ms-1 me-1 fa-lg"></span>Gulp</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../documentation/design-file.html">
+                <li><a class="dropdown-item" href="../../documentation/design-file.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="figma"></span>Design file</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../changelog.html">
+                <li><a class="dropdown-item" href="../../changelog.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="git-merge"></span>Changelog</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../showcase.html">
+                <li><a class="dropdown-item" href="../../showcase.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="monitor"></span>Showcase</div>
                   </a></li>
               </ul>
@@ -1163,7 +1161,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -1195,7 +1193,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -1210,7 +1208,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1225,7 +1223,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1240,7 +1238,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1255,7 +1253,7 @@
                   </div>
                 </div>
                 <div class="card-footer p-0 border-top border-translucent border-0">
-                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                 </div>
               </div>
             </div>
@@ -1276,46 +1274,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -1325,7 +1323,7 @@
           </li>
           <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
-                <img class="rounded-circle " src="../../assets/img/team/40x40/57.webp" alt="" />
+                <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -1333,7 +1331,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -1365,22 +1363,22 @@
       <nav class="navbar navbar-top navbar-slim justify-content-between fixed-top navbar-expand-lg" id="navbarTopSlim" style="display:none;">
         <div class="navbar-logo">
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-          <a class="navbar-brand navbar-brand" href="../../index.html">phoenix <span class="text-body-highlight d-none d-sm-inline">slim</span></a>
+          <a class="navbar-brand navbar-brand" href="../../index.php">phoenix <span class="text-body-highlight d-none d-sm-inline">slim</span></a>
         </div>
         <div class="collapse navbar-collapse navbar-top-collapse order-1 order-lg-0 justify-content-center" id="navbarTopCollapse">
           <ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-chart-pie"></span>Home</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../index.html">
+                <li><a class="dropdown-item" href="../../index.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="shopping-cart"></span>E commerce</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/project-management.html">
+                <li><a class="dropdown-item" href="../../dashboard/project-management.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clipboard"></span>Project management</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/crm.html">
+                <li><a class="dropdown-item" href="../../dashboard/crm.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="phone"></span>CRM</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../apps/social/feed.html">
+                <li><a class="dropdown-item" href="../../apps/social/feed.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="share-2"></span>Social feed</div>
                   </a></li>
               </ul>
@@ -1395,25 +1393,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Admin</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add product</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customers</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customer details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Orders</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Refund</div>
                           </a></li>
                       </ul>
@@ -1422,37 +1420,37 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Customer</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Homepage</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Product details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products filter</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Cart</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Checkout</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Shipping info</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Favourite stores</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Wishlist</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order tracking</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Invoice</div>
                           </a></li>
                       </ul>
@@ -1463,28 +1461,28 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="phone"></span>CRM</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/crm/analytics.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/analytics.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Analytics</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deals.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deals.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deals</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deal details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/leads.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/leads.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Leads</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lead details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add contact</div>
                       </a></li>
                   </ul>
@@ -1493,40 +1491,40 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/project-list-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project list view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project card view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project details</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/chat.html">
+                <li><a class="dropdown-item" href="../../apps/chat.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="mail"></span>Email</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/email/inbox.html">
+                    <li><a class="dropdown-item" href="../../apps/email/inbox.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Inbox</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/email-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/email/email-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Email detail</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/compose.html">
+                    <li><a class="dropdown-item" href="../../apps/email/compose.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Compose</div>
                       </a></li>
                   </ul>
@@ -1535,10 +1533,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="bookmark"></span>Events</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.html">
+                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create an event</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/events/event-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/events/event-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Event detail</div>
                       </a></li>
                   </ul>
@@ -1547,13 +1545,13 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="trello"></span>Kanban</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Kanban</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/boards.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/boards.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Boards</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create board</div>
                       </a></li>
                   </ul>
@@ -1562,32 +1560,32 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="share-2"></span>Social</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/social/profile.html">
+                    <li><a class="dropdown-item" href="../../apps/social/profile.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/social/settings.html">
+                    <li><a class="dropdown-item" href="../../apps/social/settings.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Settings</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/calendar.html">
+                <li><a class="dropdown-item" href="../../apps/calendar.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-files-landscapes-alt"></span>Pages</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../pages/starter.html">
+                <li><a class="dropdown-item" href="../../pages/starter.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="compass"></span>Starter</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="faq" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="help-circle"></span>Faq</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq accordion</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq tab</div>
                       </a></li>
                   </ul>
@@ -1596,10 +1594,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="globe"></span>Landing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/landing/default.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/default.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Default</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/landing/alternate.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/alternate.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Alternate</div>
                       </a></li>
                   </ul>
@@ -1608,34 +1606,34 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="tag"></span>Pricing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing column</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing grid</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../pages/notifications.html">
+                <li><a class="dropdown-item" href="../../pages/notifications.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="bell"></span>Notifications</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/members.html">
+                <li><a class="dropdown-item" href="../../pages/members.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="users"></span>Members</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/timeline.html">
+                <li><a class="dropdown-item" href="../../pages/timeline.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clock"></span>Timeline</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="errors" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="alert-triangle"></span>Errors</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/errors/404.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/404.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>404</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/403.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/403.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>403</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/500.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/500.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>500</div>
                       </a></li>
                   </ul>
@@ -1648,25 +1646,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Simple</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -1675,25 +1673,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Split</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -1702,25 +1700,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Card</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -1731,37 +1729,37 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="layout"></span>Layouts</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.html">
+                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical sidenav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../demo/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.html">
+                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sidenav collapse</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/darknav.html">
+                    <li><a class="dropdown-item" href="../../demo/darknav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Darknav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/topnav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/topnav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Topnav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
@@ -1776,26 +1774,26 @@
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="file-text" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Forms</h6>
-                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.html">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.html">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.html">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.html">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.html">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.html">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.html">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.html">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.html">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.html">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.html">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.html">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.html">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.html">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.html">Wizard</a>
+                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.php">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.php">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.php">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.php">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.php">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.php">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.php">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.php">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.php">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.php">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.php">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.php">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.php">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.php">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.php">Wizard</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="grid" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Icons</h6>
-                        </div><a class="dropdown-link" href="../../modules/icons/feather.html">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.html">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.html">Unicons</a>
+                        </div><a class="dropdown-link" href="../../modules/icons/feather.php">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.php">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.php">Unicons</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="bar-chart-2" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">ECharts</h6>
-                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.html">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.html">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.html">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.html">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.html">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.html">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.html">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.html">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.html">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.html">How to use</a>
+                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.php">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.php">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.php">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.php">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.php">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.php">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.php">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.php">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.php">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.php">How to use</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="package" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Components</h6>
-                        </div><a class="dropdown-link" href="../../modules/components/accordion.html">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.html">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.html">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.html">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.html">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.html">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.html">Calendar</a><a class="dropdown-link" href="../../modules/components/card.html">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.html">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.html">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.html">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.html">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.html">List group</a><a class="dropdown-link" href="../../modules/components/modal.html">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.html">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.html">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.html">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.html">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.html">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.html">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.html">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.html">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.html">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.html">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.html">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.html">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.html">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.html">Chat widget</a>
+                        </div><a class="dropdown-link" href="../../modules/components/accordion.php">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.php">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.php">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.php">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.php">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.php">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.php">Calendar</a><a class="dropdown-link" href="../../modules/components/card.php">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.php">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.php">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.php">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.php">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.php">List group</a><a class="dropdown-link" href="../../modules/components/modal.php">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.php">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.php">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.php">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.php">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.php">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.php">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.php">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.php">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.php">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.php">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.php">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.php">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.php">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.php">Chat widget</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="columns" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Tables</h6>
-                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.html">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.html">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.html">Bulk Select</a>
+                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.php">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.php">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.php">Bulk Select</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="tool" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Utilities</h6>
-                        </div><a class="dropdown-link" href="../../modules/utilities/background.html">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.html">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.html">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.html">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.html">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.html">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.html">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.html">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.html">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.html">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.html">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.html">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.html">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.html">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.html">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.html">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.html">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.html">Visibility</a>
+                        </div><a class="dropdown-link" href="../../modules/utilities/background.php">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.php">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.php">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.php">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.php">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.php">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.php">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.php">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.php">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.php">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.php">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.php">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.php">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.php">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.php">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.php">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.php">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.php">Visibility</a>
                       </div>
                     </div>
                   </div>
@@ -1804,26 +1802,26 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-document-layout-right"></span>Documentation</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../documentation/getting-started.html">
+                <li><a class="dropdown-item" href="../../documentation/getting-started.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="life-buoy"></span>Getting started</div>
                   </a></li>
                 <li class="dropdown dropdown-inside"><a class="dropdown-item dropdown-toggle" id="customization" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="settings"></span>Customization</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Configuration</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/styling.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/styling.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Styling</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/color.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/color.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Color</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Plugin</div>
                       </a></li>
                   </ul>
@@ -1832,30 +1830,30 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="table"></span>Layouts doc</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../documentation/gulp.html">
+                <li><a class="dropdown-item" href="../../documentation/gulp.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 fa-brands fa-gulp ms-1 me-1 fa-lg"></span>Gulp</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../documentation/design-file.html">
+                <li><a class="dropdown-item" href="../../documentation/design-file.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="figma"></span>Design file</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../changelog.html">
+                <li><a class="dropdown-item" href="../../changelog.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="git-merge"></span>Changelog</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../showcase.html">
+                <li><a class="dropdown-item" href="../../showcase.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="monitor"></span>Showcase</div>
                   </a></li>
               </ul>
@@ -1881,7 +1879,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -1913,7 +1911,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -1928,7 +1926,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1943,7 +1941,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1958,7 +1956,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1973,7 +1971,7 @@
                   </div>
                 </div>
                 <div class="card-footer p-0 border-top border-translucent border-0">
-                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                 </div>
               </div>
             </div>
@@ -1994,46 +1992,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -2047,7 +2045,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -2079,9 +2077,9 @@
       <nav class="navbar navbar-top fixed-top navbar-expand-lg" id="navbarCombo" data-navbar-top="combo" data-move-target="#navbarVerticalNav" style="display:none;">
         <div class="navbar-logo">
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-          <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
+          <a class="navbar-brand me-1 me-sm-3" href="../../index.php">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -2091,16 +2089,16 @@
           <ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-chart-pie"></span>Home</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../index.html">
+                <li><a class="dropdown-item" href="../../index.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="shopping-cart"></span>E commerce</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/project-management.html">
+                <li><a class="dropdown-item" href="../../dashboard/project-management.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clipboard"></span>Project management</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/crm.html">
+                <li><a class="dropdown-item" href="../../dashboard/crm.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="phone"></span>CRM</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../apps/social/feed.html">
+                <li><a class="dropdown-item" href="../../apps/social/feed.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="share-2"></span>Social feed</div>
                   </a></li>
               </ul>
@@ -2115,25 +2113,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Admin</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add product</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customers</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customer details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Orders</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Refund</div>
                           </a></li>
                       </ul>
@@ -2142,37 +2140,37 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Customer</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Homepage</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Product details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products filter</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Cart</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Checkout</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Shipping info</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Favourite stores</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Wishlist</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order tracking</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Invoice</div>
                           </a></li>
                       </ul>
@@ -2183,28 +2181,28 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="phone"></span>CRM</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/crm/analytics.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/analytics.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Analytics</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deals.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deals.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deals</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deal details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/leads.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/leads.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Leads</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lead details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add contact</div>
                       </a></li>
                   </ul>
@@ -2213,40 +2211,40 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/project-list-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project list view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project card view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project details</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/chat.html">
+                <li><a class="dropdown-item" href="../../apps/chat.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="mail"></span>Email</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/email/inbox.html">
+                    <li><a class="dropdown-item" href="../../apps/email/inbox.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Inbox</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/email-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/email/email-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Email detail</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/compose.html">
+                    <li><a class="dropdown-item" href="../../apps/email/compose.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Compose</div>
                       </a></li>
                   </ul>
@@ -2255,10 +2253,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="bookmark"></span>Events</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.html">
+                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create an event</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/events/event-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/events/event-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Event detail</div>
                       </a></li>
                   </ul>
@@ -2267,13 +2265,13 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="trello"></span>Kanban</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Kanban</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/boards.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/boards.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Boards</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create board</div>
                       </a></li>
                   </ul>
@@ -2282,32 +2280,32 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="share-2"></span>Social</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/social/profile.html">
+                    <li><a class="dropdown-item" href="../../apps/social/profile.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/social/settings.html">
+                    <li><a class="dropdown-item" href="../../apps/social/settings.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Settings</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/calendar.html">
+                <li><a class="dropdown-item" href="../../apps/calendar.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-files-landscapes-alt"></span>Pages</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../pages/starter.html">
+                <li><a class="dropdown-item" href="../../pages/starter.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="compass"></span>Starter</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="faq" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="help-circle"></span>Faq</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq accordion</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq tab</div>
                       </a></li>
                   </ul>
@@ -2316,10 +2314,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="globe"></span>Landing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/landing/default.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/default.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Default</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/landing/alternate.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/alternate.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Alternate</div>
                       </a></li>
                   </ul>
@@ -2328,34 +2326,34 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="tag"></span>Pricing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing column</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing grid</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../pages/notifications.html">
+                <li><a class="dropdown-item" href="../../pages/notifications.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="bell"></span>Notifications</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/members.html">
+                <li><a class="dropdown-item" href="../../pages/members.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="users"></span>Members</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/timeline.html">
+                <li><a class="dropdown-item" href="../../pages/timeline.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clock"></span>Timeline</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="errors" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="alert-triangle"></span>Errors</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/errors/404.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/404.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>404</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/403.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/403.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>403</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/500.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/500.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>500</div>
                       </a></li>
                   </ul>
@@ -2368,25 +2366,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Simple</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -2395,25 +2393,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Split</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -2422,25 +2420,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Card</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -2451,37 +2449,37 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="layout"></span>Layouts</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.html">
+                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical sidenav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../demo/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.html">
+                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sidenav collapse</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/darknav.html">
+                    <li><a class="dropdown-item" href="../../demo/darknav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Darknav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/topnav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/topnav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Topnav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
@@ -2496,26 +2494,26 @@
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="file-text" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Forms</h6>
-                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.html">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.html">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.html">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.html">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.html">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.html">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.html">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.html">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.html">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.html">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.html">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.html">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.html">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.html">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.html">Wizard</a>
+                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.php">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.php">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.php">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.php">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.php">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.php">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.php">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.php">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.php">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.php">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.php">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.php">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.php">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.php">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.php">Wizard</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="grid" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Icons</h6>
-                        </div><a class="dropdown-link" href="../../modules/icons/feather.html">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.html">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.html">Unicons</a>
+                        </div><a class="dropdown-link" href="../../modules/icons/feather.php">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.php">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.php">Unicons</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="bar-chart-2" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">ECharts</h6>
-                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.html">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.html">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.html">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.html">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.html">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.html">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.html">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.html">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.html">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.html">How to use</a>
+                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.php">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.php">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.php">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.php">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.php">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.php">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.php">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.php">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.php">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.php">How to use</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="package" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Components</h6>
-                        </div><a class="dropdown-link" href="../../modules/components/accordion.html">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.html">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.html">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.html">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.html">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.html">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.html">Calendar</a><a class="dropdown-link" href="../../modules/components/card.html">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.html">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.html">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.html">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.html">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.html">List group</a><a class="dropdown-link" href="../../modules/components/modal.html">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.html">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.html">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.html">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.html">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.html">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.html">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.html">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.html">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.html">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.html">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.html">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.html">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.html">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.html">Chat widget</a>
+                        </div><a class="dropdown-link" href="../../modules/components/accordion.php">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.php">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.php">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.php">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.php">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.php">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.php">Calendar</a><a class="dropdown-link" href="../../modules/components/card.php">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.php">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.php">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.php">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.php">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.php">List group</a><a class="dropdown-link" href="../../modules/components/modal.php">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.php">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.php">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.php">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.php">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.php">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.php">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.php">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.php">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.php">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.php">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.php">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.php">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.php">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.php">Chat widget</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="columns" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Tables</h6>
-                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.html">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.html">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.html">Bulk Select</a>
+                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.php">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.php">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.php">Bulk Select</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="tool" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Utilities</h6>
-                        </div><a class="dropdown-link" href="../../modules/utilities/background.html">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.html">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.html">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.html">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.html">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.html">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.html">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.html">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.html">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.html">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.html">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.html">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.html">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.html">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.html">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.html">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.html">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.html">Visibility</a>
+                        </div><a class="dropdown-link" href="../../modules/utilities/background.php">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.php">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.php">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.php">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.php">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.php">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.php">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.php">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.php">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.php">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.php">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.php">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.php">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.php">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.php">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.php">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.php">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.php">Visibility</a>
                       </div>
                     </div>
                   </div>
@@ -2524,26 +2522,26 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-document-layout-right"></span>Documentation</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../documentation/getting-started.html">
+                <li><a class="dropdown-item" href="../../documentation/getting-started.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="life-buoy"></span>Getting started</div>
                   </a></li>
                 <li class="dropdown dropdown-inside"><a class="dropdown-item dropdown-toggle" id="customization" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="settings"></span>Customization</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Configuration</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/styling.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/styling.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Styling</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/color.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/color.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Color</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Plugin</div>
                       </a></li>
                   </ul>
@@ -2552,30 +2550,30 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="table"></span>Layouts doc</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../documentation/gulp.html">
+                <li><a class="dropdown-item" href="../../documentation/gulp.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 fa-brands fa-gulp ms-1 me-1 fa-lg"></span>Gulp</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../documentation/design-file.html">
+                <li><a class="dropdown-item" href="../../documentation/design-file.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="figma"></span>Design file</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../changelog.html">
+                <li><a class="dropdown-item" href="../../changelog.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="git-merge"></span>Changelog</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../showcase.html">
+                <li><a class="dropdown-item" href="../../showcase.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="monitor"></span>Showcase</div>
                   </a></li>
               </ul>
@@ -2601,7 +2599,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -2633,7 +2631,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -2648,7 +2646,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2663,7 +2661,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2678,7 +2676,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2693,7 +2691,7 @@
                   </div>
                 </div>
                 <div class="card-footer p-0 border-top border-translucent border-0">
-                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                 </div>
               </div>
             </div>
@@ -2714,46 +2712,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -2763,7 +2761,7 @@
           </li>
           <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
-                <img class="rounded-circle " src="../../assets/img/team/40x40/57.webp" alt="" />
+                <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -2771,7 +2769,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -2803,22 +2801,22 @@
       <nav class="navbar navbar-top fixed-top navbar-slim justify-content-between navbar-expand-lg" id="navbarComboSlim" data-navbar-top="combo" data-move-target="#navbarVerticalNav" style="display:none;">
         <div class="navbar-logo">
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-          <a class="navbar-brand navbar-brand" href="../../index.html">phoenix <span class="text-body-highlight d-none d-sm-inline">slim</span></a>
+          <a class="navbar-brand navbar-brand" href="../../index.php">phoenix <span class="text-body-highlight d-none d-sm-inline">slim</span></a>
         </div>
         <div class="collapse navbar-collapse navbar-top-collapse order-1 order-lg-0 justify-content-center" id="navbarTopCollapse">
           <ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-chart-pie"></span>Home</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../index.html">
+                <li><a class="dropdown-item" href="../../index.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="shopping-cart"></span>E commerce</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/project-management.html">
+                <li><a class="dropdown-item" href="../../dashboard/project-management.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clipboard"></span>Project management</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../dashboard/crm.html">
+                <li><a class="dropdown-item" href="../../dashboard/crm.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="phone"></span>CRM</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../apps/social/feed.html">
+                <li><a class="dropdown-item" href="../../apps/social/feed.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="share-2"></span>Social feed</div>
                   </a></li>
               </ul>
@@ -2833,25 +2831,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Admin</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add product</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customers</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customer details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Orders</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Refund</div>
                           </a></li>
                       </ul>
@@ -2860,37 +2858,37 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Customer</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Homepage</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Product details</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products filter</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Cart</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Checkout</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Shipping info</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Favourite stores</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Wishlist</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order tracking</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.html">
+                        <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Invoice</div>
                           </a></li>
                       </ul>
@@ -2901,28 +2899,28 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="phone"></span>CRM</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/crm/analytics.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/analytics.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Analytics</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deals.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deals.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deals</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/deal-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deal details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/leads.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/leads.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Leads</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/lead-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lead details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/reports-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports details</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.html">
+                    <li><a class="dropdown-item" href="../../apps/crm/add-contact.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add contact</div>
                       </a></li>
                   </ul>
@@ -2931,40 +2929,40 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/project-list-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project list view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project card view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/project-details.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project details</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/chat.html">
+                <li><a class="dropdown-item" href="../../apps/chat.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="mail"></span>Email</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/email/inbox.html">
+                    <li><a class="dropdown-item" href="../../apps/email/inbox.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Inbox</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/email-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/email/email-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Email detail</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/email/compose.html">
+                    <li><a class="dropdown-item" href="../../apps/email/compose.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Compose</div>
                       </a></li>
                   </ul>
@@ -2973,10 +2971,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="bookmark"></span>Events</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.html">
+                    <li><a class="dropdown-item" href="../../apps/events/create-an-event.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create an event</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/events/event-detail.html">
+                    <li><a class="dropdown-item" href="../../apps/events/event-detail.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Event detail</div>
                       </a></li>
                   </ul>
@@ -2985,13 +2983,13 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="trello"></span>Kanban</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/kanban.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Kanban</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/boards.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/boards.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Boards</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.html">
+                    <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create board</div>
                       </a></li>
                   </ul>
@@ -3000,32 +2998,32 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="share-2"></span>Social</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/social/profile.html">
+                    <li><a class="dropdown-item" href="../../apps/social/profile.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../apps/social/settings.html">
+                    <li><a class="dropdown-item" href="../../apps/social/settings.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Settings</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../apps/calendar.html">
+                <li><a class="dropdown-item" href="../../apps/calendar.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-files-landscapes-alt"></span>Pages</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../pages/starter.html">
+                <li><a class="dropdown-item" href="../../pages/starter.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="compass"></span>Starter</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="faq" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="help-circle"></span>Faq</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq accordion</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.html">
+                    <li><a class="dropdown-item" href="../../pages/faq/faq-tab.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq tab</div>
                       </a></li>
                   </ul>
@@ -3034,10 +3032,10 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="globe"></span>Landing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/landing/default.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/default.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Default</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/landing/alternate.html">
+                    <li><a class="dropdown-item" href="../../pages/landing/alternate.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Alternate</div>
                       </a></li>
                   </ul>
@@ -3046,34 +3044,34 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="tag"></span>Pricing</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing column</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.html">
+                    <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing grid</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../pages/notifications.html">
+                <li><a class="dropdown-item" href="../../pages/notifications.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="bell"></span>Notifications</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/members.html">
+                <li><a class="dropdown-item" href="../../pages/members.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="users"></span>Members</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../pages/timeline.html">
+                <li><a class="dropdown-item" href="../../pages/timeline.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clock"></span>Timeline</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="errors" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="alert-triangle"></span>Errors</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../pages/errors/404.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/404.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>404</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/403.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/403.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>403</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../pages/errors/500.html">
+                    <li><a class="dropdown-item" href="../../pages/errors/500.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>500</div>
                       </a></li>
                   </ul>
@@ -3086,25 +3084,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Simple</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -3113,25 +3111,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Split</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -3140,25 +3138,25 @@
                         <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Card</span></div>
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                           </a></li>
-                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.html">
+                        <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.php">
                             <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                           </a></li>
                       </ul>
@@ -3169,37 +3167,37 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="layout"></span>Layouts</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.html">
+                    <li><a class="dropdown-item" href="../../demo/vertical-sidenav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical sidenav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../demo/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.html">
+                    <li><a class="dropdown-item" href="../../demo/sidenav-collapse.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sidenav collapse</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/darknav.html">
+                    <li><a class="dropdown-item" href="../../demo/darknav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Darknav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/topnav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/topnav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Topnav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/navbar-top.html">
+                    <li><a class="dropdown-item" href="../../demo/navbar-top.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/horizontal-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.html">
+                    <li><a class="dropdown-item" href="../../demo/combo-nav-slim.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav slim</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../demo/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../demo/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
@@ -3214,26 +3212,26 @@
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="file-text" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Forms</h6>
-                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.html">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.html">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.html">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.html">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.html">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.html">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.html">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.html">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.html">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.html">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.html">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.html">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.html">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.html">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.html">Wizard</a>
+                        </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.php">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.php">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.php">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.php">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.php">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.php">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.php">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.php">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.php">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.php">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.php">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.php">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.php">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.php">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.php">Wizard</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="grid" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Icons</h6>
-                        </div><a class="dropdown-link" href="../../modules/icons/feather.html">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.html">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.html">Unicons</a>
+                        </div><a class="dropdown-link" href="../../modules/icons/feather.php">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.php">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.php">Unicons</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="bar-chart-2" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">ECharts</h6>
-                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.html">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.html">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.html">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.html">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.html">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.html">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.html">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.html">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.html">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.html">How to use</a>
+                        </div><a class="dropdown-link" href="../../modules/echarts/line-charts.php">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.php">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.php">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.php">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.php">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.php">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.php">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.php">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.php">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.php">How to use</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="package" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Components</h6>
-                        </div><a class="dropdown-link" href="../../modules/components/accordion.html">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.html">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.html">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.html">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.html">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.html">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.html">Calendar</a><a class="dropdown-link" href="../../modules/components/card.html">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.html">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.html">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.html">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.html">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.html">List group</a><a class="dropdown-link" href="../../modules/components/modal.html">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.html">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.html">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.html">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.html">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.html">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.html">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.html">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.html">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.html">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.html">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.html">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.html">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.html">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.html">Chat widget</a>
+                        </div><a class="dropdown-link" href="../../modules/components/accordion.php">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.php">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.php">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.php">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.php">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.php">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.php">Calendar</a><a class="dropdown-link" href="../../modules/components/card.php">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.php">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.php">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.php">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.php">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.php">List group</a><a class="dropdown-link" href="../../modules/components/modal.php">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.php">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.php">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.php">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.php">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.php">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.php">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.php">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.php">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.php">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.php">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.php">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.php">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.php">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.php">Chat widget</a>
                       </div>
                       <div class="col-12 col-sm-6 col-md-4">
                         <div class="dropdown-item-group"><span class="me-2" data-feather="columns" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Tables</h6>
-                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.html">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.html">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.html">Bulk Select</a>
+                        </div><a class="dropdown-link" href="../../modules/tables/basic-tables.php">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.php">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.php">Bulk Select</a>
                         <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="tool" style="stroke-width:2;"></span>
                           <h6 class="dropdown-item-title">Utilities</h6>
-                        </div><a class="dropdown-link" href="../../modules/utilities/background.html">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.html">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.html">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.html">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.html">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.html">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.html">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.html">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.html">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.html">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.html">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.html">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.html">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.html">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.html">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.html">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.html">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.html">Visibility</a>
+                        </div><a class="dropdown-link" href="../../modules/utilities/background.php">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.php">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.php">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.php">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.php">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.php">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.php">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.php">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.php">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.php">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.php">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.php">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.php">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.php">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.php">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.php">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.php">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.php">Visibility</a>
                       </div>
                     </div>
                   </div>
@@ -3242,26 +3240,26 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-document-layout-right"></span>Documentation</a>
               <ul class="dropdown-menu navbar-dropdown-caret">
-                <li><a class="dropdown-item" href="../../documentation/getting-started.html">
+                <li><a class="dropdown-item" href="../../documentation/getting-started.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="life-buoy"></span>Getting started</div>
                   </a></li>
                 <li class="dropdown dropdown-inside"><a class="dropdown-item dropdown-toggle" id="customization" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="settings"></span>Customization</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/configuration.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Configuration</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/styling.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/styling.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Styling</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/color.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/color.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Color</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.html">
+                    <li><a class="dropdown-item" href="../../documentation/customization/plugin.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Plugin</div>
                       </a></li>
                   </ul>
@@ -3270,30 +3268,30 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="table"></span>Layouts doc</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo navbar</div>
                       </a></li>
-                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.html">
+                    <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.php">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../../documentation/gulp.html">
+                <li><a class="dropdown-item" href="../../documentation/gulp.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 fa-brands fa-gulp ms-1 me-1 fa-lg"></span>Gulp</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../documentation/design-file.html">
+                <li><a class="dropdown-item" href="../../documentation/design-file.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="figma"></span>Design file</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../changelog.html">
+                <li><a class="dropdown-item" href="../../changelog.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="git-merge"></span>Changelog</div>
                   </a></li>
-                <li><a class="dropdown-item" href="../../showcase.html">
+                <li><a class="dropdown-item" href="../../showcase.php">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="monitor"></span>Showcase</div>
                   </a></li>
               </ul>
@@ -3319,7 +3317,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -3351,7 +3349,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -3366,7 +3364,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3381,7 +3379,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3396,7 +3394,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3411,7 +3409,7 @@
                   </div>
                 </div>
                 <div class="card-footer p-0 border-top border-translucent border-0">
-                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                  <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                 </div>
               </div>
             </div>
@@ -3432,46 +3430,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -3485,7 +3483,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -3519,9 +3517,9 @@
           <div class="d-flex flex-between-center dual-nav-first-layer">
             <div class="navbar-logo">
               <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-              <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
+              <a class="navbar-brand me-1 me-sm-3" href="../../index.php">
                 <div class="d-flex align-items-center">
-                  <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
+                  <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                     <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                   </div>
                 </div>
@@ -3531,19 +3529,20 @@
               <form class="position-relative" data-bs-toggle="search" data-bs-display="static"><input class="form-control search-input fuzzy-search rounded-pill form-control-sm" type="search" placeholder="Search..." aria-label="Search" />
                 <span class="fas fa-search search-box-icon"></span>
               </form>
-              <div class="btn-close position-absolute end-0 top-50 translate-middle cursor-pointer shadow-none" data-bs-dismiss="search"><button class="btn btn-link p-0" aria-label="Close"></button></div>
+
+          <div class="btn-close position-absolute end-0 top-50 translate-middle cursor-pointer shadow-none" data-bs-dismiss="search"><button class="btn btn-link p-0" aria-label="Close"></button></div>
               <div class="dropdown-menu border start-0 py-0 overflow-hidden w-100">
                 <div class="scrollbar-overlay" style="max-height: 30rem;">
                   <div class="list pb-3">
                     <h6 class="dropdown-header text-body-highlight fs-10 py-2">24 <span class="text-body-quaternary">results</span></h6>
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Recently Searched </h6>
-                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-clock-rotate-left" data-fa-transform="shrink-2"></span> Store Macbook</div>
                         </div>
                       </a>
-                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-clock-rotate-left" data-fa-transform="shrink-2"></span> MacBook Air - 13″</div>
                         </div>
@@ -3551,15 +3550,15 @@
                     </div>
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
-                    <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.html">
-                        <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../../assets/img/products/60x60/3.png" alt="" /></div>
+                    <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.php">
+                        <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                         </div>
                       </a>
-                      <a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.html">
-                        <div class="file-thumbnail me-2"><img class="img-fluid" src="../../assets/img/products/60x60/3.png" alt="" /></div>
+                      <a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.php">
+                        <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -3568,12 +3567,12 @@
                     </div>
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Quick Links</h6>
-                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-link text-body" data-fa-transform="shrink-2"></span> Support MacBook House</div>
                         </div>
                       </a>
-                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-link text-body" data-fa-transform="shrink-2"></span> Store MacBook″</div>
                         </div>
@@ -3581,17 +3580,17 @@
                     </div>
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Files</h6>
-                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-file-zipper text-body" data-fa-transform="shrink-2"></span> Library MacBook folder.rar</div>
                         </div>
                       </a>
-                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-file-lines text-body" data-fa-transform="shrink-2"></span> Feature MacBook extensions.txt</div>
                         </div>
                       </a>
-                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-image text-body" data-fa-transform="shrink-2"></span> MacBook Pro_13.jpg</div>
                         </div>
@@ -3599,18 +3598,18 @@
                     </div>
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
-                    <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.html">
+                    <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.php">
                         <div class="avatar avatar-l status-online  me-2 text-body">
-                          <img class="rounded-circle " src="../../assets/img/team/40x40/10.webp" alt="" />
+                          <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
                         </div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary">anna@technext.it</p>
                         </div>
                       </a>
-                      <a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.html">
+                      <a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.php">
                         <div class="avatar avatar-l  me-2 text-body">
-                          <img class="rounded-circle " src="../../assets/img/team/40x40/12.webp" alt="" />
+                          <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
                         </div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -3620,12 +3619,12 @@
                     </div>
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Related Searches</h6>
-                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                    <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"><span class="fa-brands fa-firefox-browser text-body" data-fa-transform="shrink-2"></span> Search in the Web MacBook</div>
                         </div>
                       </a>
-                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                         <div class="d-flex align-items-center">
                           <div class="fw-normal text-body-highlight title"> <span class="fa-brands fa-chrome text-body" data-fa-transform="shrink-2"></span> Store MacBook″</div>
                         </div>
@@ -3656,7 +3655,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/30.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -3688,7 +3687,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -3703,7 +3702,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/57.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3718,7 +3717,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/59.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3733,7 +3732,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../../assets/img/team/40x40/58.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3748,7 +3747,7 @@
                       </div>
                     </div>
                     <div class="card-footer p-0 border-top border-translucent border-0">
-                      <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.html">Notification history</a></div>
+                      <div class="my-2 text-center fw-bold fs-10 text-body-tertiary text-opactity-85"><a class="fw-bolder" href="../../pages/notifications.php">Notification history</a></div>
                     </div>
                   </div>
                 </div>
@@ -3769,46 +3768,46 @@
                   <div class="card bg-body-emphasis position-relative border-0">
                     <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                       <div class="row text-center align-items-center gx-0 gy-0">
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                           </a></div>
                       </div>
@@ -3818,7 +3817,7 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                   <div class="avatar avatar-l ">
-                    <img class="rounded-circle " src="../../assets/img/team/40x40/57.webp" alt="" />
+                    <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
                   </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -3826,7 +3825,7 @@
                     <div class="card-body p-0">
                       <div class="text-center pt-4 pb-3">
                         <div class="avatar avatar-xl ">
-                          <img class="rounded-circle " src="../../assets/img/team/72x72/57.webp" alt="" />
+                          <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                         </div>
                         <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                       </div>
@@ -3859,16 +3858,16 @@
             <ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-chart-pie"></span>Home</a>
                 <ul class="dropdown-menu navbar-dropdown-caret">
-                  <li><a class="dropdown-item" href="../../index.html">
+                  <li><a class="dropdown-item" href="../../index.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="shopping-cart"></span>E commerce</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../dashboard/project-management.html">
+                  <li><a class="dropdown-item" href="../../dashboard/project-management.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clipboard"></span>Project management</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../dashboard/crm.html">
+                  <li><a class="dropdown-item" href="../../dashboard/crm.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="phone"></span>CRM</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../apps/social/feed.html">
+                  <li><a class="dropdown-item" href="../../apps/social/feed.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="share-2"></span>Social feed</div>
                     </a></li>
                 </ul>
@@ -3883,25 +3882,25 @@
                           <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Admin</span></div>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/add-product.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add product</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/products.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customers.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customers</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/customer-details.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Customer details</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/orders.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Orders</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/order-details.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order details</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/admin/refund.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Refund</div>
                             </a></li>
                         </ul>
@@ -3910,37 +3909,37 @@
                           <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Customer</span></div>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/homepage.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Homepage</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Product details</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/products-filter.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Products filter</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/cart.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Cart</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/checkout.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Checkout</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/shipping-info.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Shipping info</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/profile.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/favourite-stores.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Favourite stores</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/wishlist.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Wishlist</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/order-tracking.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Order tracking</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.html">
+                          <li><a class="dropdown-item" href="../../apps/e-commerce/landing/invoice.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Invoice</div>
                             </a></li>
                         </ul>
@@ -3951,28 +3950,28 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="phone"></span>CRM</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../apps/crm/analytics.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/analytics.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Analytics</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/deals.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/deals.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deals</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/deal-details.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/deal-details.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Deal details</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/leads.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/leads.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Leads</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/lead-details.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/lead-details.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lead details</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/reports.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/reports.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/reports-details.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/reports-details.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reports details</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/crm/add-contact.html">
+                      <li><a class="dropdown-item" href="../../apps/crm/add-contact.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Add contact</div>
                         </a></li>
                     </ul>
@@ -3981,40 +3980,40 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
+                      <li><a class="dropdown-item" href="../../apps/project-management/create-new.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
+                      <li><a class="dropdown-item active" href="../../apps/project-management/project-list-view.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project list view</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.html">
+                      <li><a class="dropdown-item" href="../../apps/project-management/project-card-view.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project card view</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
+                      <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
+                      <li><a class="dropdown-item" href="../../apps/project-management/todo-list.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
+                      <li><a class="dropdown-item" href="../../apps/project-management/project-details.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project details</div>
                         </a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item" href="../../apps/chat.html">
+                  <li><a class="dropdown-item" href="../../apps/chat.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                     </a></li>
                   <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="mail"></span>Email</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../apps/email/inbox.html">
+                      <li><a class="dropdown-item" href="../../apps/email/inbox.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Inbox</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/email/email-detail.html">
+                      <li><a class="dropdown-item" href="../../apps/email/email-detail.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Email detail</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/email/compose.html">
+                      <li><a class="dropdown-item" href="../../apps/email/compose.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Compose</div>
                         </a></li>
                     </ul>
@@ -4023,10 +4022,10 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="bookmark"></span>Events</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../apps/events/create-an-event.html">
+                      <li><a class="dropdown-item" href="../../apps/events/create-an-event.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create an event</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/events/event-detail.html">
+                      <li><a class="dropdown-item" href="../../apps/events/event-detail.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Event detail</div>
                         </a></li>
                     </ul>
@@ -4035,13 +4034,13 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="trello"></span>Kanban</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../apps/kanban/kanban.html">
+                      <li><a class="dropdown-item" href="../../apps/kanban/kanban.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Kanban</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/kanban/boards.html">
+                      <li><a class="dropdown-item" href="../../apps/kanban/boards.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Boards</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.html">
+                      <li><a class="dropdown-item" href="../../apps/kanban/create-kanban-board.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create board</div>
                         </a></li>
                     </ul>
@@ -4050,32 +4049,32 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="share-2"></span>Social</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../apps/social/profile.html">
+                      <li><a class="dropdown-item" href="../../apps/social/profile.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Profile</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../apps/social/settings.html">
+                      <li><a class="dropdown-item" href="../../apps/social/settings.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Settings</div>
                         </a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item" href="../../apps/calendar.html">
+                  <li><a class="dropdown-item" href="../../apps/calendar.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                     </a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-files-landscapes-alt"></span>Pages</a>
                 <ul class="dropdown-menu navbar-dropdown-caret">
-                  <li><a class="dropdown-item" href="../../pages/starter.html">
+                  <li><a class="dropdown-item" href="../../pages/starter.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="compass"></span>Starter</div>
                     </a></li>
                   <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="faq" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="help-circle"></span>Faq</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.html">
+                      <li><a class="dropdown-item" href="../../pages/faq/faq-accordion.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq accordion</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../pages/faq/faq-tab.html">
+                      <li><a class="dropdown-item" href="../../pages/faq/faq-tab.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Faq tab</div>
                         </a></li>
                     </ul>
@@ -4084,10 +4083,10 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="globe"></span>Landing</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../pages/landing/default.html">
+                      <li><a class="dropdown-item" href="../../pages/landing/default.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Default</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../pages/landing/alternate.html">
+                      <li><a class="dropdown-item" href="../../pages/landing/alternate.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Alternate</div>
                         </a></li>
                     </ul>
@@ -4096,34 +4095,34 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="tag"></span>Pricing</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.html">
+                      <li><a class="dropdown-item" href="../../pages/pricing/pricing-column.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing column</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.html">
+                      <li><a class="dropdown-item" href="../../pages/pricing/pricing-grid.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Pricing grid</div>
                         </a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item" href="../../pages/notifications.html">
+                  <li><a class="dropdown-item" href="../../pages/notifications.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="bell"></span>Notifications</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../pages/members.html">
+                  <li><a class="dropdown-item" href="../../pages/members.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="users"></span>Members</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../pages/timeline.html">
+                  <li><a class="dropdown-item" href="../../pages/timeline.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="clock"></span>Timeline</div>
                     </a></li>
                   <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="errors" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="alert-triangle"></span>Errors</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../pages/errors/404.html">
+                      <li><a class="dropdown-item" href="../../pages/errors/404.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>404</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../pages/errors/403.html">
+                      <li><a class="dropdown-item" href="../../pages/errors/403.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>403</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../pages/errors/500.html">
+                      <li><a class="dropdown-item" href="../../pages/errors/500.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>500</div>
                         </a></li>
                     </ul>
@@ -4136,25 +4135,25 @@
                           <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Simple</span></div>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-in.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-up.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/sign-out.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/forgot-password.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/reset-password.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/lock-screen.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/simple/2FA.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                             </a></li>
                         </ul>
@@ -4163,25 +4162,25 @@
                           <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Split</span></div>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/sign-in.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/sign-up.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/sign-out.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/forgot-password.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/reset-password.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/lock-screen.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/split/2FA.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                             </a></li>
                         </ul>
@@ -4190,25 +4189,25 @@
                           <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil"></span>Card</span></div>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/sign-in.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign in</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/sign-up.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign up</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/sign-out.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sign out</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/forgot-password.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Forgot password</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/reset-password.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Reset password</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/lock-screen.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Lock screen</div>
                             </a></li>
-                          <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.html">
+                          <li><a class="dropdown-item" href="../../pages/authentication/card/2FA.php">
                               <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>2FA</div>
                             </a></li>
                         </ul>
@@ -4219,37 +4218,37 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="layout"></span>Layouts</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../demo/vertical-sidenav.html">
+                      <li><a class="dropdown-item" href="../../demo/vertical-sidenav.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical sidenav</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/dark-mode.html">
+                      <li><a class="dropdown-item" href="../../demo/dark-mode.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/sidenav-collapse.html">
+                      <li><a class="dropdown-item" href="../../demo/sidenav-collapse.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Sidenav collapse</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/darknav.html">
+                      <li><a class="dropdown-item" href="../../demo/darknav.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Darknav</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/topnav-slim.html">
+                      <li><a class="dropdown-item" href="../../demo/topnav-slim.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Topnav slim</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/navbar-top-slim.html">
+                      <li><a class="dropdown-item" href="../../demo/navbar-top-slim.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top slim</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/navbar-top.html">
+                      <li><a class="dropdown-item" href="../../demo/navbar-top.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Navbar top</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/horizontal-slim.html">
+                      <li><a class="dropdown-item" href="../../demo/horizontal-slim.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal slim</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/combo-nav.html">
+                      <li><a class="dropdown-item" href="../../demo/combo-nav.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/combo-nav-slim.html">
+                      <li><a class="dropdown-item" href="../../demo/combo-nav-slim.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo nav slim</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../demo/dual-nav.html">
+                      <li><a class="dropdown-item" href="../../demo/dual-nav.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                         </a></li>
                     </ul>
@@ -4264,26 +4263,26 @@
                         <div class="col-12 col-sm-6 col-md-4">
                           <div class="dropdown-item-group"><span class="me-2" data-feather="file-text" style="stroke-width:2;"></span>
                             <h6 class="dropdown-item-title">Forms</h6>
-                          </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.html">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.html">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.html">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.html">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.html">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.html">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.html">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.html">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.html">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.html">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.html">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.html">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.html">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.html">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.html">Wizard</a>
+                          </div><a class="dropdown-link" href="../../modules/forms/basic/form-control.php">Form control</a><a class="dropdown-link" href="../../modules/forms/basic/input-group.php">Input group</a><a class="dropdown-link" href="../../modules/forms/basic/select.php">Select</a><a class="dropdown-link" href="../../modules/forms/basic/checks.php">Checks</a><a class="dropdown-link" href="../../modules/forms/basic/range.php">Range</a><a class="dropdown-link" href="../../modules/forms/basic/floating-labels.php">Floating labels</a><a class="dropdown-link" href="../../modules/forms/basic/layout.php">Layout</a><a class="dropdown-link" href="../../modules/forms/advance/advance-select.php">Advance select</a><a class="dropdown-link" href="../../modules/forms/advance/date-picker.php">Date picker</a><a class="dropdown-link" href="../../modules/forms/advance/editor.php">Editor</a><a class="dropdown-link" href="../../modules/forms/advance/file-uploader.php">File uploader</a><a class="dropdown-link" href="../../modules/forms/advance/rating.php">Rating</a><a class="dropdown-link" href="../../modules/forms/advance/emoji-button.php">Emoji button</a><a class="dropdown-link" href="../../modules/forms/validation.php">Validation</a><a class="dropdown-link" href="../../modules/forms/wizard.php">Wizard</a>
                           <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="grid" style="stroke-width:2;"></span>
                             <h6 class="dropdown-item-title">Icons</h6>
-                          </div><a class="dropdown-link" href="../../modules/icons/feather.html">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.html">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.html">Unicons</a>
+                          </div><a class="dropdown-link" href="../../modules/icons/feather.php">Feather</a><a class="dropdown-link" href="../../modules/icons/font-awesome.php">Font awesome</a><a class="dropdown-link" href="../../modules/icons/unicons.php">Unicons</a>
                           <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="bar-chart-2" style="stroke-width:2;"></span>
                             <h6 class="dropdown-item-title">ECharts</h6>
-                          </div><a class="dropdown-link" href="../../modules/echarts/line-charts.html">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.html">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.html">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.html">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.html">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.html">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.html">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.html">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.html">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.html">How to use</a>
+                          </div><a class="dropdown-link" href="../../modules/echarts/line-charts.php">Line charts</a><a class="dropdown-link" href="../../modules/echarts/bar-charts.php">Bar charts</a><a class="dropdown-link" href="../../modules/echarts/candlestick-charts.php">Candlestick charts</a><a class="dropdown-link" href="../../modules/echarts/geo-map.php">Geo map</a><a class="dropdown-link" href="../../modules/echarts/scatter-charts.php">Scatter charts</a><a class="dropdown-link" href="../../modules/echarts/pie-charts.php">Pie charts</a><a class="dropdown-link" href="../../modules/echarts/gauge-chart.php">Gauge chart</a><a class="dropdown-link" href="../../modules/echarts/radar-charts.php">Radar charts</a><a class="dropdown-link" href="../../modules/echarts/heatmap-charts.php">Heatmap charts</a><a class="dropdown-link" href="../../modules/echarts/how-to-use.php">How to use</a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4">
                           <div class="dropdown-item-group"><span class="me-2" data-feather="package" style="stroke-width:2;"></span>
                             <h6 class="dropdown-item-title">Components</h6>
-                          </div><a class="dropdown-link" href="../../modules/components/accordion.html">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.html">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.html">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.html">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.html">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.html">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.html">Calendar</a><a class="dropdown-link" href="../../modules/components/card.html">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.html">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.html">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.html">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.html">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.html">List group</a><a class="dropdown-link" href="../../modules/components/modal.html">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.html">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.html">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.html">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.html">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.html">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.html">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.html">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.html">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.html">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.html">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.html">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.html">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.html">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.html">Chat widget</a>
+                          </div><a class="dropdown-link" href="../../modules/components/accordion.php">Accordion</a><a class="dropdown-link" href="../../modules/components/avatar.php">Avatar</a><a class="dropdown-link" href="../../modules/components/alerts.php">Alerts</a><a class="dropdown-link" href="../../modules/components/badge.php">Badge</a><a class="dropdown-link" href="../../modules/components/breadcrumb.php">Breadcrumb</a><a class="dropdown-link" href="../../modules/components/button.php">Buttons</a><a class="dropdown-link" href="../../modules/components/calendar.php">Calendar</a><a class="dropdown-link" href="../../modules/components/card.php">Card</a><a class="dropdown-link" href="../../modules/components/carousel/bootstrap.php">Bootstrap</a><a class="dropdown-link" href="../../modules/components/carousel/swiper.php">Swiper</a><a class="dropdown-link" href="../../modules/components/collapse.php">Collapse</a><a class="dropdown-link" href="../../modules/components/dropdown.php">Dropdown</a><a class="dropdown-link" href="../../modules/components/list-group.php">List group</a><a class="dropdown-link" href="../../modules/components/modal.php">Modals</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navs.php">Navs</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/navbar.php">Navbar</a><a class="dropdown-link" href="../../modules/components/navs-and-tabs/tabs.php">Tabs</a><a class="dropdown-link" href="../../modules/components/offcanvas.php">Offcanvas</a><a class="dropdown-link" href="../../modules/components/progress-bar.php">Progress bar</a><a class="dropdown-link" href="../../modules/components/placeholder.php">Placeholder</a><a class="dropdown-link" href="../../modules/components/pagination.php">Pagination</a><a class="dropdown-link" href="../../modules/components/popovers.php">Popovers</a><a class="dropdown-link" href="../../modules/components/scrollspy.php">Scrollspy</a><a class="dropdown-link" href="../../modules/components/sortable.php">Sortable</a><a class="dropdown-link" href="../../modules/components/spinners.php">Spinners</a><a class="dropdown-link" href="../../modules/components/toast.php">Toast</a><a class="dropdown-link" href="../../modules/components/tooltips.php">Tooltips</a><a class="dropdown-link" href="../../modules/components/chat-widget.php">Chat widget</a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4">
                           <div class="dropdown-item-group"><span class="me-2" data-feather="columns" style="stroke-width:2;"></span>
                             <h6 class="dropdown-item-title">Tables</h6>
-                          </div><a class="dropdown-link" href="../../modules/tables/basic-tables.html">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.html">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.html">Bulk Select</a>
+                          </div><a class="dropdown-link" href="../../modules/tables/basic-tables.php">Basic tables</a><a class="dropdown-link" href="../../modules/tables/advance-tables.php">Advance tables</a><a class="dropdown-link" href="../../modules/tables/bulk-select.php">Bulk Select</a>
                           <div class="dropdown-item-group mt-5"><span class="me-2" data-feather="tool" style="stroke-width:2;"></span>
                             <h6 class="dropdown-item-title">Utilities</h6>
-                          </div><a class="dropdown-link" href="../../modules/utilities/background.html">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.html">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.html">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.html">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.html">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.html">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.html">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.html">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.html">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.html">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.html">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.html">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.html">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.html">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.html">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.html">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.html">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.html">Visibility</a>
+                          </div><a class="dropdown-link" href="../../modules/utilities/background.php">Background</a><a class="dropdown-link" href="../../modules/utilities/borders.php">Borders</a><a class="dropdown-link" href="../../modules/utilities/colors.php">Colors</a><a class="dropdown-link" href="../../modules/utilities/display.php">Display</a><a class="dropdown-link" href="../../modules/utilities/flex.php">Flex</a><a class="dropdown-link" href="../../modules/utilities/stacks.php">Stacks</a><a class="dropdown-link" href="../../modules/utilities/float.php">Float</a><a class="dropdown-link" href="../../modules/utilities/grid.php">Grid</a><a class="dropdown-link" href="../../modules/utilities/interactions.php">Interactions</a><a class="dropdown-link" href="../../modules/utilities/opacity.php">Opacity</a><a class="dropdown-link" href="../../modules/utilities/overflow.php">Overflow</a><a class="dropdown-link" href="../../modules/utilities/position.php">Position</a><a class="dropdown-link" href="../../modules/utilities/shadows.php">Shadows</a><a class="dropdown-link" href="../../modules/utilities/sizing.php">Sizing</a><a class="dropdown-link" href="../../modules/utilities/spacing.php">Spacing</a><a class="dropdown-link" href="../../modules/utilities/typography.php">Typography</a><a class="dropdown-link" href="../../modules/utilities/vertical-align.php">Vertical align</a><a class="dropdown-link" href="../../modules/utilities/visibility.php">Visibility</a>
                         </div>
                       </div>
                     </div>
@@ -4292,26 +4291,26 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-8 me-2 uil-document-layout-right"></span>Documentation</a>
                 <ul class="dropdown-menu navbar-dropdown-caret">
-                  <li><a class="dropdown-item" href="../../documentation/getting-started.html">
+                  <li><a class="dropdown-item" href="../../documentation/getting-started.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="life-buoy"></span>Getting started</div>
                     </a></li>
                   <li class="dropdown dropdown-inside"><a class="dropdown-item dropdown-toggle" id="customization" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="settings"></span>Customization</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../documentation/customization/configuration.html">
+                      <li><a class="dropdown-item" href="../../documentation/customization/configuration.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Configuration</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/customization/styling.html">
+                      <li><a class="dropdown-item" href="../../documentation/customization/styling.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Styling</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/customization/color.html">
+                      <li><a class="dropdown-item" href="../../documentation/customization/color.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Color</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.html">
+                      <li><a class="dropdown-item" href="../../documentation/customization/dark-mode.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dark mode</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/customization/plugin.html">
+                      <li><a class="dropdown-item" href="../../documentation/customization/plugin.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Plugin</div>
                         </a></li>
                     </ul>
@@ -4320,30 +4319,30 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="table"></span>Layouts doc</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.html">
+                      <li><a class="dropdown-item" href="../../documentation/layouts/vertical-navbar.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Vertical navbar</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.html">
+                      <li><a class="dropdown-item" href="../../documentation/layouts/horizontal-navbar.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Horizontal navbar</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.html">
+                      <li><a class="dropdown-item" href="../../documentation/layouts/combo-navbar.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Combo navbar</div>
                         </a></li>
-                      <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.html">
+                      <li><a class="dropdown-item" href="../../documentation/layouts/dual-nav.php">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Dual nav</div>
                         </a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item" href="../../documentation/gulp.html">
+                  <li><a class="dropdown-item" href="../../documentation/gulp.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 fa-brands fa-gulp ms-1 me-1 fa-lg"></span>Gulp</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../documentation/design-file.html">
+                  <li><a class="dropdown-item" href="../../documentation/design-file.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="figma"></span>Design file</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../changelog.html">
+                  <li><a class="dropdown-item" href="../../changelog.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="git-merge"></span>Changelog</div>
                     </a></li>
-                  <li><a class="dropdown-item" href="../../showcase.html">
+                  <li><a class="dropdown-item" href="../../showcase.php">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="monitor"></span>Showcase</div>
                     </a></li>
                 </ul>
@@ -4367,12 +4366,12 @@
                       <h6 class="dropdown-header text-body-highlight fs-10 py-2">24 <span class="text-body-quaternary">results</span></h6>
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Recently Searched </h6>
-                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-clock-rotate-left" data-fa-transform="shrink-2"></span> Store Macbook</div>
                           </div>
                         </a>
-                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-clock-rotate-left" data-fa-transform="shrink-2"></span> MacBook Air - 13″</div>
                           </div>
@@ -4380,15 +4379,15 @@
                       </div>
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
-                      <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.html">
-                          <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../../assets/img/products/60x60/3.png" alt="" /></div>
+                      <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.php">
+                          <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                           </div>
                         </a>
-                        <a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.html">
-                          <div class="file-thumbnail me-2"><img class="img-fluid" src="../../assets/img/products/60x60/3.png" alt="" /></div>
+                        <a class="dropdown-item py-2 d-flex align-items-center" href="../../apps/e-commerce/landing/product-details.php">
+                          <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -4397,12 +4396,12 @@
                       </div>
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Quick Links</h6>
-                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-link text-body" data-fa-transform="shrink-2"></span> Support MacBook House</div>
                           </div>
                         </a>
-                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-link text-body" data-fa-transform="shrink-2"></span> Store MacBook″</div>
                           </div>
@@ -4410,17 +4409,17 @@
                       </div>
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Files</h6>
-                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"><span class="fa-solid fa-file-zipper text-body" data-fa-transform="shrink-2"></span> Library MacBook folder.rar</div>
                           </div>
                         </a>
-                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-file-lines text-body" data-fa-transform="shrink-2"></span> Feature MacBook extensions.txt</div>
                           </div>
                         </a>
-                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"> <span class="fa-solid fa-image text-body" data-fa-transform="shrink-2"></span> MacBook Pro_13.jpg</div>
                           </div>
@@ -4428,18 +4427,18 @@
                       </div>
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
-                      <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.html">
+                      <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.php">
                           <div class="avatar avatar-l status-online  me-2 text-body">
-                            <img class="rounded-circle " src="../../assets/img/team/40x40/10.webp" alt="" />
+                            <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
                           </div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary">anna@technext.it</p>
                           </div>
                         </a>
-                        <a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.html">
+                        <a class="dropdown-item py-2 d-flex align-items-center" href="../../pages/members.php">
                           <div class="avatar avatar-l  me-2 text-body">
-                            <img class="rounded-circle " src="../../assets/img/team/40x40/12.webp" alt="" />
+                            <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
                           </div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -4449,12 +4448,12 @@
                       </div>
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Related Searches</h6>
-                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                      <div class="py-2"><a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"><span class="fa-brands fa-firefox-browser text-body" data-fa-transform="shrink-2"></span> Search in the Web MacBook</div>
                           </div>
                         </a>
-                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.html">
+                        <a class="dropdown-item" href="../../apps/e-commerce/landing/product-details.php">
                           <div class="d-flex align-items-center">
                             <div class="fw-normal text-body-highlight title"> <span class="fa-brands fa-chrome text-body" data-fa-transform="shrink-2"></span> Store MacBook″</div>
                           </div>
@@ -4567,107 +4566,163 @@
           navbarVertical.setAttribute('data-navbar-appearance', 'darker');
         }
       </script>
+
       <div class="content">
-        <nav class="mb-2" aria-label="breadcrumb">
+        <!-- <nav class="mb-2" aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#!">Page 1</a></li>
             <li class="breadcrumb-item"><a href="#!">Page 2</a></li>
             <li class="breadcrumb-item active">Default</li>
           </ol>
-        </nav>
-        <h2 class="mb-4">Create a project</h2>
-        <div class="row">
-          <div class="col-xl-9">
-            <form class="row g-3 mb-6">
-              <div class="col-sm-6 col-md-8">
-                <div class="form-floating">
-                  <input class="form-control" id="floatingInputGrid" type="text" placeholder="Project title" />
-                  <label for="floatingInputGrid">Project title</label>
+        </nav> -->
+
+        <div class="mb-9">
+          <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
+            <div class="row mb-4 gx-6 gy-3 align-items-center">
+              <div class="col-auto">
+                <h2 class="mb-0"> Project Deliverable</h2>
+              </div>
+
+         <!-- model -->
+              <div class="col">
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add deliverable</button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Add project deliverable Information </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Ddeliverable Name </label>
+                                <input class="form-control" id="deliverable" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Description </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Output </label>
+                                <input class="form-control" id="output" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Phase </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select phase</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+         <!-- <a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project type</a> -->
+            </div>
+
+            <!-- <div class="row g-3 justify-content-between align-items-end mb-4">
+              <div class="col-12 col-sm-auto">
+                <ul class="nav nav-links mx-n2">
+                  <li class="nav-item"><a class="nav-link px-2 py-1 active" aria-current="page" href="#"><span>All</span><span class="text-body-tertiary fw-semibold">(32)</span></a></li>
+                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Ongoing</span><span class="text-body-tertiary fw-semibold">(14)</span></a></li>
+                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Cancelled</span><span class="text-body-tertiary fw-semibold">(2)</span></a></li>
+                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Finished</span><span class="text-body-tertiary fw-semibold">(14)</span></a></li>
+                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Postponed</span><span class="text-body-tertiary fw-semibold">(2)</span></a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-auto">
+                <div class="d-flex align-items-center">
+                  <div class="search-box me-3">
+                    <form class="position-relative" data-bs-toggle="search" data-bs-display="static"><input class="form-control search-input search" type="search" placeholder="Search projects" aria-label="Search" />
+                      <span class="fas fa-search search-box-icon"></span>
+                    </form>
+                  </div><a class="btn btn-phoenix-primary px-3 me-1 border-0 text-body" href="../../apps/project-management/project-list-view.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="List view"><span class="fa-solid fa-list fs-10"></span></a><a class="btn btn-phoenix-primary px-3 me-1" href="../../apps/project-management/project-board-view.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Board view"><svg width="9" height="9" viewbox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0.5C0 0.223857 0.223858 0 0.5 0H1.83333C2.10948 0 2.33333 0.223858 2.33333 0.5V1.83333C2.33333 2.10948 2.10948 2.33333 1.83333 2.33333H0.5C0.223857 2.33333 0 2.10948 0 1.83333V0.5Z" fill="currentColor"></path>
+                      <path d="M3.33333 0.5C3.33333 0.223857 3.55719 0 3.83333 0H5.16667C5.44281 0 5.66667 0.223858 5.66667 0.5V1.83333C5.66667 2.10948 5.44281 2.33333 5.16667 2.33333H3.83333C3.55719 2.33333 3.33333 2.10948 3.33333 1.83333V0.5Z" fill="currentColor"></path>
+                      <path d="M6.66667 0.5C6.66667 0.223857 6.89052 0 7.16667 0H8.5C8.77614 0 9 0.223858 9 0.5V1.83333C9 2.10948 8.77614 2.33333 8.5 2.33333H7.16667C6.89052 2.33333 6.66667 2.10948 6.66667 1.83333V0.5Z" fill="currentColor"></path>
+                      <path d="M0 3.83333C0 3.55719 0.223858 3.33333 0.5 3.33333H1.83333C2.10948 3.33333 2.33333 3.55719 2.33333 3.83333V5.16667C2.33333 5.44281 2.10948 5.66667 1.83333 5.66667H0.5C0.223857 5.66667 0 5.44281 0 5.16667V3.83333Z" fill="currentColor"></path>
+                      <path d="M3.33333 3.83333C3.33333 3.55719 3.55719 3.33333 3.83333 3.33333H5.16667C5.44281 3.33333 5.66667 3.55719 5.66667 3.83333V5.16667C5.66667 5.44281 5.44281 5.66667 5.16667 5.66667H3.83333C3.55719 5.66667 3.33333 5.44281 3.33333 5.16667V3.83333Z" fill="currentColor"></path>
+                      <path d="M6.66667 3.83333C6.66667 3.55719 6.89052 3.33333 7.16667 3.33333H8.5C8.77614 3.33333 9 3.55719 9 3.83333V5.16667C9 5.44281 8.77614 5.66667 8.5 5.66667H7.16667C6.89052 5.66667 6.66667 5.44281 6.66667 5.16667V3.83333Z" fill="currentColor"></path>
+                      <path d="M0 7.16667C0 6.89052 0.223858 6.66667 0.5 6.66667H1.83333C2.10948 6.66667 2.33333 6.89052 2.33333 7.16667V8.5C2.33333 8.77614 2.10948 9 1.83333 9H0.5C0.223857 9 0 8.77614 0 8.5V7.16667Z" fill="currentColor"></path>
+                      <path d="M3.33333 7.16667C3.33333 6.89052 3.55719 6.66667 3.83333 6.66667H5.16667C5.44281 6.66667 5.66667 6.89052 5.66667 7.16667V8.5C5.66667 8.77614 5.44281 9 5.16667 9H3.83333C3.55719 9 3.33333 8.77614 3.33333 8.5V7.16667Z" fill="currentColor"></path>
+                      <path d="M6.66667 7.16667C6.66667 6.89052 6.89052 6.66667 7.16667 6.66667H8.5C8.77614 6.66667 9 6.89052 9 7.16667V8.5C9 8.77614 8.77614 9 8.5 9H7.16667C6.89052 9 6.66667 8.77614 6.66667 8.5V7.16667Z" fill="currentColor"></path>
+                    </svg></a><a class="btn btn-phoenix-primary px-3" href="../../apps/project-management/project-card-view.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Card view"><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0.5C0 0.223858 0.223858 0 0.5 0H3.5C3.77614 0 4 0.223858 4 0.5V3.5C4 3.77614 3.77614 4 3.5 4H0.5C0.223858 4 0 3.77614 0 3.5V0.5Z" fill="currentColor"></path>
+                      <path d="M0 5.5C0 5.22386 0.223858 5 0.5 5H3.5C3.77614 5 4 5.22386 4 5.5V8.5C4 8.77614 3.77614 9 3.5 9H0.5C0.223858 9 0 8.77614 0 8.5V5.5Z" fill="currentColor"></path>
+                      <path d="M5 0.5C5 0.223858 5.22386 0 5.5 0H8.5C8.77614 0 9 0.223858 9 0.5V3.5C9 3.77614 8.77614 4 8.5 4H5.5C5.22386 4 5 3.77614 5 3.5V0.5Z" fill="currentColor"></path>
+                      <path d="M5 5.5C5 5.22386 5.22386 5 5.5 5H8.5C8.77614 5 9 5.22386 9 5.5V8.5C9 8.77614 8.77614 9 8.5 9H5.5C5.22386 9 5 8.77614 5 8.5V5.5Z" fill="currentColor"></path>
+                    </svg></a>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectTask">
-                    <option selected="selected">Select Project type</option>
-                    <option value="1">technical</option>
-                    <option value="2">external</option>
-                    <option value="3">organizational</option>
-                  </select><label for="floatingSelectTask">Defult task view</label></div>
+            </div> -->
+
+            <div class="table-responsive scrollbar">
+              <table class="table fs-9 mb-0 border-top border-translucent">
+                <thead>
+                  <tr>
+                    <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">DELIVERABLE NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">DESCRIPTION</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">OUTPUT</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">PHASE</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
+                
+                  </tr>
+                </thead>
+                <tbody class="list" id="project-list-table-body">
+                  <tr class="position-static">
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
+                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
+
+                        <!-- <button type="button" class="btn btn-warning"><i class=" fa fa-edit fa-1x "></i></button> -->
+                        <!-- <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button> -->
+                    </td>
+                  </tr>
+                  <tr class="position-static">
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
+                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
+                    </td>
+                  </tr>
+                  <tr class="position-static">
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">3</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
+                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
+                    </td>
+</tbody>
+              </table>
+            </div>
+            <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
+              <div class="d-flex">
+                <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectPrivacy">
-                    <option selected="selected">Select project category</option>
-                    <option value="1">Data Privacy One</option>
-                    <option value="2">Data Privacy Two</option>
-                    <option value="3">Data Privacy Three</option>
-                  </select><label for="floatingSelectPrivacy">Project privacy</label></div>
+              <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
+                <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectTeam">
-                    <option selected="selected">Select team</option>
-                    <option value="1">Team One</option>
-                    <option value="2">Team Two</option>
-                    <option value="3">Team Three</option>
-                  </select><label for="floatingSelectTeam">Team </label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectAssignees">
-                    <option selected="selected">Select assignees </option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select><label for="floatingSelectAssignees">People </label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectAdmin">
-                    <option selected="selected">Select admin</option>
-                    <option value="1">Data Privacy One</option>
-                    <option value="2">Data Privacy Two</option>
-                    <option value="3">Data Privacy Three</option>
-                  </select><label for="floatingSelectAdmin">Project Lead</label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="flatpickr-input-container">
-                  <div class="form-floating"><input class="form-control datetimepicker" id="floatingInputStartDate" type="text" placeholder="end date" data-options='{"disableMobile":true}' /><label class="ps-6" for="floatingInputStartDate">Start date</label><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="flatpickr-input-container">
-                  <div class="form-floating"><input class="form-control datetimepicker" id="floatingInputDeadline" type="text" placeholder="deadline" data-options='{"disableMobile":true}' /><label class="ps-6" for="floatingInputDeadline">Deadline</label><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                </div>
-              </div>
-              <div class="col-12 gy-6">
-                <div class="form-floating"><textarea class="form-control" id="floatingProjectOverview" placeholder="Leave a comment here" style="height: 100px"></textarea><label for="floatingProjectOverview">project overview</label></div>
-              </div>
-              <div class="col-md-6 gy-6">
-                <div class="form-floating"><select class="form-select" id="floatingSelectClient">
-                    <option selected="selected">Select client</option>
-                    <option value="1">Client One</option>
-                    <option value="2">Client Two</option>
-                    <option value="3">Client Three</option>
-                  </select><label for="floatingSelectClient">client</label></div>
-              </div>
-              <div class="col-md-6 gy-6">
-                <div class="form-floating"><input class="form-control" id="floatingInputBudget" type="text" placeholder="Budget" /><label for="floatingInputBudget">Budget</label></div>
-              </div>
-              <div class="col-12 gy-6"><select class="form-select" id="organizerMultiple" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                  <option value="">Add tags</option>
-                  <option>Stupidity</option>
-                  <option>Jerry</option>
-                  <option>Not_the_mouse</option>
-                  <option>Rick</option>
-                  <option>Biology</option>
-                  <option>Neurology</option>
-                  <option>Brainlessness</option>
-                </select></div>
-              <div class="col-12 gy-6">
-                <div class="row g-3 justify-content-end">
-                  <div class="col-auto"><button class="btn btn-phoenix-primary px-5">Cancel</button></div>
-                  <div class="col-auto"><button class="btn btn-primary px-5 px-sm-15">Create Project</button></div>
-                </div>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
+        
         <footer class="footer position-absolute">
           <div class="row g-0 justify-content-between align-items-center h-100">
             <div class="col-12 col-sm-auto text-center">
@@ -4700,7 +4755,7 @@
                     <p class="mb-0 fw-semibold fs-9">My payment method not working</p><span class="fa-solid fa-paper-plane text-primary fs-9 ms-3"></span>
                   </a></div>
                 <div class="text-center mt-auto">
-                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="../../assets/img/team/30.webp" alt="" /></div>
+                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="images/team/30.webp" alt="" /></div>
                   <h5 class="mt-2 mb-3">Eric</h5>
                   <p class="text-center text-body-emphasis mb-0">Ask us anything – we’ll get back to you here or by email within 24 hours.</p>
                 </div>
@@ -4789,12 +4844,11 @@
 
     <!-- ===============================================-->
     <!--    JavaScripts-->
-    <!-- ===============================================
+    <!-- ===============================================-->
     
-    <script src="../../vendors/choices/choices.min.js"></script>-->
-   
 
-      <script src="js/popper.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/anchor.min.js"></script>
     <script src="js/is.min.js"></script>
@@ -4805,7 +4859,9 @@
     <script src="js/feather.min.js"></script>
     <script src="js/dayjs.min.js"></script>
     <script src="js/phoenix.js"></script>
-    
+
+
   </body>
 
+  
 </html>
