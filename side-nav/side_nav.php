@@ -125,7 +125,7 @@
                   <div class="parent-wrapper label-1">
                     <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-report">
                       <li class="collapsed-nav-item-title d-none">Customization</li>
-                      <li class="nav-item"><a class="nav-link" href="../../documentation/customization/configuration.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="./general-report.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">General report</span></div>
                         </a><!-- more inner pages-->
                       </li>
