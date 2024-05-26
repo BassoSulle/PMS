@@ -15,34 +15,31 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="manifest" href="images/manifest.json">
-    <meta name="msapplication-TileImage" content="images/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagesapple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagesfavicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagesfavicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="imagesfavicon.ico">
+    <link rel="manifest" href="imagesmanifest.json">
+    <meta name="msapplication-TileImage" content="imagesmstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/simplebar.min.js"></script>
     <script src="js/config.js"></script>
-    
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="css/choices.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.js" rel="stylesheet" />
     <link href="css/flatpickr.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link href="css/simplebar.min.css" rel="stylesheet">
+    <link href="../../vendors/simplebar/simplebar.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href="css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
     <link href="css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
     <link href="css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
     <link href="css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
-    
     <script>
       var phoenixIsRTL = window.config.config.phoenixIsRTL;
       if (phoenixIsRTL) {
@@ -57,7 +54,6 @@
         linkRTL.setAttribute('disabled', true);
         userLinkRTL.setAttribute('disabled', true);
       }
-
     </script>
   </head>
 
@@ -73,12 +69,11 @@
             document.querySelector('body').classList.add(`navbar-${navbarStyle}`);
           }
         </script>
-        
     <!-- ===============================================-->
     <!--    Side navigation-->
     <!-- ===============================================-->
     <?php include('side-nav/side_nav.php');?>
-
+    
         <div class="navbar-vertical-footer"><button class="btn navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center"><span class="uil uil-left-arrow-to-left fs-8"></span><span class="uil uil-arrow-from-right fs-8"></span><span class="navbar-vertical-footer-text ms-2">Collapsed View</span></button></div>
       </nav>
       <nav class="navbar navbar-top fixed-top navbar-expand" id="navbarDefault" style="display:none;">
@@ -87,7 +82,7 @@
             <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
             <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
               <div class="d-flex align-items-center">
-                <div class="d-flex align-items-center"><img src="images/logo.png" alt="phoenix" width="27" />
+                <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
                   <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                 </div>
               </div>
@@ -648,7 +643,7 @@
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="images/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -780,7 +775,7 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
@@ -792,7 +787,7 @@
                     <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item active" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
@@ -1498,7 +1493,7 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
@@ -1510,7 +1505,7 @@
                     <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item active" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
@@ -2086,7 +2081,7 @@
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="images/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -2218,7 +2213,7 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
@@ -2230,7 +2225,7 @@
                     <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item active" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
@@ -2936,7 +2931,7 @@
                     <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../apps/project-management/create-new.html">
+                    <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
@@ -2948,7 +2943,7 @@
                     <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                       </a></li>
-                    <li><a class="dropdown-item active" href="../../apps/project-management/todo-list.html">
+                    <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
                         <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                       </a></li>
                     <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
@@ -3526,7 +3521,7 @@
               <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
               <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
                 <div class="d-flex align-items-center">
-                  <div class="d-flex align-items-center"><img src="images/logo.png" alt="phoenix" width="27" />
+                  <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
                     <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                   </div>
                 </div>
@@ -3986,7 +3981,7 @@
                       <div class="dropdown-item-wrapper"><span class="uil fs-8 uil-angle-right lh-1 dropdown-indicator-icon"></span><span><span class="me-2 uil" data-feather="clipboard"></span>Project management</span></div>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../../apps/project-management/create-new.html">
+                      <li><a class="dropdown-item active" href="../../apps/project-management/create-new.html">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Create new</div>
                         </a></li>
                       <li><a class="dropdown-item" href="../../apps/project-management/project-list-view.html">
@@ -3998,7 +3993,7 @@
                       <li><a class="dropdown-item" href="../../apps/project-management/project-board-view.html">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Project board view</div>
                         </a></li>
-                      <li><a class="dropdown-item active" href="../../apps/project-management/todo-list.html">
+                      <li><a class="dropdown-item" href="../../apps/project-management/todo-list.html">
                           <div class="dropdown-item-wrapper"><span class="me-2 uil"></span>Todo list</div>
                         </a></li>
                       <li><a class="dropdown-item" href="../../apps/project-management/project-details.html">
@@ -4571,1381 +4566,80 @@
         if (navbarVerticalStyle === 'darker') {
           navbarVertical.setAttribute('data-navbar-appearance', 'darker');
         }
-
-      function StaticBackdropModal() {
-      const [show, setShow] = useState(false);
-
-      const handleClose = () => setShow(false);
-      const handleShow = () => setShow(true);
-      }
       </script>
-      <div class="content">
-        <div class="mb-9">
-          <h2 class="mb-4">Todo list<span class="text-body-tertiary fw-normal">(23)</span></h2>
-          <div class="row align-items-center g-3 mb-3">
-            <div class="col-sm-auto">
-              <div class="search-box">
-                <form class="position-relative" data-bs-toggle="search" data-bs-display="static"><input class="form-control search-input search" type="search" placeholder="Search tasks" aria-label="Search" />
-                  <span class="fas fa-search search-box-icon"></span>
-                </form>
+  <div class="content">
+  <div class="mb-9">
+          <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
+            <div class="row mb-4 gx-6 gy-3 align-items-center">
+              <div class="col-auto">
+                <h2 class="mb-0">Constant Budget</h2>
               </div>
-            </div>
-            <div class="col-sm-auto">
-              <div class="d-flex"><a class="btn btn-link p-0 ms-sm-3 fs-9 text-body-tertiary fw-bold" href="#!"><span class="fas fa-filter me-1 fw-extra-bold fs-10"></span>23 tasks</a><a class="btn btn-link p-0 ms-3 fs-9 text-body-tertiary fw-bold" href="#!"><span class="fas fa-sort me-1 fw-extra-bold fs-10"></span>Sorting</a></div>
-            </div>
-          </div>
-          <div class="mb-4 todo-list">
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-1">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-0" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Designing the dungeon</label><span class="badge badge-phoenix fs-10 badge-phoenix-primary">DRAFT</span></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>2</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                      <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                    </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-1">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Designing the dungeon</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask01" /><label class="form-check-label mb-0 fs-8" for="subtask01">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask02" /><label class="form-check-label mb-0 fs-8" for="subtask02">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask03" /><label class="form-check-label mb-0 fs-8" for="subtask03">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-2">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-1" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Hiring a motion graphic designer</label><span class="badge badge-phoenix fs-10 badge-phoenix-warning">URGENT</span></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>2</button><button class="btn btn-link p-0 text-warning fs-10 me-2"><span class="fas fa-tasks me-1"></span>3</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-2">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Hiring a motion graphic designer</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask11" /><label class="form-check-label mb-0 fs-8" for="subtask11">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask12" /><label class="form-check-label mb-0 fs-8" for="subtask12">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask13" /><label class="form-check-label mb-0 fs-8" for="subtask13">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-3">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-2" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Daily Meetings Purpose, participants</label><span class="badge badge-phoenix fs-10 badge-phoenix-info">ON PROCESS</span></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>4</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Dec, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">05:00 AM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-3">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Daily Meetings Purpose, participants</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask21" /><label class="form-check-label mb-0 fs-8" for="subtask21">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask22" /><label class="form-check-label mb-0 fs-8" for="subtask22">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask23" /><label class="form-check-label mb-0 fs-8" for="subtask23">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-4">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-3" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Finalizing the geometric shapes</label></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>3</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-4">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Finalizing the geometric shapes</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask31" /><label class="form-check-label mb-0 fs-8" for="subtask31">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask32" /><label class="form-check-label mb-0 fs-8" for="subtask32">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask33" /><label class="form-check-label mb-0 fs-8" for="subtask33">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-5">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-4" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Daily meeting with team members</label></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center">
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">1 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-5">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Daily meeting with team members</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask41" /><label class="form-check-label mb-0 fs-8" for="subtask41">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask42" /><label class="form-check-label mb-0 fs-8" for="subtask42">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask43" /><label class="form-check-label mb-0 fs-8" for="subtask43">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-6">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-5" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Daily Standup Meetings</label></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-warning fs-10 me-2"><span class="fas fa-tasks me-1"></span>4</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">13 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">10:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-6">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Daily Standup Meetings</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask51" /><label class="form-check-label mb-0 fs-8" for="subtask51">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask52" /><label class="form-check-label mb-0 fs-8" for="subtask52">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask53" /><label class="form-check-label mb-0 fs-8" for="subtask53">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-7">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-6" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Procrastinate for a month</label><span class="badge badge-phoenix fs-10 badge-phoenix-info">ON PROCESS</span></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>3</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-7">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Procrastinate for a month</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask61" /><label class="form-check-label mb-0 fs-8" for="subtask61">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask62" /><label class="form-check-label mb-0 fs-8" for="subtask62">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask63" /><label class="form-check-label mb-0 fs-8" for="subtask63">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-8">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-7" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">warming up</label><span class="badge badge-phoenix fs-10 badge-phoenix-secondary">CLOSE</span></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>3</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-8">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">warming up</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask71" /><label class="form-check-label mb-0 fs-8" for="subtask71">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask72" /><label class="form-check-label mb-0 fs-8" for="subtask72">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask73" /><label class="form-check-label mb-0 fs-8" for="subtask73">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-9">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-8" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Make ready for release</label></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>2</button><button class="btn btn-link p-0 text-warning fs-10 me-2"><span class="fas fa-tasks me-1"></span>2</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">2o Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">1:00 AM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-9">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Make ready for release</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask81" /><label class="form-check-label mb-0 fs-8" for="subtask81">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask82" /><label class="form-check-label mb-0 fs-8" for="subtask82">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask83" /><label class="form-check-label mb-0 fs-8" for="subtask83">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-10">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-9" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Modify the component</label></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>4</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">22 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">1:00 AM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-10">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Modify the component</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask91" /><label class="form-check-label mb-0 fs-8" for="subtask91">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask92" /><label class="form-check-label mb-0 fs-8" for="subtask92">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask93" /><label class="form-check-label mb-0 fs-8" for="subtask93">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-between align-items-md-center hover-actions-trigger btn-reveal-trigger border-translucent py-3 gx-0 cursor-pointer border-top border-bottom" data-todo-offcanvas-toogle="data-todo-offcanvas-toogle" data-todo-offcanvas-target="todoOffcanvas-11">
-              <div class="col-12 col-md-auto flex-1">
-                <div>
-                  <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1"><input class="form-check-input flex-shrink-0 form-check-line-through mt-0 me-2 form-check-input-undefined" type="checkbox" id="checkbox-todo-10" data-event-propagation-prevent="data-event-propagation-prevent" /><label class="form-check-label mb-0 fs-8 me-2 line-clamp-1 flex-grow-1 flex-md-grow-0 cursor-pointer">Delete overlapping tasks and articles</label><span class="badge badge-phoenix fs-10 badge-phoenix-secondary">CLOSE</span></div>
-                </div>
-              </div>
-              <div class="col-12 col-md-auto">
-                <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>2</button>
-                  <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">25 Nov, 2021</p>
-                  <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
-                  <div class="hover-md-hide hover-lg-show hover-xl-hide">
-                    <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">1:00 AM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="offcanvas offcanvas-end content-offcanvas offcanvas-backdrop-transparent border-start shadow-none bg-body-highlight" tabindex="-1" data-todo-content-offcanvas="data-todo-content-offcanvas" id="todoOffcanvas-11">
-              <div class="offcanvas-body p-0">
-                <div class="p-5 p-md-6">
-                  <div class="d-flex flex-between-center align-items-start gap-5 mb-4">
-                    <h2 class="fw-bold fs-6 mb-0 text-body-highlight">Delete overlapping tasks and articles</h2><button class="btn flex-shrink-0 px-0 py-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-xmark"></span></button>
-                  </div>
-                  <div class="mb-6">
-                    <div class="d-flex align-items-center mb-3">
-                      <h4 class="text-body me-3">Description</h4><a class="btn btn-link text-decoration-none p-0" href="#!"><span class="fa-solid fa-pen"></span></a>
-                    </div>
-                    <p class="text-body-highlight mb-0">The female circus horse-rider is a recurring subject in Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus. They visited Paris’s historic Cirque d’Hiver Bouglione together; Vollard lent Chagall his private box seats. Chagall completed 19 gouaches Chagall’s work. In 1926 the art dealer Ambroise Vollard invited Chagall to make a project based on the circus.</p>
-                  </div>
-                  <h4 class="mb-3">Subtasks</h4>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask101" /><label class="form-check-label mb-0 fs-8" for="subtask101">Study Dragons</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask102" /><label class="form-check-label mb-0 fs-8" for="subtask102">Procrastinate a bit</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div>
-                  <div class="d-flex flex-between-center hover-actions-trigger py-3 border-top border-bottom mb-3">
-                    <div class="form-check mb-1 mb-md-0 d-flex align-items-center lh-1 min-h-auto"><input class="subtask-checkbox form-check-input form-check-line-through mt-0 me-3" type="checkbox" id="subtask103" /><label class="form-check-label mb-0 fs-8" for="subtask103">Staring at the notebook for 5 mins</label></div>
-                    <div class="hover-actions end-0"><button class="btn btn-sm me-1 fs-10 text-body-tertiary px-0 me-3"><span class="fa-solid fa-pencil"></span></button><button class="btn btn-sm text-body-tertiary px-0"><span class="fa-solid fa-xmark fs-8"></span></button></div>
-                  </div><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add subtask</a>
-                </div>
-                <div class="mb-6">
-                  <div class="px-5 px-md-6">
-                    <h4 class="mb-3">Files</h4>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div class="d-flex mb-1"><span class="fa-solid fa-image me-2 text-body-tertiary fs-9"></span>
-                          <p class="text-body-highlight mb-0 lh-1">Silly_sight_1.png</p>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                      <div class="d-flex fs-9 text-body-tertiary mb-2 flex-wrap"><span>768 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">21st Dec, 12:56 PM</span></div><img class="rounded-2" src="../../assets/img/generic/40.png" alt="" style="max-width:270px" />
-                    </div>
-                  </div>
-                  <div class="border-top px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1"><span class="fa-solid fa-image me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">All_images.zip</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>12.8 mb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Yves Tanguy </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">19th Dec, 08:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-top border-bottom px-5 px-md-6 py-4">
-                    <div class="me-n3">
-                      <div class="d-flex flex-between-center">
-                        <div>
-                          <div class="d-flex align-items-center mb-1 flex-wrap"><span class="fa-solid fa-file-lines me-2 fs-9 text-body-tertiary"></span>
-                            <p class="text-body-highlight mb-0 lh-1">Project.txt</p>
-                          </div>
-                          <div class="d-flex fs-9 text-body-tertiary mb-0 flex-wrap"><span>123 kb</span><span class="text-body-quaternary mx-1">| </span><a href="#!">Shantinan Mekalan </a><span class="text-body-quaternary mx-1">| </span><span class="text-nowrap">12th Dec, 12:56 PM</span></div>
-                        </div>
-                        <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="px-5 px-md-6 my-3"><a class="fw-bold fs-9" href="#!"><span class="fas fa-plus me-1"></span>Add file(s)</a></div>
-                </div>
-                <div class="px-5 px-md-6">
-                  <h4 class="mb-4 text-body-emphasis">Others Information</h4>
-                  <h5 class="text-body-highlight mb-2">Status</h5><select class="form-select mb-4" aria-label="Default select example">
-                    <option selected="">Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <h5 class="text-body-highlight mb-2">Due Date</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Set the due date" data-options='{"disableMobile":true}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Reminder</h5>
-                  <div class="flatpickr-input-container mb-4"><input class="form-control datetimepicker ps-6" type="text" placeholder="Reminder" data-options='{"enableTime":true,"noCalendar":true,"dateFormat":"H:i","disableMobile":true,"static":true}' /><span class="uil uil-bell-school flatpickr-icon text-body-tertiary"></span></div>
-                  <h5 class="text-body-highlight mb-2">Tag</h5>
-                  <div class="choices-select-container mb-6"><select class="form-select" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                      <option value="">Select organizer...</option>
-                      <option>Massachusetts Institute of Technology</option>
-                      <option>University of Chicago</option>
-                      <option>GSAS Open Labs At Harvard</option>
-                      <option>California Institute of Technology</option>
-                    </select><span class="uil uil-tag-alt choices-icon text-body-tertiary" style="top: 26%;"></span></div>
-                  <div class="text-end mb-9"><button class="btn btn-phoenix-danger">Delete Task</button></div>
-                </div>
-              </div>
-            </div>
 
-            <br>
-        <div>
-        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#verticallyCentered">Add Todo list</button>
-                      <div class="modal fade" id="verticallyCentered" tabindex="-1" aria-labelledby="verticallyCenteredModalLabel" style="display: none;" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
+         <!-- model -->
+              <div class="col">
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add new Budget Item</button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="verticallyCenteredModalLabel">Todo Form</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">Add new Budget</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label class="form-label" for="project type">Todo</label>
-                                <input class="form-control" id="project_type" type="text" placeholder="Enter Todo " />
-                            </div>
-                            <div class="mb-3">
-                              <!-- Multiple file upload -->
-                            <form class="dropzone dropzone-multiple p-0" id="dropzone-multiple" data-dropzone="data-dropzone" action="#!">
-  <div class="fallback"><input name="file" type="file" multiple="multiple" /></div>
-  <div class="dz-message" data-dz-message="data-dz-message"><img class="me-2" src="../../../assets/img/icons/cloud-upload.svg" width="25" alt="" />Drop your files here</div>
-  <div class="dz-preview dz-preview-multiple m-0 d-flex flex-column">
-    <div class="d-flex mb-3 pb-3 border-bottom border-translucent media">
-      <div class="border p-2 rounded-2 me-2"><img class="rounded-2 dz-image" src="../../../assets/img/icons/file.png" alt="..." data-dz-thumbnail="data-dz-thumbnail" /></div>
-      <div class="flex-1 d-flex flex-between-center">
-        <div>
-          <h6 data-dz-name="data-dz-name"></h6>
-          <div class="d-flex align-items-center">
-            <p class="mb-0 fs-9 text-body-quaternary lh-1" data-dz-size="data-dz-size"></p>
-            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress=""></span></div>
-          </div><span class="fs-10 text-danger" data-dz-errormessage="data-dz-errormessage"></span>
-        </div>
-        <div class="dropdown"><button class="btn btn-link text-body-tertiary btn-sm dropdown-toggle btn-reveal dropdown-caret-none" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h"></span></button>
-          <div class="dropdown-menu dropdown-menu-end border border-translucent py-2"><a class="dropdown-item" href="#!" data-dz-remove="data-dz-remove">Remove File</a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</form>
-
-
-              
-                                
+                                <label class="form-label" for="project type">Name </label>
+                                <input class="form-control" id="project_type" type="text" placeholder="" />
                             </div>
                             </div>
-                            <div class="modal-footer"><button class="btn btn-primary" type="button">Okay</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                            <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
                           </div>
                         </div>
                       </div>
-                    
-        </div>
+              </div>
 
-       
-
-        <footer class="footer position-absolute">
-          <div class="row g-0 justify-content-between align-items-center h-100">
-            <div class="col-12 col-sm-auto text-center">
-              <p class="mb-0 mt-2 mt-sm-0 text-body">Thank you for creating with Phoenix<span class="d-none d-sm-inline-block"></span><span class="d-none d-sm-inline-block mx-1">|</span><br class="d-sm-none" />2023 &copy;<a class="mx-1" href="https://themewagon.com">Themewagon</a></p>
+              <!-- <a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project type</a> -->
             </div>
-            <div class="col-12 col-sm-auto text-center">
-              <p class="mb-0 text-body-tertiary text-opacity-85">v1.14.0</p>
+
+            <div class="table-responsive scrollbar">
+              <table class="table fs-9 mb-0 border-top border-translucent">
+                <thead>
+                  <tr>
+                    <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:70%;">NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
+                  </tr>
+                </thead>
+                <tbody class="list" id="project-list-table-body">
+                  <tr class="position-static">
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <i class="far fa-edit fa fa-fw" title="edit"></i>
+                        <i class="fa fa-trash fa fa-fw" title="delete"></i>
+                    </td>
+                  </tr>
+                  <tr class="position-static">
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                       <i class="far fa-edit fa fa-fw" title="edit"></i>
+                        <i class="fa fa-trash fa fa-fw" title="delete"></i>
+                    </td>
+                  </tr>
+    
+                </tbody>
+              </table>
+            </div>
+            <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
+              <div class="d-flex">
+                <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
+              </div>
+              <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
+                <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
+              </div>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+  </div>
       <div class="support-chat-container">
         <div class="container-fluid support-chat">
           <div class="card bg-body-emphasis">
@@ -5996,9 +4690,9 @@
         <div class="setting-panel-item mt-0">
           <h5 class="setting-panel-item-title">Color Scheme</h5>
           <div class="row gx-2">
-            <div class="col-4"><input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../../assets/img/generic/default-light.png" alt=""/></span><span class="label-text">Light</span></label></div>
-            <div class="col-4"><input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label></div>
-            <div class="col-4"><input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../../assets/img/generic/auto.png" alt=""/></span><span class="label-text"> Auto</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/default-light.png" alt=""/></span><span class="label-text">Light</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/auto.png" alt=""/></span><span class="label-text"> Auto</span></label></div>
           </div>
         </div>
         <div class="border border-translucent rounded-3 p-4 setting-panel-item bg-body-emphasis">
@@ -6018,31 +4712,31 @@
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Navigation Type</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../../assets/img/generic/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../../assets/img/generic/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../../assets/img/generic/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../../assets/img/generic/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../../assets/img/generic/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Vertical Navbar Appearance</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="../../assets/img/generic/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../../assets/img/generic/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="../../assets/img/generic/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../../assets/img/generic/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="images/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="images/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="images/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="images/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Horizontal Navbar Shape</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../../assets/img/generic/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../../assets/img/generic/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Horizontal Navbar Appearance</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../../assets/img/generic/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../../assets/img/generic/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../../assets/img/generic/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
           </div>
         </div><a class="bun btn-primary d-grid mb-3 text-white mt-5 btn btn-primary" href="https://themes.getbootstrap.com/product/phoenix-admin-dashboard-webapp-template/" target="_blank">Purchase template</a>
       </div>
@@ -6056,8 +4750,12 @@
 
     <!-- ===============================================-->
     <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="js/popper.min.js"></script>
+    <!-- ===============================================
+    
+    <script src="../../vendors/choices/choices.min.js"></script>-->
+   
+
+      <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/anchor.min.js"></script>
     <script src="js/is.min.js"></script>
@@ -6067,9 +4765,8 @@
     <script src="js/list.min.js"></script>
     <script src="js/feather.min.js"></script>
     <script src="js/dayjs.min.js"></script>
-    <script src="js/choices.min.js"></script>
     <script src="js/phoenix.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.js" integrity="sha512-9e9rr82F9BPzG81+6UrwWLFj8ZLf59jnuIA/tIf8dEGoQVu7l5qvr02G/BiAabsFOYrIUTMslVN+iDYuszftVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
   </body>
 
 </html>

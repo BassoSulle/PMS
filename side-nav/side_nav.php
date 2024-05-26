@@ -59,6 +59,7 @@
                         </a><!-- more inner pages-->
                       </li>
                       <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Resources</span></div>
                         </a><!-- more inner pages-->
                       </li>
@@ -66,7 +67,7 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">Constant budget</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="project-details.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="upload-project.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Upload project</span></div>
                         </a><!-- more inner pages-->
                       </li>
