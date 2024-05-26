@@ -15,16 +15,16 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="../assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="../assets/img/favicons/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicons/favicon.ico">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
     <script src="../vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="../vendors/simplebar/simplebar.min.js"></script>
-    <script src="../assets/js/config.js"></script>
+    <script src="js/config.js"></script>
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
@@ -35,10 +35,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
     <link href="../vendors/simplebar/simplebar.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link href="../assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
-    <link href="../assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
-    <link href="../assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
-    <link href="../assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link href="css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+    <link href="css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
     <script>
       var phoenixIsRTL = window.config.config.phoenixIsRTL;
       if (phoenixIsRTL) {
@@ -81,7 +81,7 @@
             <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
             <a class="navbar-brand me-1 me-sm-3" href="../index.html">
               <div class="d-flex align-items-center">
-                <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
+                <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                   <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                 </div>
               </div>
@@ -112,14 +112,14 @@
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
                   <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                      <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../assets/img/products/60x60/3.png" alt="" /></div>
+                      <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                       </div>
                     </a>
                     <a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                      <div class="file-thumbnail me-2"><img class="img-fluid" src="../assets/img/products/60x60/3.png" alt="" /></div>
+                      <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -161,7 +161,7 @@
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
                   <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                       <div class="avatar avatar-l status-online  me-2 text-body">
-                        <img class="rounded-circle " src="../assets/img/team/40x40/10.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
                       </div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
@@ -170,7 +170,7 @@
                     </a>
                     <a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                       <div class="avatar avatar-l  me-2 text-body">
-                        <img class="rounded-circle " src="../assets/img/team/40x40/12.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
                       </div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -216,7 +216,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -248,7 +248,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -263,7 +263,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -278,7 +278,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -293,7 +293,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -329,46 +329,46 @@
                 <div class="card bg-body-emphasis position-relative border-0">
                   <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                     <div class="row text-center align-items-center gx-0 gy-0">
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                         </a></div>
                     </div>
@@ -378,7 +378,7 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                 <div class="avatar avatar-l ">
-                  <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
+                  <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
                 </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -386,7 +386,7 @@
                   <div class="card-body p-0">
                     <div class="text-center pt-4 pb-3">
                       <div class="avatar avatar-xl ">
-                        <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                       </div>
                       <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                     </div>
@@ -441,7 +441,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -473,7 +473,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -488,7 +488,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -503,7 +503,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -518,7 +518,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -554,46 +554,46 @@
                 <div class="card bg-body-emphasis position-relative border-0">
                   <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                     <div class="row text-center align-items-center gx-0 gy-0">
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                         </a></div>
                     </div>
@@ -607,7 +607,7 @@
                   <div class="card-body p-0">
                     <div class="text-center pt-4 pb-3">
                       <div class="avatar avatar-xl ">
-                        <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                        <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                       </div>
                       <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                     </div>
@@ -642,7 +642,7 @@
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="../index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -1162,7 +1162,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -1194,7 +1194,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -1209,7 +1209,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1224,7 +1224,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1239,7 +1239,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1275,46 +1275,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -1324,7 +1324,7 @@
           </li>
           <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
-                <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
+                <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -1332,7 +1332,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -1880,7 +1880,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -1912,7 +1912,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -1927,7 +1927,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1942,7 +1942,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1957,7 +1957,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1993,46 +1993,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -2046,7 +2046,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -2080,7 +2080,7 @@
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="../index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -2600,7 +2600,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -2632,7 +2632,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -2647,7 +2647,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2662,7 +2662,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2677,7 +2677,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2713,46 +2713,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -2762,7 +2762,7 @@
           </li>
           <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
-                <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
+                <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -2770,7 +2770,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -3318,7 +3318,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -3350,7 +3350,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -3365,7 +3365,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3380,7 +3380,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3395,7 +3395,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3431,46 +3431,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -3484,7 +3484,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -3520,7 +3520,7 @@
               <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
               <a class="navbar-brand me-1 me-sm-3" href="../index.html">
                 <div class="d-flex align-items-center">
-                  <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
+                  <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
                     <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                   </div>
                 </div>
@@ -3551,14 +3551,14 @@
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
                     <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                        <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../assets/img/products/60x60/3.png" alt="" /></div>
+                        <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                         </div>
                       </a>
                       <a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                        <div class="file-thumbnail me-2"><img class="img-fluid" src="../assets/img/products/60x60/3.png" alt="" /></div>
+                        <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -3600,7 +3600,7 @@
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
                     <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                         <div class="avatar avatar-l status-online  me-2 text-body">
-                          <img class="rounded-circle " src="../assets/img/team/40x40/10.webp" alt="" />
+                          <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
                         </div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
@@ -3609,7 +3609,7 @@
                       </a>
                       <a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                         <div class="avatar avatar-l  me-2 text-body">
-                          <img class="rounded-circle " src="../assets/img/team/40x40/12.webp" alt="" />
+                          <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
                         </div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -3655,7 +3655,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -3687,7 +3687,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -3702,7 +3702,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3717,7 +3717,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3732,7 +3732,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3768,46 +3768,46 @@
                   <div class="card bg-body-emphasis position-relative border-0">
                     <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                       <div class="row text-center align-items-center gx-0 gy-0">
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                           </a></div>
                       </div>
@@ -3817,7 +3817,7 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                   <div class="avatar avatar-l ">
-                    <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
+                    <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
                   </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -3825,7 +3825,7 @@
                     <div class="card-body p-0">
                       <div class="text-center pt-4 pb-3">
                         <div class="avatar avatar-xl ">
-                          <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
+                          <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
                         </div>
                         <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                       </div>
@@ -4380,14 +4380,14 @@
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
                       <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                          <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../assets/img/products/60x60/3.png" alt="" /></div>
+                          <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                           </div>
                         </a>
                         <a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                          <div class="file-thumbnail me-2"><img class="img-fluid" src="../assets/img/products/60x60/3.png" alt="" /></div>
+                          <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -4429,7 +4429,7 @@
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
                       <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                           <div class="avatar avatar-l status-online  me-2 text-body">
-                            <img class="rounded-circle " src="../assets/img/team/40x40/10.webp" alt="" />
+                            <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
                           </div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
@@ -4438,7 +4438,7 @@
                         </a>
                         <a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                           <div class="avatar avatar-l  me-2 text-body">
-                            <img class="rounded-circle " src="../assets/img/team/40x40/12.webp" alt="" />
+                            <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
                           </div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -4587,7 +4587,7 @@
                 <div data-chat-thread-tab-content="data-chat-thread-tab-content">
                   <ul class="nav chat-thread-tab flex-column list">
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  active" data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-1" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/20.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/20.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Sharuka Nijibum</h5>
@@ -4599,7 +4599,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-2" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/29.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/29.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Urito Nisemuno</h5>
@@ -4611,7 +4611,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-3" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/30.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/30.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Xiang Ledepisipang</h5>
@@ -4623,7 +4623,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item unread" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2 unread " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-4" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/25.webp" alt="" /><span class="bg-primary rounded-circle top-0 end-0 position-absolute text-white d-flex flex-center fs-10 fw-semibold d-none d-sm-flex d-xl-none lh-1" style="height: 1rem; width: 1rem;">3</span></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/25.webp" alt="" /><span class="bg-primary rounded-circle top-0 end-0 position-absolute text-white d-flex flex-center fs-10 fw-semibold d-none d-sm-flex d-xl-none lh-1" style="height: 1rem; width: 1rem;">3</span></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Abshini Thipano</h5>
@@ -4635,7 +4635,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-5" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/15.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/15.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Nenko Nimitanip</h5>
@@ -4647,7 +4647,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item unread" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2 unread " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-6" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/59.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/59.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Shanito Bistroglini</h5>
@@ -4659,7 +4659,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-7" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle avatar-placeholder" src="images/team/avatar.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Misthoni Trepalnano</h5>
@@ -4671,7 +4671,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-8" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/1.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/1.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Zogidi Lishang</h5>
@@ -4683,7 +4683,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-9" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/6.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/6.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Nonteporano Lepat</h5>
@@ -4695,7 +4695,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-10" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/60.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/60.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Jessica Ball</h5>
@@ -4707,7 +4707,7 @@
                         </div>
                       </a></li>
                     <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-11" role="tab" aria-selected="true">
-                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/57.webp" alt="" /></div>
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/57.webp" alt="" /></div>
                         <div class="flex-1 d-sm-none d-xl-block">
                           <div class="d-flex justify-content-between align-items-center">
                             <h5 class="text-body fw-normal name text-nowrap">Harley Brown</h5>
@@ -4746,7 +4746,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/20.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">I have got a date at a quarter to eight; I’ll see you at the gate, so don’t be late.</p>
@@ -4789,7 +4789,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/20.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">You know New York, you need New York, you know you need a unique New York.</p>
@@ -4832,7 +4832,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/20.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Eddie edited it.</p>
@@ -4861,7 +4861,7 @@
                           </div>
                           <div class="chat-message-content me-2 w-min-content">
                             <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
-                              <p class="mb-0">Yes, in an organization stature</p><a href="../assets/img/chat/1.png" data-gallery="gallery-undefined"><img class="rounded-2 fit-cover mt-1" src="../assets/img/chat/1.png" alt="" style="max-width: 200px;" /></a>
+                              <p class="mb-0">Yes, in an organization stature</p><a href="images/chat/1.png" data-gallery="gallery-undefined"><img class="rounded-2 fit-cover mt-1" src="images/chat/1.png" alt="" style="max-width: 200px;" /></a>
                             </div>
                           </div>
                         </div>
@@ -4897,7 +4897,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/20.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked.</p>
@@ -4930,7 +4930,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/20.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/20.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Sharuka Nijibum</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -4940,20 +4940,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -5063,7 +5063,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/29.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/29.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">But if the shot Shott shot shot Shott, then Shott was shot, not Nott.</p>
@@ -5106,7 +5106,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/29.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/29.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">But Shott says he shot Nott. Either the shot Shott shot at Nott was not shot, Or Nott was shot.</p>
@@ -5159,18 +5159,18 @@
                             <div class="mb-1 sent-message-content gallery" data-bs-theme="light">
                               <p class="mb-0"></p>
                               <div class="row g-2 mt-0">
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/13.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/13.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/2.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/2.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/3.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/3.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/4.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/4.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/5.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/5.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/6.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/6.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/7.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/7.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/8.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/8.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/9.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/9.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/10.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/10.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/11.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/11.png" alt="" /></a></div>
-                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/12.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/12.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/13.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/13.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/2.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/2.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/3.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/3.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/4.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/4.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/5.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/5.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/6.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/6.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/7.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/7.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/8.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/8.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/9.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/9.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/10.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/10.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/11.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/11.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="images/chat/12.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="images/chat/12.png" alt="" /></a></div>
                               </div>
                             </div>
                           </div>
@@ -5185,7 +5185,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/29.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/29.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Ned Nott was shot and Sam Shott was not. So it is better to be Shott than Nott.</p>
@@ -5218,7 +5218,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/29.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/29.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Urito Nisemuno</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -5228,20 +5228,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -5328,7 +5328,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/30.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">A tree-toad loved a she-toad who lived up in a tree. He was a two-toed tree-toad, but a three-toed toad was she. The two-toed tree-toad tried to win the three-toed she-toad’s heart, for the two-toed tree-toad loved the ground that the three-toed tree-toad trod. But the two-toed tree-toad tried in vain; he couldn’t please her whim. From her tree-toad bower, with her three-toed power, the she-toad vetoed him.</p>
@@ -5361,7 +5361,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/30.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/30.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Xiang Ledepisipang</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -5371,20 +5371,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -5494,7 +5494,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/25.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">A cold. But what do you throw out when you want to use it but take in when you don’t want to use it?</p>
@@ -5559,7 +5559,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/25.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">A river. But I have a head and a tail that will never meet. Having too many of me is always a treat. What am I?</p>
@@ -5580,7 +5580,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/25.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">What runs, but never walks. Murmurs, but never talks. Has a bed, but never sleeps. And has a mouth, but never eats?</p>
@@ -5601,7 +5601,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/25.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Hello, I’m Doctor Triple A! How can I help?</p>
@@ -5634,7 +5634,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/25.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/25.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Abshini Thipano</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -5644,20 +5644,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -5779,7 +5779,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/15.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/15.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Nenko Nimitanip</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -5789,20 +5789,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -5889,7 +5889,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/59.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Well… check the attached file for answer, man!</p>
@@ -5944,7 +5944,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/59.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/59.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Shanito Bistroglini</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -5954,20 +5954,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -6054,7 +6054,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle avatar-placeholder" src="images/team/avatar.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">So See’s saw sawed Soar’s seesaw. But it was sad to see Soar so sore just because See’s saw sawed Soar’s seesaw.</p>
@@ -6097,7 +6097,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle avatar-placeholder" src="images/team/avatar.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Mr. See owned a saw. And Mr. Soar owned a seesaw. Now, See’s saw sawed Soar’s seesaw before Soar saw See, which made Soar sore.</p>
@@ -6130,7 +6130,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle avatar-placeholder" src="images/team/avatar.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Misthoni Trepalnano</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -6140,20 +6140,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -6240,7 +6240,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/1.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/1.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Brisk brave brigadiers brandished broad bright blades, blunderbusses, and bludgeons—balancing them badly.</p>
@@ -6305,7 +6305,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/1.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/1.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">I slit the sheet, the sheet I slit, and on the slitted sheet I sit.</p>
@@ -6360,7 +6360,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/1.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/1.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Zogidi Lishang</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -6370,20 +6370,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -6493,7 +6493,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/6.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/6.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Well…no?</p>
@@ -6536,7 +6536,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/6.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/6.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Victor Hugo’s &quot;Les Miserables&quot; contains an 823 word sentence, and hopefully no one elese will write longer to break the record.</p>
@@ -6579,7 +6579,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/6.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/6.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">which book do you remember to have the longest possible sentence? </p>
@@ -6612,7 +6612,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/6.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/6.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Nonteporano Lepat</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -6622,20 +6622,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -6722,7 +6722,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/60.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/60.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Cows kill more people than sharks!</p>
@@ -6765,7 +6765,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/60.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/60.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Hard to believe, but true. Sharks kill an average of 5 people per year while cows kill an average of 22 people per year.</p>
@@ -6808,7 +6808,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/60.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/60.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Also, what?!</p>
@@ -6841,7 +6841,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/60.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/60.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Jessica Ball</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -6851,20 +6851,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -6974,7 +6974,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/57.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">And the Sun loses a billion kilos per second.</p>
@@ -7017,7 +7017,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/57.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Oh yeah! It contains enough alcohol to supply every person on the planet with 300,000 pints of beer per day for the next billion years!</p>
@@ -7060,7 +7060,7 @@
                     <div class="d-flex mb-2 flex-1">
                       <div class="w-100 w-xxl-75">
                         <div class="d-flex hover-actions-trigger">
-                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="images/team/57.webp" alt="" /></div>
                           <div class="chat-message-content received me-2">
                             <div class="mb-1 received-message-content border rounded-2 p-3">
                               <p class="mb-0">Clouds at the centre of the Milky Way smell of rum, taste of raspberries and are packed with booze!</p>
@@ -7093,7 +7093,7 @@
                       </div>
                     </div>
                     <div class="d-flex flex-column align-items-center text-center">
-                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/57.webp" alt="" /></div>
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="images/team/57.webp" alt="" /></div>
                       <h4 class="fw-semibold mb-3">Harley Brown</h4>
                       <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
                     </div>
@@ -7103,20 +7103,20 @@
                       <div>
                         <h6 class="fw-semibold mb-2">Shared Media</h6>
                         <div class="row g-2">
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
-                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="images/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="images/chat/2.png" alt="" height="100" width="100" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -7227,7 +7227,7 @@
                     <p class="mb-0 fw-semibold fs-9">My payment method not working</p><span class="fa-solid fa-paper-plane text-primary fs-9 ms-3"></span>
                   </a></div>
                 <div class="text-center mt-auto">
-                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="../assets/img/team/30.webp" alt="" /></div>
+                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="images/team/30.webp" alt="" /></div>
                   <h5 class="mt-2 mb-3">Eric</h5>
                   <p class="text-center text-body-emphasis mb-0">Ask us anything – we’ll get back to you here or by email within 24 hours.</p>
                 </div>
@@ -7256,9 +7256,9 @@
         <div class="setting-panel-item mt-0">
           <h5 class="setting-panel-item-title">Color Scheme</h5>
           <div class="row gx-2">
-            <div class="col-4"><input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/default-light.png" alt=""/></span><span class="label-text">Light</span></label></div>
-            <div class="col-4"><input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label></div>
-            <div class="col-4"><input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/auto.png" alt=""/></span><span class="label-text"> Auto</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/generic/default-light.png" alt=""/></span><span class="label-text">Light</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/generic/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/generic/auto.png" alt=""/></span><span class="label-text"> Auto</span></label></div>
           </div>
         </div>
         <div class="border border-translucent rounded-3 p-4 setting-panel-item bg-body-emphasis">
@@ -7278,31 +7278,31 @@
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Navigation Type</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Vertical Navbar Appearance</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="images/generic/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="images/generic/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="images/generic/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="images/generic/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Horizontal Navbar Shape</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Horizontal Navbar Appearance</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
           </div>
         </div><a class="bun btn-primary d-grid mb-3 text-white mt-5 btn btn-primary" href="https://themes.getbootstrap.com/product/phoenix-admin-dashboard-webapp-template/" target="_blank">Purchase template</a>
       </div>
@@ -7331,7 +7331,7 @@
     <script src="https://unpkg.com/picmo@5.7.6/dist/umd/index.js"></script>
     <script src="https://unpkg.com/@picmo/popup-picker@5.7.6/dist/umd/index.js"></script>
     <script src="../vendors/lottie/lottie.min.js"></script>
-    <script src="../assets/js/phoenix.js"></script>
+    <script src="js/phoenix.js"></script>
   </body>
 
 </html>

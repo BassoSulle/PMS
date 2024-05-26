@@ -15,31 +15,30 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicons/favicon.ico">
-    <link rel="manifest" href="images/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="images/favicons/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="../assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="../assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-    <script src="/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="/simplebar/simplebar.min.js"></script>
-    <script src="js/config.js"></script>
+    <script src="../vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../vendors/simplebar/simplebar.min.js"></script>
+    <script src="../assets/js/config.js"></script>
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="/fullcalendar/main.min.css" rel="stylesheet">
-    <link href="/flatpickr/flatpickr.min.css" rel="stylesheet">
+    <link href="../vendors/glightbox/glightbox.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link href="css/simplebar/simplebar.min.css" rel="stylesheet">
+    <link href="../vendors/simplebar/simplebar.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link href="css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
-    <link href="css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
-    <link href="css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
-    <link href="css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link href="../assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="../assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+    <link href="../assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="../assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
     <script>
       var phoenixIsRTL = window.config.config.phoenixIsRTL;
       if (phoenixIsRTL) {
@@ -69,12 +68,11 @@
             document.querySelector('body').classList.add(`navbar-${navbarStyle}`);
           }
         </script>
-
     <!-- ===============================================-->
     <!--    Side navigation-->
     <!-- ===============================================-->
     <?php include('side-nav/side_nav.php');?>
-    
+
         <div class="navbar-vertical-footer"><button class="btn navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center"><span class="uil uil-left-arrow-to-left fs-8"></span><span class="uil uil-arrow-from-right fs-8"></span><span class="navbar-vertical-footer-text ms-2">Collapsed View</span></button></div>
       </nav>
       <nav class="navbar navbar-top fixed-top navbar-expand" id="navbarDefault" style="display:none;">
@@ -83,7 +81,7 @@
             <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
             <a class="navbar-brand me-1 me-sm-3" href="../index.html">
               <div class="d-flex align-items-center">
-                <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
+                <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
                   <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                 </div>
               </div>
@@ -114,14 +112,14 @@
                   <hr class="my-0" />
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
                   <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                      <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
+                      <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../assets/img/products/60x60/3.png" alt="" /></div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                       </div>
                     </a>
                     <a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                      <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
+                      <div class="file-thumbnail me-2"><img class="img-fluid" src="../assets/img/products/60x60/3.png" alt="" /></div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                         <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -163,7 +161,7 @@
                   <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
                   <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                       <div class="avatar avatar-l status-online  me-2 text-body">
-                        <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
+                        <img class="rounded-circle " src="../assets/img/team/40x40/10.webp" alt="" />
                       </div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
@@ -172,7 +170,7 @@
                     </a>
                     <a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                       <div class="avatar avatar-l  me-2 text-body">
-                        <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
+                        <img class="rounded-circle " src="../assets/img/team/40x40/12.webp" alt="" />
                       </div>
                       <div class="flex-1">
                         <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -218,7 +216,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -250,7 +248,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -265,7 +263,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -280,7 +278,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -295,7 +293,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -331,46 +329,46 @@
                 <div class="card bg-body-emphasis position-relative border-0">
                   <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                     <div class="row text-center align-items-center gx-0 gy-0">
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                         </a></div>
                     </div>
@@ -380,7 +378,7 @@
             </li>
             <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                 <div class="avatar avatar-l ">
-                  <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
+                  <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
                 </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -388,7 +386,7 @@
                   <div class="card-body p-0">
                     <div class="text-center pt-4 pb-3">
                       <div class="avatar avatar-xl ">
-                        <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                        <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                       </div>
                       <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                     </div>
@@ -443,7 +441,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -475,7 +473,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -490,7 +488,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -505,7 +503,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -520,7 +518,7 @@
                       <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                         <div class="d-flex align-items-center justify-content-between position-relative">
                           <div class="d-flex">
-                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                            <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                             <div class="flex-1 me-sm-3">
                               <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                               <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -556,46 +554,46 @@
                 <div class="card bg-body-emphasis position-relative border-0">
                   <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                     <div class="row text-center align-items-center gx-0 gy-0">
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                         </a></div>
-                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                      <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                           <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                         </a></div>
                     </div>
@@ -609,7 +607,7 @@
                   <div class="card-body p-0">
                     <div class="text-center pt-4 pb-3">
                       <div class="avatar avatar-xl ">
-                        <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                        <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                       </div>
                       <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                     </div>
@@ -644,7 +642,7 @@
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="../index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -796,7 +794,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../apps/chat.html">
+                <li><a class="dropdown-item active" href="../apps/chat.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
@@ -853,7 +851,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item active" href="../apps/calendar.html">
+                <li><a class="dropdown-item" href="../apps/calendar.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
@@ -1164,7 +1162,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -1196,7 +1194,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -1211,7 +1209,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1226,7 +1224,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1241,7 +1239,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1277,46 +1275,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -1326,7 +1324,7 @@
           </li>
           <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
-                <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
+                <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -1334,7 +1332,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -1514,7 +1512,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../apps/chat.html">
+                <li><a class="dropdown-item active" href="../apps/chat.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
@@ -1571,7 +1569,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item active" href="../apps/calendar.html">
+                <li><a class="dropdown-item" href="../apps/calendar.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
@@ -1882,7 +1880,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -1914,7 +1912,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -1929,7 +1927,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1944,7 +1942,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1959,7 +1957,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -1995,46 +1993,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -2048,7 +2046,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -2082,7 +2080,7 @@
           <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="../index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
                 <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
               </div>
             </div>
@@ -2234,7 +2232,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../apps/chat.html">
+                <li><a class="dropdown-item active" href="../apps/chat.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
@@ -2291,7 +2289,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item active" href="../apps/calendar.html">
+                <li><a class="dropdown-item" href="../apps/calendar.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
@@ -2602,7 +2600,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -2634,7 +2632,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -2649,7 +2647,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2664,7 +2662,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2679,7 +2677,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -2715,46 +2713,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -2764,7 +2762,7 @@
           </li>
           <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
-                <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
+                <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -2772,7 +2770,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -2952,7 +2950,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="../apps/chat.html">
+                <li><a class="dropdown-item active" href="../apps/chat.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                   </a></li>
                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
@@ -3009,7 +3007,7 @@
                       </a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item active" href="../apps/calendar.html">
+                <li><a class="dropdown-item" href="../apps/calendar.html">
                     <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                   </a></li>
               </ul>
@@ -3320,7 +3318,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -3352,7 +3350,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -3367,7 +3365,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3382,7 +3380,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3397,7 +3395,7 @@
                     <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                       <div class="d-flex align-items-center justify-content-between position-relative">
                         <div class="d-flex">
-                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                          <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                           <div class="flex-1 me-sm-3">
                             <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                             <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3433,46 +3431,46 @@
               <div class="card bg-body-emphasis position-relative border-0">
                 <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                   <div class="row text-center align-items-center gx-0 gy-0">
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                       </a></div>
-                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                    <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                         <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                       </a></div>
                   </div>
@@ -3486,7 +3484,7 @@
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
                     <div class="avatar avatar-xl ">
-                      <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                      <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                     </div>
                     <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                   </div>
@@ -3522,7 +3520,7 @@
               <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
               <a class="navbar-brand me-1 me-sm-3" href="../index.html">
                 <div class="d-flex align-items-center">
-                  <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
+                  <div class="d-flex align-items-center"><img src="../assets/img/icons/logo.png" alt="phoenix" width="27" />
                     <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
                   </div>
                 </div>
@@ -3553,14 +3551,14 @@
                     <hr class="my-0" />
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
                     <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                        <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
+                        <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../assets/img/products/60x60/3.png" alt="" /></div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                         </div>
                       </a>
                       <a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                        <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
+                        <div class="file-thumbnail me-2"><img class="img-fluid" src="../assets/img/products/60x60/3.png" alt="" /></div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                           <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -3602,7 +3600,7 @@
                     <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
                     <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                         <div class="avatar avatar-l status-online  me-2 text-body">
-                          <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
+                          <img class="rounded-circle " src="../assets/img/team/40x40/10.webp" alt="" />
                         </div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
@@ -3611,7 +3609,7 @@
                       </a>
                       <a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                         <div class="avatar avatar-l  me-2 text-body">
-                          <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
+                          <img class="rounded-circle " src="../assets/img/team/40x40/12.webp" alt="" />
                         </div>
                         <div class="flex-1">
                           <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -3657,7 +3655,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative read border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/30.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/30.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">10m</span></p>
@@ -3689,7 +3687,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="images/team/40x40/avatar.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/40x40/avatar.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Jessie Samson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10">1h</span></p>
@@ -3704,7 +3702,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/57.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/57.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Kiera Anderson</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>💬</span>Mentioned you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3719,7 +3717,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative unread border-bottom">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/59.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/59.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Herman Carter</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👤</span>Tagged you in a comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3734,7 +3732,7 @@
                         <div class="px-2 px-sm-3 py-3 notification-card position-relative read ">
                           <div class="d-flex align-items-center justify-content-between position-relative">
                             <div class="d-flex">
-                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="images/team/40x40/58.webp" alt="" /></div>
+                              <div class="avatar avatar-m status-online me-3"><img class="rounded-circle" src="../assets/img/team/40x40/58.webp" alt="" /></div>
                               <div class="flex-1 me-sm-3">
                                 <h4 class="fs-9 text-body-emphasis">Benjamin Button</h4>
                                 <p class="fs-9 text-body-highlight mb-2 mb-sm-3 fw-normal"><span class='me-1 fs-10'>👍</span>Liked your comment.<span class="ms-2 text-body-quaternary text-opacity-75 fw-bold fs-10"></span></p>
@@ -3770,46 +3768,46 @@
                   <div class="card bg-body-emphasis position-relative border-0">
                     <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
                       <div class="row text-center align-items-center gx-0 gy-0">
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/behance.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/behance.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-cloud.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-cloud.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/slack.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/slack.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/gitlab.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/gitlab.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/bitbucket.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/bitbucket.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-drive.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-drive.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/trello.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/trello.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/figma.webp" alt="" width="20" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/figma.webp" alt="" width="20" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/twitter.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/twitter.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/pinterest.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/pinterest.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/ln.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/ln.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-maps.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-maps.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/google-photos.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/google-photos.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                           </a></div>
-                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="images/nav-icons/spotify.webp" alt="" width="30" />
+                        <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#!"><img src="../assets/img/nav-icons/spotify.webp" alt="" width="30" />
                             <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                           </a></div>
                       </div>
@@ -3819,7 +3817,7 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                   <div class="avatar avatar-l ">
-                    <img class="rounded-circle " src="images/team/40x40/57.webp" alt="" />
+                    <img class="rounded-circle " src="../assets/img/team/40x40/57.webp" alt="" />
                   </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border" aria-labelledby="navbarDropdownUser">
@@ -3827,7 +3825,7 @@
                     <div class="card-body p-0">
                       <div class="text-center pt-4 pb-3">
                         <div class="avatar avatar-xl ">
-                          <img class="rounded-circle " src="images/team/72x72/57.webp" alt="" />
+                          <img class="rounded-circle " src="../assets/img/team/72x72/57.webp" alt="" />
                         </div>
                         <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
                       </div>
@@ -4002,7 +4000,7 @@
                         </a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item" href="../apps/chat.html">
+                  <li><a class="dropdown-item active" href="../apps/chat.html">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="message-square"></span>Chat</div>
                     </a></li>
                   <li class="dropdown"><a class="dropdown-item dropdown-toggle" id="email" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
@@ -4059,7 +4057,7 @@
                         </a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item active" href="../apps/calendar.html">
+                  <li><a class="dropdown-item" href="../apps/calendar.html">
                       <div class="dropdown-item-wrapper"><span class="me-2 uil" data-feather="calendar"></span>Calendar</div>
                     </a></li>
                 </ul>
@@ -4382,14 +4380,14 @@
                       <hr class="my-0" />
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Products</h6>
                       <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                          <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="images/products/60x60/3.png" alt="" /></div>
+                          <div class="file-thumbnail me-2"><img class="h-100 w-100 fit-cover rounded-3" src="../assets/img/products/60x60/3.png" alt="" /></div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">MacBook Air - 13″</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85">8GB Memory - 1.6GHz - 128GB Storage</span></p>
                           </div>
                         </a>
                         <a class="dropdown-item py-2 d-flex align-items-center" href="../apps/e-commerce/landing/product-details.html">
-                          <div class="file-thumbnail me-2"><img class="img-fluid" src="images/products/60x60/3.png" alt="" /></div>
+                          <div class="file-thumbnail me-2"><img class="img-fluid" src="../assets/img/products/60x60/3.png" alt="" /></div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">MacBook Pro - 13″</h6>
                             <p class="fs-10 mb-0 d-flex text-body-tertiary"><span class="fw-medium text-body-tertiary text-opactity-85 ms-2">30 Sep at 12:30 PM</span></p>
@@ -4431,7 +4429,7 @@
                       <h6 class="dropdown-header text-body-highlight fs-9 border-bottom border-translucent py-2 lh-sm">Members</h6>
                       <div class="py-2"><a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                           <div class="avatar avatar-l status-online  me-2 text-body">
-                            <img class="rounded-circle " src="images/team/40x40/10.webp" alt="" />
+                            <img class="rounded-circle " src="../assets/img/team/40x40/10.webp" alt="" />
                           </div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">Carry Anna</h6>
@@ -4440,7 +4438,7 @@
                         </a>
                         <a class="dropdown-item py-2 d-flex align-items-center" href="../pages/members.html">
                           <div class="avatar avatar-l  me-2 text-body">
-                            <img class="rounded-circle " src="images/team/40x40/12.webp" alt="" />
+                            <img class="rounded-circle " src="../assets/img/team/40x40/12.webp" alt="" />
                           </div>
                           <div class="flex-1">
                             <h6 class="mb-0 text-body-highlight title">John Smith</h6>
@@ -4569,26 +4567,2634 @@
         }
       </script>
       <div class="content">
-        <div class="row g-0 mb-4 align-items-center">
-          <div class="col-5 col-md-6">
-            <h4 class="mb-0 text-body-emphasis fw-bold fs-md-6"><span class="calendar-day d-block d-md-inline mb-1"></span><span class="px-3 fw-thin text-body-quaternary d-none d-md-inline">|</span><span class="calendar-date"></span></h4>
-          </div>
-          <div class="col-7 col-md-6 d-flex justify-content-end"><button class="btn btn-link text-body px-0 me-2 me-md-4"><span class="fa-solid fa-sync fs-10 me-2"></span><span class="d-none d-md-inline">Sync Now</span></button><button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#addEventModal"> <span class="fas fa-plus pe-2 fs-10"></span>Add new task </button></div>
-        </div>
-        <div class="mx-n4 px-4 mx-lg-n6 px-lg-6 border-y border-translucent">
-          <div class="row py-3 gy-3 gx-0">
-            <div class="col-6 col-md-4 order-1 d-flex align-items-center"><button class="btn btn-sm btn-phoenix-primary px-4" data-event="today">Today</button></div>
-            <div class="col-12 col-md-4 order-md-1 d-flex align-items-center justify-content-center"><button class="btn icon-item icon-item-sm shadow-none text-body-emphasis p-0" type="button" data-event="prev" title="Previous"><span class="fas fa-chevron-left"></span></button>
-              <h3 class="px-3 text-body-emphasis fw-semibold calendar-title mb-0"> </h3><button class="btn icon-item icon-item-sm shadow-none text-body-emphasis p-0" type="button" data-event="next" title="Next"><span class="fas fa-chevron-right"></span></button>
+        <div class="chat d-flex phoenix-offcanvas-container pt-1 mt-n1 mb-9">
+          <div class="card p-3 p-xl-1 mt-xl-n1 chat-sidebar me-3 phoenix-offcanvas phoenix-offcanvas-start" id="chat-sidebar"><button class="btn d-none d-sm-block d-xl-none mb-2" data-bs-toggle="modal" data-bs-target="#chatSearchBoxModal"><span class="fa-solid fa-magnifying-glass text-body-tertiary text-opacity-85 fs-7"></span></button>
+            <div class="d-none d-sm-block d-xl-none mb-5"><button class="btn w-100 mx-auto" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-bars text-body-tertiary text-opacity-85 fs-7"></span></button>
+              <ul class="dropdown-menu dropdown-menu-end p-0">
+                <li><a class="dropdown-item" href="#!">All</a></li>
+                <li><a class="dropdown-item" href="#!">Read</a></li>
+                <li><a class="dropdown-item" href="#!">Unread</a></li>
+              </ul>
             </div>
-            <div class="col-6 col-md-4 ms-auto order-1 d-flex justify-content-end">
-              <div>
-                <div class="btn-group btn-group-sm" role="group"><button class="btn btn-phoenix-secondary active-view" data-fc-view="dayGridMonth">Month</button><button class="btn btn-phoenix-secondary" data-fc-view="timeGridWeek">Week</button></div>
+            <div class="form-icon-container mb-4 d-sm-none d-xl-block"><input class="form-control form-icon-input" type="text" placeholder="People, Groups and Messages" /><span class="fas fa-user text-body fs-9 form-icon"></span></div>
+            <ul class="nav nav-phoenix-pills mb-5 d-sm-none d-xl-flex" id="contactListTab" data-chat-thread-tab="data-chat-thread-tab" role="tablist">
+              <li class="nav-item" role="presentation"><a class="nav-link cursor-pointer active" data-bs-toggle="tab" data-chat-thread-list="all" role="tab" aria-selected="true">All</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link cursor-pointer" data-bs-toggle="tab" role="tab" data-chat-thread-list="read" aria-selected="false">Read</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link cursor-pointer" data-bs-toggle="tab" role="tab" data-chat-thread-list="unread" aria-selected="false">Unread</a></li>
+            </ul>
+            <div class="scrollbar">
+              <div class="tab-content" id="contactListTabContent">
+                <div data-chat-thread-tab-content="data-chat-thread-tab-content">
+                  <ul class="nav chat-thread-tab flex-column list">
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  active" data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-1" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/20.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Sharuka Nijibum</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Just now</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">This is a message from you</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-2" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/29.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Urito Nisemuno</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 11 PM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">Say Hi to your new friend now</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-3" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/30.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Xiang Ledepisipang</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 10 PM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">We can also discuss prese....</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item unread" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2 unread " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-4" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/25.webp" alt="" /><span class="bg-primary rounded-circle top-0 end-0 position-absolute text-white d-flex flex-center fs-10 fw-semibold d-none d-sm-flex d-xl-none lh-1" style="height: 1rem; width: 1rem;">3</span></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Abshini Thipano</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 10 PM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">WHAT!</p><span class="badge badge-phoenix badge-phoenix-primary px-1 unread-badge">3+</span>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-5" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/15.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Nenko Nimitanip</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 9 PM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">Nenko sent an attachment</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item unread" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2 unread " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-6" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/59.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Shanito Bistroglini</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 1 PM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">https://youtu.be/dQw4w9WgXcQ</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-7" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Misthoni Trepalnano</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 11 AM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">You shared an album</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-8" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/1.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Zogidi Lishang</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 10 AM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">Reacted ❤️ to your photo</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-9" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/6.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Nonteporano Lepat</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 10 AM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">Thanks for understanding. I will forever be in debt</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-10" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/60.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Jessica Ball</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 10 AM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">Thanks for understanding. I will forever be in debt</p>
+                          </div>
+                        </div>
+                      </a></li>
+                    <li class="nav-item read" role="presentation"><a class="nav-link d-flex align-items-center justify-content-center p-2  " data-bs-toggle="tab" data-chat-thread="data-chat-thread" href="#tab-thread-11" role="tab" aria-selected="true">
+                        <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/57.webp" alt="" /></div>
+                        <div class="flex-1 d-sm-none d-xl-block">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="text-body fw-normal name text-nowrap">Harley Brown</h5>
+                            <p class="fs-10 text-body-tertiary text-opacity-85 mb-0 text-nowrap">Yesterday, 10 AM</p>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <p class="fs-9 mb-0 line-clamp-1 text-body-tertiary text-opacity-85 message">Thanks for understanding. I will forever be in debt</p>
+                          </div>
+                        </div>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="chat-content tab-content flex-1">
+            <div class="tab-pane h-100 fade active show" id="tab-thread-1" role="tabpanel" aria-labelledby="tab-thread-1">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-0"><span class="line-clamp-1">Sharuka Nijibum</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">I have got a date at a quarter to eight; I’ll see you at the gate, so don’t be late.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">This is a message from you</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">You know New York, you need New York, you know you need a unique New York.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Willie’s really weary.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Eddie edited it.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2 w-min-content">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Yes, in an organization stature</p><a href="../assets/img/chat/1.png" data-gallery="gallery-undefined"><img class="rounded-2 fit-cover mt-1" src="../assets/img/chat/1.png" alt="" style="max-width: 200px;" /></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">If Peter Piper picked a peck of pickled peppers, where’s the peck of pickled peppers Peter Piper picked?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/20.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-0"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-0" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-0"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-0" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-0">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/20.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Sharuka Nijibum</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-2" role="tabpanel" aria-labelledby="tab-thread-2">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-1"><span class="line-clamp-1">Urito Nisemuno</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">However, the shot Shott shot shot not Shott, but Nott.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/29.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">But if the shot Shott shot shot Shott, then Shott was shot, not Nott.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">If the shot Shott shot shot Nott, Nott was shot.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/29.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">But Shott says he shot Nott. Either the shot Shott shot at Nott was not shot, Or Nott was shot.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Some say Nott was not shot. But Shott says he shot Nott.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content gallery" data-bs-theme="light">
+                              <p class="mb-0"></p>
+                              <div class="row g-2 mt-0">
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/13.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/13.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/2.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/2.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/3.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/3.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/4.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/4.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/5.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/5.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/6.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/6.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/7.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/7.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/8.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/8.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/9.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/9.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/10.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/10.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/11.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/11.png" alt="" /></a></div>
+                                <div class="col-6 col-md-4 ol-xl-2 col-xl-3"><a href="../assets/img/chat/12.png" data-gallery="gallery-undefined"> <img class="rounded-2 fit-cover img-fluid" src="../assets/img/chat/12.png" alt="" /></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/29.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Ned Nott was shot and Sam Shott was not. So it is better to be Shott than Nott.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-1"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-1" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-1"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-1" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-1">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/29.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Urito Nisemuno</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-3" role="tabpanel" aria-labelledby="tab-thread-3">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-2"><span class="line-clamp-1">Xiang Ledepisipang</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/30.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">A tree-toad loved a she-toad who lived up in a tree. He was a two-toed tree-toad, but a three-toed toad was she. The two-toed tree-toad tried to win the three-toed she-toad’s heart, for the two-toed tree-toad loved the ground that the three-toed tree-toad trod. But the two-toed tree-toad tried in vain; he couldn’t please her whim. From her tree-toad bower, with her three-toed power, the she-toad vetoed him.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-2"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-2" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-2"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-2" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-2">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/30.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Xiang Ledepisipang</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-4" role="tabpanel" aria-labelledby="tab-thread-4">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-3"><span class="line-clamp-1">Abshini Thipano</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">An anchor, right?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">A cold. But what do you throw out when you want to use it but take in when you don’t want to use it?</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Well tell me what I am if I can never be thrown but I can be caught. Ways to lose me are always being sought.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">A coin, or what?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">A river. But I have a head and a tail that will never meet. Having too many of me is always a treat. What am I?</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">What runs, but never walks. Murmurs, but never talks. Has a bed, but never sleeps. And has a mouth, but never eats?</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/25.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Hello, I’m Doctor Triple A! How can I help?</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-3"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-3" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-3"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-3" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-3">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/25.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Abshini Thipano</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-5" role="tabpanel" aria-labelledby="tab-thread-5">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-4"><span class="line-clamp-1">Nenko Nimitanip</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">When a doctor doctors a doctor, does the doctor doing the doctoring doctor as the doctor being doctored wants to be doctored or does the doctor doing the doctoring doctor as he wants to doctor?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-4"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-4" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-4"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-4" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-4">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/15.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Nenko Nimitanip</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-6" role="tabpanel" aria-labelledby="tab-thread-6">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-5"><span class="line-clamp-1">Shanito Bistroglini</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/59.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Well… check the attached file for answer, man!</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">When a doctor doctors a doctor, does the doctor doing the doctoring doctor as the doctor being doctored wants to be doctored or does the doctor doing the doctoring doctor as he wants to doctor?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-5"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-5" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-5"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-5" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-5">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/59.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Shanito Bistroglini</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-7" role="tabpanel" aria-labelledby="tab-thread-7">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-6"><span class="line-clamp-1">Misthoni Trepalnano</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">So See’s saw sawed Soar’s seesaw. But it was sad to see Soar so sore just because See’s saw sawed Soar’s seesaw.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Had Soar seen See’s saw before See sawed Soar’s seesaw, See’s saw would not have sawed Soar’s seesaw.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Mr. See owned a saw. And Mr. Soar owned a seesaw. Now, See’s saw sawed Soar’s seesaw before Soar saw See, which made Soar sore.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-6"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-6" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-6"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-6" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-6">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle avatar-placeholder" src="../assets/img/team/avatar.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Misthoni Trepalnano</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-8" role="tabpanel" aria-labelledby="tab-thread-8">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-7"><span class="line-clamp-1">Zogidi Lishang</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/1.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Brisk brave brigadiers brandished broad bright blades, blunderbusses, and bludgeons—balancing them badly.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Ingenious iguanas improvising an intricate impromptu on impossibly-impractical instruments.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Green glass globes glow greenly.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/1.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">I slit the sheet, the sheet I slit, and on the slitted sheet I sit.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Perspicacious Polly Perkins purchased Peter’s product and peddled pickles to produce a pretty profit!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-7"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-7" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-7"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-7" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-7">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/1.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Zogidi Lishang</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-9" role="tabpanel" aria-labelledby="tab-thread-9">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-8"><span class="line-clamp-1">Nonteporano Lepat</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">The longest book title is made up of 3,777 words. I don’t wanna write it down for you, go find it!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/6.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Well…no?</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Well… I know a uniquely long title. Do you know which has it?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/6.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Victor Hugo’s &quot;Les Miserables&quot; contains an 823 word sentence, and hopefully no one elese will write longer to break the record.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0"> I dunno! Guess ‘tis not easy to read and count the words!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/6.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">which book do you remember to have the longest possible sentence? </p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-8"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-8" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-8"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-8" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-8">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/6.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Nonteporano Lepat</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-10" role="tabpanel" aria-labelledby="tab-thread-10">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-9"><span class="line-clamp-1">Jessica Ball</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/60.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Cows kill more people than sharks!</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Whaat?!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/60.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Hard to believe, but true. Sharks kill an average of 5 people per year while cows kill an average of 22 people per year.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">But in fact, humans are more deadly to sharks than they are to humans. Humans kill about 100 million sharks per year!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/60.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Also, what?!</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-9"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-9" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-9"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-9" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-9">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/60.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Jessica Ball</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane h-100 fade" id="tab-thread-11" role="tabpanel" aria-labelledby="tab-thread-11">
+              <div class="card flex-1 h-100 phoenix-offcanvas-container">
+                <div class="card-header p-3 p-md-4 d-flex flex-between-center">
+                  <div class="d-flex align-items-center"><button class="btn ps-0 pe-2 text-body-tertiary d-sm-none" data-phoenix-toggle="offcanvas" data-phoenix-target="#chat-sidebar"><span class="fa-solid fa-chevron-left"></span></button>
+                    <div class="d-flex flex-column flex-md-row align-items-md-center"><button class="btn fs-7 fw-semibold text-body-emphasis d-flex align-items-center p-0 me-3 text-start" data-phoenix-toggle="offcanvas" data-phoenix-target="#thread-details-10"><span class="line-clamp-1">Harley Brown</span><span class="fa-solid fa-chevron-down ms-2 fs-10"></span></button>
+                      <p class="fs-9 mb-0 me-2"> <span class="fa-solid fa-circle text-success fs-11 me-2"></span>Active now</p>
+                    </div>
+                  </div>
+                  <div class="d-flex"><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-phone"></span></button><button class="btn btn-icon btn-primary me-1"><span class="fa-solid fa-video"></span></button><button class="btn btn-icon btn-phoenix-primary" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fa-solid fa-ellipsis-vertical"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-end p-0">
+                      <li><a class="dropdown-item" href="#!">Add to favourites</a></li>
+                      <li><a class="dropdown-item" href="#!">View profile</a></li>
+                      <li><a class="dropdown-item" href="#!">Report</a></li>
+                      <li><a class="dropdown-item" href="#!">Manage notifications</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-body p-3 p-sm-4 scrollbar">
+                  <!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">OMG! I should leave my dietitian and ask for some advice from the Sun God then!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/57.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">And the Sun loses a billion kilos per second.</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">And know what I heard? Neptune has only completed one orbit around the Sun since its discovery!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/57.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Oh yeah! It contains enough alcohol to supply every person on the planet with 300,000 pints of beer per day for the next billion years!</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div><!-- need to check chat message content-->
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 justify-content-end flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex flex-end-center hover-actions-trigger">
+                          <div class="d-sm-none hover-actions align-self-center me-2 start-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-pen-to-square text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                          <div class="chat-message-content me-2">
+                            <div class="mb-1 sent-message-content bg-primary rounded-2 p-3 text-white" data-bs-theme="light">
+                              <p class="mb-0">Really?! </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-end">
+                          <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold">Yesterday, 10 AM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex chat-message">
+                    <div class="d-flex mb-2 flex-1">
+                      <div class="w-100 w-xxl-75">
+                        <div class="d-flex hover-actions-trigger">
+                          <div class="avatar avatar-m me-3 flex-shrink-0"><img class="rounded-circle" src="../assets/img/team/57.webp" alt="" /></div>
+                          <div class="chat-message-content received me-2">
+                            <div class="mb-1 received-message-content border rounded-2 p-3">
+                              <p class="mb-0">Clouds at the centre of the Milky Way smell of rum, taste of raspberries and are packed with booze!</p>
+                            </div>
+                          </div>
+                          <div class="d-none d-sm-flex">
+                            <div class="hover-actions position-relative align-self-center me-2"><button class="btn p-2 fs-10"><span class="fa-solid fa-reply"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-trash"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-share"></span></button><button class="btn p-2 fs-10"><span class="fa-solid fa-face-smile"></span></button></div>
+                          </div>
+                          <div class="d-sm-none hover-actions align-self-center me-2 end-0">
+                            <div class="bg-body-emphasis rounded-pill d-flex align-items-center border px-2 actions"><button class="btn p-2" type="button"><span class="fa-solid fa-reply text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-trash text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-share text-primary"></span></button><button class="btn p-2" type="button"><span class="fa-solid fa-face-smile text-primary"></span></button></div>
+                          </div>
+                        </div>
+                        <p class="mb-0 fs-10 text-body-tertiary text-opacity-85 fw-semibold ms-7">Yesterday, 10 AM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="chat-textarea outline-none scrollbar mb-1" contenteditable="true"></div>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div><button class="btn btn-link py-0 ps-0 pe-2 text-body fs-9 btn-emoji" data-picmo="data-picmo"><span class="fa-regular fa-face-smile"></span></button><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatPhotos-10"><span class="fa-solid fa-image"></span></label><input class="d-none" type="file" accept="image/*" id="chatPhotos-10" /><label class="btn btn-link py-0 px-2 text-body fs-9" for="chatAttachment-10"> <span class="fa-solid fa-paperclip"></span></label><input class="d-none" type="file" id="chatAttachment-10" /><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-microphone"></span></button><button class="btn btn-link py-0 px-2 text-body fs-9"><span class="fa-solid fa-ellipsis"></span></button></div>
+                    <div><button class="btn btn-primary fs-10" type="button">Send<span class="fa-solid fa-paper-plane ms-1"></span></button></div>
+                  </div>
+                </div>
+                <div class="phoenix-offcanvas phoenix-offcanvas-top h-100 w-100 bg-body-emphasis scrollbar z-index-0 rounded" id="thread-details-10">
+                  <div class="border-bottom border-translucent p-4">
+                    <div class="d-flex flex-between-center"><button class="btn p-0" data-phoenix-dismiss="offcanvas"><span class="fa-solid fa-chevron-left text-body-tertiary"></span></button><button class="btn p-0 btn-reveal dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-v text-body-tertiary"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <div class="avatar avatar-4xl mb-2"><img class="rounded-circle border border-2 border-light-subtle" src="../assets/img/team/57.webp" alt="" /></div>
+                      <h4 class="fw-semibold mb-3">Harley Brown</h4>
+                      <div class="d-flex"><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-phone"></span></button><button class="btn btn-primary btn-icon fs-10 me-1"><span class="fas fa-video"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10"><span class="fas fa-search"></span></button></div>
+                    </div>
+                  </div>
+                  <div class="p-4 px-sm-5 scrollbar"><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-user-pen me-3"></span>Nickname</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-palette me-3"></span>Change Color</button><button class="btn d-block p-0 fw-semibold mb-5"><span class="fa-solid fa-user-plus me-3"></span>Create Group Chat</button>
+                    <div class="d-flex mb-5"><span class="fa-solid fa-photo-film me-3 fs-9"></span>
+                      <div>
+                        <h6 class="fw-semibold mb-2">Shared Media</h6>
+                        <div class="row g-2">
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/3.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/3.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/4.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/4.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/5.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/5.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/6.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/6.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/7.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/7.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/8.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/8.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/9.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/9.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/10.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/10.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/11.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/11.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/12.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/12.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/13.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/13.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/14.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/14.png" alt="" height="100" width="100" /></a></div>
+                          <div class="col-auto"><a href="../assets/img/chat/2.png" data-gallery="gallery"> <img class="fit-cover rounded-2 bg-body-secondary-hover" src="../assets/img/chat/2.png" alt="" height="100" width="100" /></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-5">
+                      <div class="d-flex"><span class="fa-solid fa-folder me-3 fs-9"></span>
+                        <div class="flex-1">
+                          <h6 class="fw-semibold border-bottom border-translucent pb-2 mb-0">Shared Files</h6>
+                          <div class="mb-2">
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-zipper"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">zip</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Federico_godarf_design.zip</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">53.34 MB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 8, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-code"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">bat</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Restart_lyf.bat</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-lines"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">txt</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Fake lorem ipsum fr fr.txt</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                            <div class="border-bottom border-translucent d-flex align-items-center justify-content-between"><a class="text-decoration-none d-flex align-items-center py-3" href="#!">
+                                <div class="btn-icon btn-icon-lg border rounded-3 text-body-quaternary flex-column me-2"><span class="fs-8 mb-1 fa-solid fa-file-circle-exclamation"></span>
+                                  <p class="mb-0 fs-10 fw-bold lh-1">mad</p>
+                                </div>
+                                <div class="flex-1">
+                                  <h6 class="text-body line-clamp-1">Unsupported file format.mad</h6>
+                                  <div class="d-flex align-items-center lh-1">
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">11.13 KB</p><span class="fa-solid fa-circle text-body-quaternary fs-10" data-fa-transform="shrink-12"></span>
+                                    <p class="fs-10 mb-0 text-body-tertiary fw-semibold">Dec 2, 2011</p>
+                                  </div>
+                                </div>
+                              </a><button class="btn p-0"><span class="fa-regular fa-arrow-alt-circle-down fs-8 text-body-tertiary"></span></button></div>
+                          </div><a class="btn btn-link fs-10 p-0" href="#!">See 19 more <span class="fa-solid fa-chevron-down ms-1"></span></a>
+                        </div>
+                      </div>
+                    </div><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-bell-slash me-3"></span>Mute Conversation</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-gear me-3"></span>Manage Settings</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-hand-holding-heart me-3"></span>Get help</button><button class="btn d-block p-0 fw-semibold mb-3"><span class="fa-solid fa-flag me-3"></span>Report Account</button><button class="btn d-block p-0 fw-semibold"><span class="fa-solid fa-ban me-3"></span>Block Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phoenix-offcanvas-backdrop d-lg-none" data-phoenix-backdrop="data-phoenix-backdrop" style="top: 0;"></div>
+          <div class="modal fade" id="chatSearchBoxModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="true" data-phoenix-modal="data-phoenix-modal" style="--phoenix-backdrop-opacity: 1;">
+            <div class="modal-dialog">
+              <div class="modal-content mt-15">
+                <div class="modal-body p-0">
+                  <div class="chat-search-box">
+                    <div class="form-icon-container"><input class="form-control py-3 form-icon-input rounded-1" type="text" autofocus="autofocus" placeholder="Search People, Groups and Messages" /><span class="fa-solid fa-magnifying-glass fs-9 form-icon"></span></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="calendar-outline mt-6 mb-9" id="appCalendar"></div>
         <footer class="footer position-absolute">
           <div class="row g-0 justify-content-between align-items-center h-100">
             <div class="col-12 col-sm-auto text-center">
@@ -4599,65 +7205,6 @@
             </div>
           </div>
         </footer>
-      </div>
-      <div class="modal fade" id="eventDetailsModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content border border-translucent"></div>
-        </div>
-      </div>
-      <div class="modal fade" id="addEventModal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content border border-translucent">
-            <form id="addEventForm" autocomplete="off">
-              <div class="modal-header px-card border-0">
-                <div class="w-100 d-flex justify-content-between align-items-start">
-                  <div>
-                    <h5 class="mb-0 lh-sm text-body-highlight">Add new</h5>
-                    <div class="mt-2">
-                      <div class="form-check form-check-inline"><input class="form-check-input" id="inlineRadio1" type="radio" name="calendarTask" checked="checked" /><label class="form-check-label" for="inlineRadio1">Event</label></div>
-                      <div class="form-check form-check-inline"> <input class="form-check-input" id="inlineRadio2" type="radio" name="calendarTask" /><label class="form-check-label" for="inlineRadio2">Task</label></div>
-                    </div>
-                  </div><button class="btn p-1 fs-10 text-body" type="button" data-bs-dismiss="modal" aria-label="Close">DISCARD </button>
-                </div>
-              </div>
-              <div class="modal-body p-card py-0">
-                <div class="form-floating mb-3"><input class="form-control" id="eventTitle" type="text" name="title" required="required" placeholder="Event title" /><label for="eventTitle">Title</label></div>
-                <div class="form-floating mb-5"><select class="form-select" id="eventLabel" name="label">
-                    <option value="primary" selected="selected">Business</option>
-                    <option value="secondary">Personal</option>
-                    <option value="success">Meeting</option>
-                    <option value="danger">Birthday</option>
-                    <option value="info">Report</option>
-                    <option value="warinng">Must attend</option>
-                  </select><label for="eventLabel">Label</label></div>
-                <div class="flatpickr-input-container mb-3">
-                  <div class="form-floating"><input class="form-control datetimepicker" id="eventStartDate" type="text" name="startDate" placeholder="yyyy/mm/dd hh:mm" data-options='{"disableMobile":true,"enableTime":"true","dateFormat":"Y-m-d H:i"}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span><label class="ps-6" for="eventStartDate">Starts at</label></div>
-                </div>
-                <div class="flatpickr-input-container mb-3">
-                  <div class="form-floating"><input class="form-control datetimepicker" id="eventEndDate" type="text" name="endDate" placeholder="yyyy/mm/dd hh:mm" data-options='{"disableMobile":true,"enableTime":"true","dateFormat":"Y-m-d H:i"}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span><label class="ps-6" for="eventEndDate">Ends at</label></div>
-                </div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="eventAllDay" name="allDay" /><label class="form-check-label" for="eventAllDay">All day event </label></div>
-                <div class="form-floating my-5"><textarea class="form-control" id="eventDescription" placeholder="Leave a comment here" name="description" style="height: 128px"></textarea><label for="eventDescription">Description</label></div>
-                <div class="form-floating mb-3"><select class="form-select" id="eventRepetition" name="repetition">
-                    <option value="" selected="selected">No Repeat</option>
-                    <option value="daily">Daily </option>
-                    <option value="deekly">Weekly</option>
-                    <option value="monthly">Monthly</option>
-                    <option value="dailyExceptHolidays">Daily (except holidays)</option>
-                    <option value="custom">Custom</option>
-                  </select><label for="eventRepetition">Repetition</label></div>
-                <div class="form-floating mb-3"><select class="form-select" id="eventReminder" name="reminder">
-                    <option value="" selected="selected">30 minutes earlier</option>
-                    <option value="">8 am on the day</option>
-                    <option value="">8 am on the day before</option>
-                    <option value="">2 days earlier</option>
-                    <option value="">a week earlier</option>
-                  </select><label for="eventReminder">Reminder</label></div><button class="btn btn-link p-0 mb-3" type="button"> <span class="fa-solid fa-plus me-2"></span>Add Reminder</button>
-              </div>
-              <div class="modal-footer d-flex justify-content-between align-items-center border-0"><a class="me-3 fs-9 text-body" href="../apps/events/create-an-event.html">More options<span class="fas fa-angle-right ms-1 fs-10"></span></a><button class="btn btn-primary px-4" type="submit">Save</button></div>
-            </form>
-          </div>
-        </div>
       </div>
       <div class="support-chat-container">
         <div class="container-fluid support-chat">
@@ -4680,7 +7227,7 @@
                     <p class="mb-0 fw-semibold fs-9">My payment method not working</p><span class="fa-solid fa-paper-plane text-primary fs-9 ms-3"></span>
                   </a></div>
                 <div class="text-center mt-auto">
-                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="images/team/30.webp" alt="" /></div>
+                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="../assets/img/team/30.webp" alt="" /></div>
                   <h5 class="mt-2 mb-3">Eric</h5>
                   <p class="text-center text-body-emphasis mb-0">Ask us anything – we’ll get back to you here or by email within 24 hours.</p>
                 </div>
@@ -4709,9 +7256,9 @@
         <div class="setting-panel-item mt-0">
           <h5 class="setting-panel-item-title">Color Scheme</h5>
           <div class="row gx-2">
-            <div class="col-4"><input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/generic/default-light.png" alt=""/></span><span class="label-text">Light</span></label></div>
-            <div class="col-4"><input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/generic/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label></div>
-            <div class="col-4"><input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="images/generic/auto.png" alt=""/></span><span class="label-text"> Auto</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherLight" name="theme-color" type="radio" value="light" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherLight"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/default-light.png" alt=""/></span><span class="label-text">Light</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherDark" name="theme-color" type="radio" value="dark" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherDark"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text"> Dark</span></label></div>
+            <div class="col-4"><input class="btn-check" id="themeSwitcherAuto" name="theme-color" type="radio" value="auto" data-theme-control="phoenixTheme" /><label class="btn d-inline-block btn-navbar-style fs-9" for="themeSwitcherAuto"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype mb-0" src="../assets/img/generic/auto.png" alt=""/></span><span class="label-text"> Auto</span></label></div>
           </div>
         </div>
         <div class="border border-translucent rounded-3 p-4 setting-panel-item bg-body-emphasis">
@@ -4731,31 +7278,31 @@
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Navigation Type</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="images/generic/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="images/generic/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionVertical" name="navigation-type" type="radio" value="vertical" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionVertical"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/default-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/default-dark.png" alt=""/></span><span class="label-text">Vertical</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionHorizontal" name="navigation-type" type="radio" value="horizontal" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionHorizontal"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text"> Horizontal</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionCombo" name="navigation-type" type="radio" value="combo" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionCombo"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/nav-combo-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/nav-combo-dark.png" alt=""/></span><span class="label-text"> Combo</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarPositionTopDouble" name="navigation-type" type="radio" value="dual-nav" data-theme-control="phoenixNavbarPosition" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarPositionTopDouble"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/dual-light.png" alt=""/><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/dual-dark.png" alt=""/></span><span class="label-text"> Dual nav</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Vertical Navbar Appearance</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="images/generic/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="images/generic/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="images/generic/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="images/generic/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbar-style-default" type="radio" name="config.name" value="default" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-default"> <img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/default-light.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/default-dark.png" alt="" /><span class="label-text d-dark-none"> Default</span><span class="label-text d-light-none">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbar-style-dark" type="radio" name="config.name" value="darker" data-theme-control="phoenixNavbarVerticalStyle" /><label class="btn d-block w-100 btn-navbar-style fs-9" for="navbar-style-dark"> <img class="img-fluid img-prototype d-dark-none" src="../assets/img/generic/vertical-darker.png" alt="" /><img class="img-fluid img-prototype d-light-none" src="../assets/img/generic/vertical-lighter.png" alt="" /><span class="label-text d-dark-none"> Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Horizontal Navbar Shape</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarShapeDefault" name="navbar-shape" type="radio" value="default" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-default-dark.png" alt=""/></span><span class="label-text">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarShapeSlim" name="navbar-shape" type="radio" value="slim" data-theme-control="phoenixNavbarTopShape" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarShapeSlim"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-slim.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-slim-dark.png" alt=""/></span><span class="label-text"> Slim</span></label></div>
           </div>
         </div>
         <div class="setting-panel-item">
           <h5 class="setting-panel-item-title">Horizontal Navbar Appearance</h5>
           <div class="row gx-2">
-            <div class="col-6"><input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label></div>
-            <div class="col-6"><input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="images/generic/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="images/generic/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarTopDefault" name="navbar-top-style" type="radio" value="default" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDefault"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/top-default.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-style-darker.png" alt=""/></span><span class="label-text">Default</span></label></div>
+            <div class="col-6"><input class="btn-check" id="navbarTopDarker" name="navbar-top-style" type="radio" value="darker" data-theme-control="phoenixNavbarTopStyle" /><label class="btn d-inline-block btn-navbar-style fs-9" for="navbarTopDarker"> <span class="mb-2 rounded d-block"><img class="img-fluid img-prototype d-dark-none mb-0" src="../assets/img/generic/navbar-top-style-light.png" alt=""/><img class="img-fluid img-prototype d-light-none mb-0" src="../assets/img/generic/top-style-lighter.png" alt=""/></span><span class="label-text d-dark-none">Darker</span><span class="label-text d-light-none">Lighter</span></label></div>
           </div>
         </div><a class="bun btn-primary d-grid mb-3 text-white mt-5 btn btn-primary" href="https://themes.getbootstrap.com/product/phoenix-admin-dashboard-webapp-template/" target="_blank">Purchase template</a>
       </div>
@@ -4770,20 +7317,21 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="/popper/popper.min.js"></script>
-    <script src="/bootstrap/bootstrap.min.js"></script>
-    <script src="/anchorjs/anchor.min.js"></script>
-    <script src="/is/is.min.js"></script>
-    <script src="/fontawesome/all.min.js"></script>
-    <script src="/lodash/lodash.min.js"></script>
+    <script src="../vendors/popper/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../vendors/is/is.min.js"></script>
+    <script src="../vendors/fontawesome/all.min.js"></script>
+    <script src="../vendors/lodash/lodash.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="/list.js/list.min.js"></script>
-    <script src="/feather-icons/feather.min.js"></script>
-    <script src="/dayjs/dayjs.min.js"></script>
-    <script src="/fullcalendar/main.min.js"></script>
-    <script src="/dayjs/dayjs.min.js"></script>
-    <script src="js/phoenix.js"></script>
-    <script src="js/calendar.js"></script>
+    <script src="../vendors/list.js/list.min.js"></script>
+    <script src="../vendors/feather-icons/feather.min.js"></script>
+    <script src="../vendors/dayjs/dayjs.min.js"></script>
+    <script src="../vendors/glightbox/glightbox.min.js"></script>
+    <script src="https://unpkg.com/picmo@5.7.6/dist/umd/index.js"></script>
+    <script src="https://unpkg.com/@picmo/popup-picker@5.7.6/dist/umd/index.js"></script>
+    <script src="../vendors/lottie/lottie.min.js"></script>
+    <script src="../assets/js/phoenix.js"></script>
   </body>
 
 </html>

@@ -25,11 +25,13 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/simplebar.min.js"></script>
     <script src="js/config.js"></script>
+    
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="css/choices.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.js" rel="stylesheet" />
     <link href="css/flatpickr.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -40,6 +42,7 @@
     <link href="css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
     <link href="css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
     <link href="css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    
     <script>
       var phoenixIsRTL = window.config.config.phoenixIsRTL;
       if (phoenixIsRTL) {
@@ -54,6 +57,7 @@
         linkRTL.setAttribute('disabled', true);
         userLinkRTL.setAttribute('disabled', true);
       }
+
     </script>
   </head>
 
@@ -4567,6 +4571,13 @@
         if (navbarVerticalStyle === 'darker') {
           navbarVertical.setAttribute('data-navbar-appearance', 'darker');
         }
+
+      function StaticBackdropModal() {
+      const [show, setShow] = useState(false);
+
+      const handleClose = () => setShow(false);
+      const handleShow = () => setShow(true);
+      }
       </script>
       <div class="content">
         <div class="mb-9">
@@ -5871,8 +5882,59 @@
                 </div>
               </div>
             </div>
-          </div><a class="fw-bold fs-9 mt-4" href="#!"><span class="fas fa-plus me-1"></span>Add new task</a>
+
+            <br>
+        <div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#verticallyCentered">Add Todo list</button>
+                      <div class="modal fade" id="verticallyCentered" tabindex="-1" aria-labelledby="verticallyCenteredModalLabel" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="verticallyCenteredModalLabel">Todo Form</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="mb-3">
+                                <label class="form-label" for="project type">Todo</label>
+                                <input class="form-control" id="project_type" type="text" placeholder="Enter Todo " />
+                            </div>
+                            <div class="mb-3">
+                              <!-- Multiple file upload -->
+                            <form class="dropzone dropzone-multiple p-0" id="dropzone-multiple" data-dropzone="data-dropzone" action="#!">
+  <div class="fallback"><input name="file" type="file" multiple="multiple" /></div>
+  <div class="dz-message" data-dz-message="data-dz-message"><img class="me-2" src="../../../assets/img/icons/cloud-upload.svg" width="25" alt="" />Drop your files here</div>
+  <div class="dz-preview dz-preview-multiple m-0 d-flex flex-column">
+    <div class="d-flex mb-3 pb-3 border-bottom border-translucent media">
+      <div class="border p-2 rounded-2 me-2"><img class="rounded-2 dz-image" src="../../../assets/img/icons/file.png" alt="..." data-dz-thumbnail="data-dz-thumbnail" /></div>
+      <div class="flex-1 d-flex flex-between-center">
+        <div>
+          <h6 data-dz-name="data-dz-name"></h6>
+          <div class="d-flex align-items-center">
+            <p class="mb-0 fs-9 text-body-quaternary lh-1" data-dz-size="data-dz-size"></p>
+            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress=""></span></div>
+          </div><span class="fs-10 text-danger" data-dz-errormessage="data-dz-errormessage"></span>
         </div>
+        <div class="dropdown"><button class="btn btn-link text-body-tertiary btn-sm dropdown-toggle btn-reveal dropdown-caret-none" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h"></span></button>
+          <div class="dropdown-menu dropdown-menu-end border border-translucent py-2"><a class="dropdown-item" href="#!" data-dz-remove="data-dz-remove">Remove File</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+
+              
+                                
+                            </div>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-primary" type="button">Okay</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                          </div>
+                        </div>
+                      </div>
+                    
+        </div>
+
+       
+
         <footer class="footer position-absolute">
           <div class="row g-0 justify-content-between align-items-center h-100">
             <div class="col-12 col-sm-auto text-center">
@@ -6007,6 +6069,7 @@
     <script src="js/dayjs.min.js"></script>
     <script src="js/choices.min.js"></script>
     <script src="js/phoenix.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.js" integrity="sha512-9e9rr82F9BPzG81+6UrwWLFj8ZLf59jnuIA/tIf8dEGoQVu7l5qvr02G/BiAabsFOYrIUTMslVN+iDYuszftVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 
 </html>
