@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>Phoenix</title>
+    <title>Project management system</title>
 
     <!-- ===============================================-->
     <!--    Favicons-->
@@ -80,8 +80,8 @@
             <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
             <a class="navbar-brand me-1 me-sm-3" href="../../index.php">
               <div class="d-flex align-items-center">
-                <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="phoenix" width="27" />
-                  <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
+                <div class="d-flex align-items-center"><img src="images/icons/logo.png" alt="" width="27" />
+                  <p class="logo-text ms-2 d-none d-sm-block">PMS</p>
                 </div>
               </div>
             </a>
@@ -4625,20 +4625,24 @@
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Software</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Dwaling with software development</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
-                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
+                        <div style="display: flex; align-items: center;">
+                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
+                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
+                        </div>
                     </td>
                   </tr>
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Hadware</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">For testing</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                       <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
-                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
+                        <div style="display: flex; align-items: center;">
+                          <button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
+                          <button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
+                        </div>
                     </td>
                   </tr>
     

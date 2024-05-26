@@ -58,11 +58,11 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">Project details</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Resources</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="budget-item.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Constant budget</span></div>
                         </a><!-- more inner pages-->
                       </li>
@@ -97,7 +97,7 @@
                 </div>
 
                <!-- Members -->
-               <div class="nav-item-wrapper"><a class="nav-link label-1" href="chat.php" role="button" data-bs-toggle="" aria-expanded="false">
+               <div class="nav-item-wrapper"><a class="nav-link label-1" href="team.php" role="button" data-bs-toggle="" aria-expanded="false">
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span data-feather="users"></span></span><span class="nav-link-text-wrapper"><span class="nav-link-text">Team</span></span></div>
                   </a>
 

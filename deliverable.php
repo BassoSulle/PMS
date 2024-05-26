@@ -4676,39 +4676,18 @@
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dfdf</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Planning document</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">The document that show the whole process</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">File</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Planning</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
-                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
-
-                        <!-- <button type="button" class="btn btn-warning"><i class=" fa fa-edit fa-1x "></i></button> -->
-                        <!-- <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button> -->
+                       <div style="display: flex; align-items: center;">
+                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
+                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
+                        </div>
                     </td>
                   </tr>
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
-                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
-                    </td>
-                  </tr>
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">3</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">wedfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">dffdfd</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                    <i class="far fa-edit fa-2x fa-fw" title="edit"></i>
-                        <i class="fa fa-trash fa-2x fa-fw" title="delete"></i>
-                    </td>
+                
 </tbody>
               </table>
             </div>

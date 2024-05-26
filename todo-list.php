@@ -4594,8 +4594,8 @@
                 <div class="d-flex ms-4 lh-1 align-items-center"><button class="btn btn-link p-0 text-body-tertiary fs-10 me-2"><span class="fas fa-paperclip me-1"></span>2</button>
                   <p class="text-body-tertiary fs-10 mb-md-0 me-2 me-md-3 mb-0">12 Nov, 2021</p>
                   <div class="d-none d-md-block end-0 position-absolute" style="top: 23%;">
-                    <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
-                  </div>
+                      <div class="hover-actions end-0"><button class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-event-propagation-prevent="data-event-propagation-prevent"><span class="fas fa-edit"></span></button><button class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button></div>
+                    </div>
                   <div class="hover-md-hide hover-lg-show hover-xl-hide">
                     <p class="text-body-tertiary fs-10 ps-md-3 border-start-md fw-bold mb-md-0 mb-0">12:00 PM</p>
                   </div>
