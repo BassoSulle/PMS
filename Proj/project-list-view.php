@@ -107,7 +107,7 @@
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="proj/index.php">Project Doughnut Dungeon</a></td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="#">Project Doughnut Dungeon</a></td>
                      <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="#">Project Descriptio</a></td>
                     <td class="align-middle white-space-nowrap deadline ps-3 py-4">
                       <p class="mb-0 fs-9 text-body">May 21, 2028</p>
