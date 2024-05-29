@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>PMS | Roles</title>
+    <title>PMS | Project Type</title>
     <?php include("top-style-script/script-link.php")?>
   </head>
 
@@ -38,27 +38,34 @@
      <?php include('top-nav/script-nav.php');?>
 
       <div class="content">
+
         <div class="mb-9">
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Roles</h2>
+                <h2 class="mb-0">Project Budget</h2>
               </div>
 
-         <!-- model -->
+         <!-- Model Project budget-->
               <div class="col">
-                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add new role</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Generate Budget</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;  margin-right: 10px;">+ Add new project Budget</button>
                       <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new role </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">Add Project cost Information </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label class="form-label" for="project type">role </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
+                                <label class="form-label" for="project type">Tax Name </label>
+                                <input class="form-control" id="project_type" type="text" placeholder="0" />
                             </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Price </label>
+                                <input class="form-control" id="description" type="text" placeholder="0" />
+                            </div>
+                            
                             </div>
                             <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
                           </div>
@@ -67,30 +74,23 @@
               </div>
             </div>
 
+
             <div class="table-responsive scrollbar">
               <table class="table fs-9 mb-0 border-top border-translucent">
                 <thead>
                   <tr>
                     <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">ROLE NAME</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">PRICE</th>        
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTION</th>
                 
                   </tr>
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Admi</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                    <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-bs-toggle="modal" data-bs-target="#EditRoleModel" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0" data-bs-toggle="modal" data-bs-target="#DeleteRoleModel"><span class="fas fa-trash"></span></button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Normal user</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">tax</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">300000</td>    
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
                        <div style="display: flex; align-items: center;">
                           <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
@@ -98,41 +98,9 @@
                         </div>
                     </td>
                   </tr>
-    
                 </tbody>
               </table>
             </div>
-
-        <!-- Model Edit Permision -->
-        <div class="modal fade" id="EditRoleModel" tabindex="-1" style="display: none;" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new role </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
-                            </div>
-                            <div class="modal-body">
-                            <div class="mb-3">
-                                <label class="form-label" for="project type">role </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
-                            </div>
-                            </div>
-                            <div class="modal-footer"><button class="btn btn-warning" type="button">Update</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
-                          </div>
-                        </div>
-                      </div>
-
-                </div>
-                <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
-                <div class="d-flex">
-                    <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
-                </div>
-                <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                    <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-                </div>
-                </div>
-            </div>
-           </div>
-
             <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
               <div class="d-flex">
                 <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
@@ -143,22 +111,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Model Delete  -->
-          <div class="modal fade" id="DeleteRoleModel" tabindex="-1" style="display: none;" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-body">
-                    <div class="mb-3">
-                    <h4>Are you sure you want to delete?</h4>
-                    </div>
-                    </div>
-                    <div class="modal-footer"><button class="btn btn-danger" type="button">Yes</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
-                    </div>
-                </div>
-            </div>
-        
-        
         
         <?php include('footer.php')?>
       </div>

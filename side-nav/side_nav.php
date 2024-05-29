@@ -73,7 +73,10 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">User list</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      
+                      <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
+                          <div class="d-flex align-items-center"><span class="nav-link-text">Role list</span></div>
+                        </a><!-- more inner pages-->
+                      </li>
                     
                     </ul>
                   </div>
@@ -133,7 +136,7 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">Role</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="permision.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="permission.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Permission</span></div>
                         </a><!-- more inner pages-->
                       </li>

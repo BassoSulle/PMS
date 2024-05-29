@@ -42,22 +42,34 @@
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Roles</h2>
+                <h2 class="mb-0">User Permission</h2>
               </div>
 
-         <!-- model -->
+             <!-- Model Create user permission -->
               <div class="col">
-                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add new role</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ user permission</button>
                       <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new role </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">Add permission to roles </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label class="form-label" for="project type">role </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
+                                <label class="form-label" for="deliverable">Role </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select role</option>
+                                    <option value="1">Admin</option>
+                                    <option value="2">Normal User</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox"  value=""
+                                    class="checkmail">  Can create user
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox"  value=""
+                                    class="checkmail">  Can delete user
                             </div>
                             </div>
                             <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
@@ -67,6 +79,7 @@
               </div>
             </div>
 
+            <!-- User Permission table list -->
             <div class="table-responsive scrollbar">
               <table class="table fs-9 mb-0 border-top border-translucent">
                 <thead>
@@ -83,43 +96,73 @@
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Admi</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
                     <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-bs-toggle="modal" data-bs-target="#EditRoleModel" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0" data-bs-toggle="modal" data-bs-target="#DeleteRoleModel"><span class="fas fa-trash"></span></button>
+                            <button title="View Permission" class="btn btn-phoenix-warning btn-icon me-1 fs-10 text-warning px-0"
+                             data-bs-toggle="modal" data-bs-target="#ViewPermissionModal" ><span class="fas fa-book-open"></span>
+                            </button>
+                            <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-primary px-0" 
+                            data-bs-toggle="modal" data-bs-target="#EditPermissionModal" ><span class="fas fa-edit"></span>
+                            </button>
+                             <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0 " 
+                             data-bs-toggle="modal" data-bs-target="#DeletePermissionModel"><span class="fas fa-trash"></span></button>
                         </div>
                     </td>
                   </tr>
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Normal user</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                       <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                        </div>
-                    </td>
-                  </tr>
-    
+               
                 </tbody>
               </table>
-            </div>
 
-        <!-- Model Edit Permision -->
-        <div class="modal fade" id="EditRoleModel" tabindex="-1" style="display: none;" aria-hidden="true">
+              <!-- Model View Permision  -->
+                      <div class="modal fade" id="ViewPermissionModal" tabindex="-1" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new role </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">User permission</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
-                            <div class="mb-3">
-                                <label class="form-label" for="project type">role </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
+                            <div class="form-group">
+                                <input type="checkbox"  value=""
+                                    class="checkmail">  Can create user
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox"  value=""
+                                    class="checkmail">  Can delete user
                             </div>
                             </div>
-                            <div class="modal-footer"><button class="btn btn-warning" type="button">Update</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                            <div class="modal-footer"><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Ok</button></div>
                           </div>
                         </div>
                       </div>
+              </div>
+
+            <!-- Model Edit Permision -->
+                <div class="modal fade" id="EditPermissionModal" tabindex="-1" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Edit User permission </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="mb-3">
+                            <label class="form-label" for="deliverable">Role </label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected="">Select role</option>
+                                <option value="1">Admin</option>
+                                <option value="2">Normal User</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox"  value=""
+                                class="checkmail">  Can create user
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox"  value=""
+                                class="checkmail">  Can delete user
+                        </div>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-warning" type="button">Update</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                        </div>
+                    </div>
+                    </div>
 
                 </div>
                 <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
@@ -131,21 +174,10 @@
                 </div>
                 </div>
             </div>
-           </div>
-
-            <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
-              <div class="d-flex">
-                <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
-              </div>
-              <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-              </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Model Delete  -->
-          <div class="modal fade" id="DeleteRoleModel" tabindex="-1" style="display: none;" aria-hidden="true">
+            <!-- Model Delete  -->
+            <div class="modal fade" id="DeletePermissionModel" tabindex="-1" style="display: none;" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-body">
@@ -158,9 +190,7 @@
                 </div>
             </div>
         
-        
-        
-        <?php include('footer.php')?>
+    <?php include('footer.php')?>
       </div>
       <div class="support-chat-container">
         <div class="container-fluid support-chat">
