@@ -178,7 +178,21 @@
       </script>
       <div class="content">
       <div class="row gy-3 mb-6 justify-content-between">
-        <div data-calendar="{&quot;events&quot;:[{&quot;title&quot;:&quot;Bootcamp&quot;,&quot;start&quot;:&quot;2024-05-07&quot;}]}" class="fc fc-media-screen fc-direction-ltr fc-theme-standard fc-liquid-hack">
+
+        <div data-calendar='{"events":[
+                      { "title": "Meeting with Bob", "start": "2024-05-03" },
+                      { "title": "Conference", "start": "2024-05-05" },
+                      { "title": "Project Deadline", "start": "2024-05-10" },
+                      { "title": "Doctor Appointment", "start": "2024-05-12" },
+                      { "title": "Team Building Event", "start": "2024-05-15" },
+                      { "title": "Webinar", "start": "2024-05-17" },
+                      { "title": "Client Presentation", "start": "2024-05-20" },
+                      { "title": "Office Party", "start": "2024-05-22" },
+                      { "title": "Annual Review", "start": "2024-05-25" },
+                      { "title": "Holiday", "start": "2024-05-28" }
+          ]}' 
+          
+          class="fc fc-media-screen fc-direction-ltr fc-theme-standard fc-liquid-hack">
           <div class="fc-header-toolbar fc-toolbar fc-toolbar-ltr">
               <div class="fc-toolbar-chunk">
                 <div class="fc-button-group"><button type="button" title="Previous Month" aria-pressed="false" class="fc-prev-button fc-button fc-button-primary"><span class="fc-icon fc-icon-chevron-left" role="img"></span></button><button type="button" title="Next Month" aria-pressed="false" class="fc-next-button fc-button fc-button-primary"><span class="fc-icon fc-icon-chevron-right" role="img"></span></button></div>
