@@ -88,10 +88,10 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">User list</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <!-- <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Role list</span></div>
-                        </a>
-                      </li> -->
+                        </a><!-- more inner pages-->
+                      </li>
                     
                     </ul>
                   </div>

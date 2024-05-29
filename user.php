@@ -118,11 +118,10 @@
                 <thead>
                   <tr>
                     <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">NAME</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">EMAIL</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ROLE</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">IS_STAFF</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">IS_ACTIVE</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:25%;">NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:25%;">GENDER</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:25%;">EMAIL</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:20%;">ROLE</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
                 
                   </tr>
@@ -130,16 +129,19 @@
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Kambarage</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">Kambarage</a></td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Male</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">kambarage@gmail.com</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Normal user</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">False</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">True</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                    <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
+                    <div class="btn-reveal-trigger position-static"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal fs-10" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10"></span></button>
+                        <div class="dropdown-menu dropdown-menu-end py-2">
+                        <a class="dropdown-item" href="#!">View</a>
+                        <a class="dropdown-item" href="#!">Edit</a>
+                        <a class="dropdown-item" href="#!">Activate</a>
+                          <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Delete</a>
                         </div>
+                      </div>
                     </td>
                   </tr>
                 </tbody>

@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>PMS | List View</title>
+    <title>PMS | Create New</title>
     <?php include("top-style-script/script-link.php")?>
   </head>
 
@@ -36,6 +36,7 @@
       </nav>
      <?php include('top-nav/top-nav.php');?>
      <?php include('top-nav/script-nav.php');?>
+
       <div class="content">
         <nav class="mb-2" aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
@@ -44,96 +45,97 @@
             <li class="breadcrumb-item active">Default</li>
           </ol>
         </nav>
-        <div class="mb-9">
-          <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
-            <div class="row mb-4 gx-6 gy-3 align-items-center">
-              <div class="col-auto">
-                <h2 class="mb-0">Projects<span class="fw-normal text-body-tertiary ms-3">(32)</span></h2>
-              </div>
-              <div class="col-auto"><a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project</a></div>
-            </div>
-            <div class="row g-3 justify-content-between align-items-end mb-4">
-              <div class="col-12 col-sm-auto">
-                <ul class="nav nav-links mx-n2">
-                  <li class="nav-item"><a class="nav-link px-2 py-1 active" aria-current="page" href="#"><span>All</span><span class="text-body-tertiary fw-semibold">(32)</span></a></li>
-                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Ongoing</span><span class="text-body-tertiary fw-semibold">(14)</span></a></li>
-                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Cancelled</span><span class="text-body-tertiary fw-semibold">(2)</span></a></li>
-                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Finished</span><span class="text-body-tertiary fw-semibold">(14)</span></a></li>
-                  <li class="nav-item"><a class="nav-link px-2 py-1" href="#"><span>Postponed</span><span class="text-body-tertiary fw-semibold">(2)</span></a></li>
-                </ul>
-              </div>
-              <div class="col-12 col-sm-auto">
-                <div class="d-flex align-items-center">
-                  <div class="search-box me-3">
-                    <form class="position-relative" data-bs-toggle="search" data-bs-display="static"><input class="form-control search-input search" type="search" placeholder="Search projects" aria-label="Search" />
-                      <span class="fas fa-search search-box-icon"></span>
-                    </form>
-                  </div><a class="btn btn-phoenix-primary px-3 me-1 border-0 text-body" href="../../apps/project-management/project-list-view.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="List view"><span class="fa-solid fa-list fs-10"></span></a><a class="btn btn-phoenix-primary px-3 me-1" href="../../apps/project-management/project-board-view.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Board view"><svg width="9" height="9" viewbox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0.5C0 0.223857 0.223858 0 0.5 0H1.83333C2.10948 0 2.33333 0.223858 2.33333 0.5V1.83333C2.33333 2.10948 2.10948 2.33333 1.83333 2.33333H0.5C0.223857 2.33333 0 2.10948 0 1.83333V0.5Z" fill="currentColor"></path>
-                      <path d="M3.33333 0.5C3.33333 0.223857 3.55719 0 3.83333 0H5.16667C5.44281 0 5.66667 0.223858 5.66667 0.5V1.83333C5.66667 2.10948 5.44281 2.33333 5.16667 2.33333H3.83333C3.55719 2.33333 3.33333 2.10948 3.33333 1.83333V0.5Z" fill="currentColor"></path>
-                      <path d="M6.66667 0.5C6.66667 0.223857 6.89052 0 7.16667 0H8.5C8.77614 0 9 0.223858 9 0.5V1.83333C9 2.10948 8.77614 2.33333 8.5 2.33333H7.16667C6.89052 2.33333 6.66667 2.10948 6.66667 1.83333V0.5Z" fill="currentColor"></path>
-                      <path d="M0 3.83333C0 3.55719 0.223858 3.33333 0.5 3.33333H1.83333C2.10948 3.33333 2.33333 3.55719 2.33333 3.83333V5.16667C2.33333 5.44281 2.10948 5.66667 1.83333 5.66667H0.5C0.223857 5.66667 0 5.44281 0 5.16667V3.83333Z" fill="currentColor"></path>
-                      <path d="M3.33333 3.83333C3.33333 3.55719 3.55719 3.33333 3.83333 3.33333H5.16667C5.44281 3.33333 5.66667 3.55719 5.66667 3.83333V5.16667C5.66667 5.44281 5.44281 5.66667 5.16667 5.66667H3.83333C3.55719 5.66667 3.33333 5.44281 3.33333 5.16667V3.83333Z" fill="currentColor"></path>
-                      <path d="M6.66667 3.83333C6.66667 3.55719 6.89052 3.33333 7.16667 3.33333H8.5C8.77614 3.33333 9 3.55719 9 3.83333V5.16667C9 5.44281 8.77614 5.66667 8.5 5.66667H7.16667C6.89052 5.66667 6.66667 5.44281 6.66667 5.16667V3.83333Z" fill="currentColor"></path>
-                      <path d="M0 7.16667C0 6.89052 0.223858 6.66667 0.5 6.66667H1.83333C2.10948 6.66667 2.33333 6.89052 2.33333 7.16667V8.5C2.33333 8.77614 2.10948 9 1.83333 9H0.5C0.223857 9 0 8.77614 0 8.5V7.16667Z" fill="currentColor"></path>
-                      <path d="M3.33333 7.16667C3.33333 6.89052 3.55719 6.66667 3.83333 6.66667H5.16667C5.44281 6.66667 5.66667 6.89052 5.66667 7.16667V8.5C5.66667 8.77614 5.44281 9 5.16667 9H3.83333C3.55719 9 3.33333 8.77614 3.33333 8.5V7.16667Z" fill="currentColor"></path>
-                      <path d="M6.66667 7.16667C6.66667 6.89052 6.89052 6.66667 7.16667 6.66667H8.5C8.77614 6.66667 9 6.89052 9 7.16667V8.5C9 8.77614 8.77614 9 8.5 9H7.16667C6.89052 9 6.66667 8.77614 6.66667 8.5V7.16667Z" fill="currentColor"></path>
-                    </svg></a><a class="btn btn-phoenix-primary px-3" href="../../apps/project-management/project-card-view.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Card view"><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0.5C0 0.223858 0.223858 0 0.5 0H3.5C3.77614 0 4 0.223858 4 0.5V3.5C4 3.77614 3.77614 4 3.5 4H0.5C0.223858 4 0 3.77614 0 3.5V0.5Z" fill="currentColor"></path>
-                      <path d="M0 5.5C0 5.22386 0.223858 5 0.5 5H3.5C3.77614 5 4 5.22386 4 5.5V8.5C4 8.77614 3.77614 9 3.5 9H0.5C0.223858 9 0 8.77614 0 8.5V5.5Z" fill="currentColor"></path>
-                      <path d="M5 0.5C5 0.223858 5.22386 0 5.5 0H8.5C8.77614 0 9 0.223858 9 0.5V3.5C9 3.77614 8.77614 4 8.5 4H5.5C5.22386 4 5 3.77614 5 3.5V0.5Z" fill="currentColor"></path>
-                      <path d="M5 5.5C5 5.22386 5.22386 5 5.5 5H8.5C8.77614 5 9 5.22386 9 5.5V8.5C9 8.77614 8.77614 9 8.5 9H5.5C5.22386 9 5 8.77614 5 8.5V5.5Z" fill="currentColor"></path>
-                    </svg></a>
+        <h2 class="mb-4">Create a project</h2>
+        <div class="row">
+          <div class="col-xl-9">
+            <form class="row g-3 mb-6">
+              <div class="col-sm-6 col-md-8">
+                <div class="form-floating">
+                  <input class="form-control" id="floatingInputGrid" type="text" placeholder="Project title" />
+                  <label for="floatingInputGrid">Project title</label>
                 </div>
               </div>
-            </div>
-            <div class="table-responsive scrollbar">
-              <table class="table fs-9 mb-0 border-top border-translucent">
-                <thead>
-                  <tr>
-                    <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:30%;">PROJECT NAME</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">DESCRIPTION</th>
-                    <!-- <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">ASSIGNESS</th> -->
-                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">DURATION(DAYS)</th>
-                    <th class="sort align-middle text-end" scope="col" data-sort="statuses" style="width:10%;">STATUS</th>
-                    <th class="sort align-middle text-end" scope="col" data-sort="statuses" style="width:10%;">CATERGORY</th>
-                    <!-- <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:10%;">DEADLINE</th> -->
-                    <!-- <th class="sort align-middle ps-3" scope="col" data-sort="task" style="width:12%;">TASK</th> -->
-                    <!-- <th class="sort align-middle ps-3" scope="col" data-sort="projectprogress" style="width:5%;">PROGRESS</th> -->
-
-                    
-                    <th class="sort align-middle text-end" scope="col" style="width:10%;">ACTION</th>
-                  </tr>
-                </thead>
-                <tbody class="list" id="project-list-table-body">
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="proj/index.php">Project Doughnut Dungeon</a></td>
-                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="#">Project Descriptio</a></td>
-                    <td class="align-middle white-space-nowrap deadline ps-3 py-4">
-                      <p class="mb-0 fs-9 text-body">May 21, 2028</p>
-                    </td>
-                    <td class="align-middle white-space-nowrap text-end statuses"><span class="badge badge-phoenix fs-10 badge-phoenix-success">completed</span></td>
-                    <td class="align-middle white-space-nowrap text-end statuses"><span class="badge badge-phoenix fs-10 badge-phoenix-success">Front end</span></td>
-                    <td class="align-middle text-end white-space-nowrap pe-0 action">
-                      <div class="btn-reveal-trigger position-static"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal fs-10" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10"></span></button>
-                        <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
-                          <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-
-                </tbody>
-              </table>
-            </div>
-            <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
-              <div class="d-flex">
-                <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
+              <div class="col-sm-6 col-md-4">
+                <div class="form-floating"><select class="form-select" id="floatingSelectTask">
+                    <option selected="selected">Select Project type</option>
+                    <option value="1">technical</option>
+                    <option value="2">external</option>
+                    <option value="3">organizational</option>
+                  </select><label for="floatingSelectTask">Defult task view</label></div>
               </div>
-              <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
+              <div class="col-sm-6 col-md-4">
+                <div class="form-floating"><select class="form-select" id="floatingSelectPrivacy">
+                    <option selected="selected">Select project category</option>
+                    <option value="1">Data Privacy One</option>
+                    <option value="2">Data Privacy Two</option>
+                    <option value="3">Data Privacy Three</option>
+                  </select><label for="floatingSelectPrivacy">Project privacy</label></div>
               </div>
-            </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="form-floating"><select class="form-select" id="floatingSelectTeam">
+                    <option selected="selected">Select team</option>
+                    <option value="1">Team One</option>
+                    <option value="2">Team Two</option>
+                    <option value="3">Team Three</option>
+                  </select><label for="floatingSelectTeam">Team </label></div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="form-floating"><select class="form-select" id="floatingSelectAssignees">
+                    <option selected="selected">Select assignees </option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select><label for="floatingSelectAssignees">People </label></div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="form-floating"><select class="form-select" id="floatingSelectAdmin">
+                    <option selected="selected">Select admin</option>
+                    <option value="1">Data Privacy One</option>
+                    <option value="2">Data Privacy Two</option>
+                    <option value="3">Data Privacy Three</option>
+                  </select><label for="floatingSelectAdmin">Project Lead</label></div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="flatpickr-input-container">
+                  <div class="form-floating"><input class="form-control datetimepicker" id="floatingInputStartDate" type="text" placeholder="end date" data-options='{"disableMobile":true}' /><label class="ps-6" for="floatingInputStartDate">Start date</label><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="flatpickr-input-container">
+                  <div class="form-floating"><input class="form-control datetimepicker" id="floatingInputDeadline" type="text" placeholder="deadline" data-options='{"disableMobile":true}' /><label class="ps-6" for="floatingInputDeadline">Deadline</label><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
+                </div>
+              </div>
+              <div class="col-12 gy-6">
+                <div class="form-floating"><textarea class="form-control" id="floatingProjectOverview" placeholder="Leave a comment here" style="height: 100px"></textarea><label for="floatingProjectOverview">project overview</label></div>
+              </div>
+              <div class="col-md-6 gy-6">
+                <div class="form-floating"><select class="form-select" id="floatingSelectClient">
+                    <option selected="selected">Select client</option>
+                    <option value="1">Client One</option>
+                    <option value="2">Client Two</option>
+                    <option value="3">Client Three</option>
+                  </select><label for="floatingSelectClient">client</label></div>
+              </div>
+              <div class="col-md-6 gy-6">
+                <div class="form-floating"><input class="form-control" id="floatingInputBudget" type="text" placeholder="Budget" /><label for="floatingInputBudget">Budget</label></div>
+              </div>
+              <div class="col-12 gy-6"><select class="form-select" id="organizerMultiple" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
+                  <option value="">Add tags</option>
+                  <option>Stupidity</option>
+                  <option>Jerry</option>
+                  <option>Not_the_mouse</option>
+                  <option>Rick</option>
+                  <option>Biology</option>
+                  <option>Neurology</option>
+                  <option>Brainlessness</option>
+                </select></div>
+              <div class="col-12 gy-6">
+                <div class="row g-3 justify-content-end">
+                  <div class="col-auto"><button class="btn btn-phoenix-primary px-5">Cancel</button></div>
+                  <div class="col-auto"><button class="btn btn-primary px-5 px-sm-15">Create Project</button></div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
         <?php include('footer.php')?>
@@ -159,7 +161,7 @@
                     <p class="mb-0 fw-semibold fs-9">My payment method not working</p><span class="fa-solid fa-paper-plane text-primary fs-9 ms-3"></span>
                   </a></div>
                 <div class="text-center mt-auto">
-                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="images/team/30.webp" alt="" /></div>
+                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="../../assets/img/team/30.webp" alt="" /></div>
                   <h5 class="mt-2 mb-3">Eric</h5>
                   <p class="text-center text-body-emphasis mb-0">Ask us anything – we’ll get back to you here or by email within 24 hours.</p>
                 </div>
@@ -248,11 +250,12 @@
 
     <!-- ===============================================-->
     <!--    JavaScripts-->
-    <!-- ===============================================-->
+    <!-- ===============================================
     
+    <script src="../../vendors/choices/choices.min.js"></script>-->
+   
 
-
-  <script src="js/popper.min.js"></script>
+      <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/anchor.min.js"></script>
     <script src="js/is.min.js"></script>
@@ -263,9 +266,7 @@
     <script src="js/feather.min.js"></script>
     <script src="js/dayjs.min.js"></script>
     <script src="js/phoenix.js"></script>
-
-
+    
   </body>
 
-  
 </html>
