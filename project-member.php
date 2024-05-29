@@ -10,7 +10,8 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>PMS | Roles</title>
+   
+    <title>PMS | Users</title>
     <?php include("top-style-script/script-link.php")?>
   </head>
 
@@ -38,26 +39,35 @@
      <?php include('top-nav/script-nav.php');?>
 
       <div class="content">
+
+
         <div class="mb-9">
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Roles</h2>
+                <h2 class="mb-0"> Project member</h2>
               </div>
 
          <!-- model -->
               <div class="col">
-                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add new role</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add new Member</button>
                       <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new role </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">Add Member Information </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
+                                <div class="mb-3">
+                                <label class="form-label" for="deliverable">User </label>
+                                <div class="form-group">
+                                <input type="checkbox"  value=""
+                                    class="checkmail">  Sulle Qamara
+                            </div>
+                                </div>
                             <div class="mb-3">
-                                <label class="form-label" for="project type">role </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
+                                <label class="form-label" for="deliverable">Position</label>
+                                <input class="form-control" id="deliverable" type="text" placeholder="" />
                             </div>
                             </div>
                             <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
@@ -65,6 +75,7 @@
                         </div>
                       </div>
               </div>
+         <!-- <a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project type</a> -->
             </div>
 
             <div class="table-responsive scrollbar">
@@ -72,7 +83,9 @@
                 <thead>
                   <tr>
                     <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">ROLE NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">POSITION</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">EMAIL</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
                 
                   </tr>
@@ -80,59 +93,19 @@
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Admi</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Kambarage Sulle</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Project Manager</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">sulle@gmail.com</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
                     <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" data-bs-toggle="modal" data-bs-target="#EditRoleModel" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0" data-bs-toggle="modal" data-bs-target="#DeleteRoleModel"><span class="fas fa-trash"></span></button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Normal user</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                       <div style="display: flex; align-items: center;">
                           <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
                           <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
                         </div>
                     </td>
                   </tr>
-    
                 </tbody>
-              </table>
+             </table>
             </div>
-
-        <!-- Model Edit Permision -->
-        <div class="modal fade" id="EditRoleModel" tabindex="-1" style="display: none;" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new role </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
-                            </div>
-                            <div class="modal-body">
-                            <div class="mb-3">
-                                <label class="form-label" for="project type">role </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
-                            </div>
-                            </div>
-                            <div class="modal-footer"><button class="btn btn-warning" type="button">Update</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
-                          </div>
-                        </div>
-                      </div>
-
-                </div>
-                <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
-                <div class="d-flex">
-                    <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
-                </div>
-                <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                    <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-                </div>
-                </div>
-            </div>
-           </div>
-
             <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
               <div class="d-flex">
                 <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
@@ -143,24 +116,17 @@
             </div>
           </div>
         </div>
-
-        <!-- Model Delete  -->
-          <div class="modal fade" id="DeleteRoleModel" tabindex="-1" style="display: none;" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-body">
-                    <div class="mb-3">
-                    <h4>Are you sure you want to delete?</h4>
-                    </div>
-                    </div>
-                    <div class="modal-footer"><button class="btn btn-danger" type="button">Yes</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
-                    </div>
-                </div>
+        
+        <footer class="footer position-absolute">
+          <div class="row g-0 justify-content-between align-items-center h-100">
+            <div class="col-12 col-sm-auto text-center">
+              <p class="mb-0 mt-2 mt-sm-0 text-body">Thank you for creating with Phoenix<span class="d-none d-sm-inline-block"></span><span class="d-none d-sm-inline-block mx-1">|</span><br class="d-sm-none" />2023 &copy;<a class="mx-1" href="https://themewagon.com">Themewagon</a></p>
             </div>
-        
-        
-        
-        <?php include('footer.php')?>
+            <div class="col-12 col-sm-auto text-center">
+              <p class="mb-0 text-body-tertiary text-opacity-85">v1.14.0</p>
+            </div>
+          </div>
+        </footer>
       </div>
       <div class="support-chat-container">
         <div class="container-fluid support-chat">

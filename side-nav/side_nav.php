@@ -88,10 +88,10 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">User list</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
+                      <!-- <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Role list</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
+                        </a>
+                      </li> -->
                     
                     </ul>
                   </div>
@@ -147,11 +147,11 @@
                   <div class="parent-wrapper label-1">
                     <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-settings">
                       <li class="collapsed-nav-item-title d-none">Settings</li>
-                      <li class="nav-item"><a class="nav-link" href="../../documentation/customization/configuration.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Role</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="../../documentation/customization/styling.php" data-bs-toggle="" aria-expanded="false">
+                      <li class="nav-item"><a class="nav-link" href="permission.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Permission</span></div>
                         </a><!-- more inner pages-->
                       </li>
