@@ -36,15 +36,7 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">Create new</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="phase.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Phases</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
-                      <li class="nav-item"><a class="nav-link" href="deliverable.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Deliverable</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
-                      
+
                       <li class="nav-item"><a class="nav-link active" href="project-list-view.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Project list view</span></div>
                         </a><!-- more inner pages-->
@@ -59,14 +51,7 @@
                         </a><!-- more inner pages-->
                       </li>
                       <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
-                      <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Resources</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
-                      <li class="nav-item"><a class="nav-link" href="budget-item.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Constant budget</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
+
                       <li class="nav-item"><a class="nav-link" href="upload-project.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Upload project</span></div>
                         </a><!-- more inner pages-->
@@ -179,10 +164,6 @@
                     </ul>
                   </div>
                 </div><!-- parent pages-->
-               
-                <div class="nav-item-wrapper"><a class="nav-link label-1" href="../../showcase.php" role="button" data-bs-toggle="" aria-expanded="false">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"><span data-feather="monitor"></span></span><span class="nav-link-text-wrapper"><span class="nav-link-text">Showcase</span></span></div>
-                  </a></div>
               </li>
             </ul>
           </div>
