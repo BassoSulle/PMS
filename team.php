@@ -245,11 +245,9 @@
                 <thead>
                   <tr>
                     <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">NAME</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">TITLE/ROLE</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">CONTACT</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">TEAM NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">TEAM MEMBERS</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">ASSIGNED PROJECTS</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">SKILLS & EXPERTIES</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">DEPARTMENT</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">AVAILABILITY</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
@@ -258,12 +256,118 @@
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">Denis Mwambuja</a></td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Back-end Team</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="mailto:mwambuja@gmail.com">mwambuja@gmail.com</a></td>
+                    <td class="align-middle time white-space-nowrap py-0 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">Back-end Team</a></td>
+
+                    <!-- table data for team member -->
+                    <td class="align-middle white-space-nowrap assignees ps-3 py-4">
+                      <div class="avatar-group avatar-group-dense"><a class="dropdown-toggle dropdown-caret-none d-inline-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                          <div class="avatar avatar-s  rounded-circle">
+                            <img class="rounded-circle " src="images/15.webp" alt="">
+                          </div>
+                        </a>
+                        <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
+                          <div class="position-relative">
+                            <div class="bg-holder z-n1" style="background-image:url(../../assets/img/bg/bg-32.png);background-size: auto;"></div>
+                            <!--/.bg-holder-->
+                            <div class="p-3">
+                              <div class="text-end"><button class="btn p-0 me-2"><svg class="svg-inline--fa fa-user-plus text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path></svg><!-- <span class="fa-solid fa-user-plus text-white"></span> Font Awesome fontawesome.com --></button><button class="btn p-0"><svg class="svg-inline--fa fa-ellipsis text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg><!-- <span class="fa-solid fa-ellipsis text-white"></span> Font Awesome fontawesome.com --></button></div>
+                              <div class="text-center">
+                                <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/15.webp" alt=""></div>
+                                <h6 class="text-black">Roy Anderson</h6>
+                                <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                                <div class="d-flex flex-center mb-3">
+                                  <h6 class="text mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><svg class="svg-inline--fa fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.375em;"><g transform="translate(256 256)"><g transform="translate(0, -64)  scale(0.375, 0.375)  rotate(0 0 0)"><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span> Font Awesome fontawesome.com -->
+                                  <h6 class="text mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="bg-body-emphasis">
+                            <div class="p-3 border-bottom border-translucent">
+                              <div class="d-flex justify-content-between">
+                                <div class="d-flex"><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><svg class="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg><!-- <span class="fa-solid fa-phone"></span> Font Awesome fontawesome.com --></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><svg class="svg-inline--fa fa-message" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="message" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"></path></svg><!-- <span class="fa-solid fa-message"></span> Font Awesome fontawesome.com --></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg"><svg class="svg-inline--fa fa-video" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="video" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"></path></svg><!-- <span class="fa-solid fa-video"></span> Font Awesome fontawesome.com --></button></div><button class="btn btn-phoenix-primary"><svg class="svg-inline--fa fa-envelope me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg><!-- <span class="fa-solid fa-envelope me-2"></span> Font Awesome fontawesome.com -->Send Email</button>
+                              </div>
+                            </div>
+                            <ul class="nav d-flex flex-column py-3 border-bottom">
+                              <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard me-2 text-body d-inline-block"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg><span class="text-body-highlight flex-1">Assigned Projects</span><svg class="svg-inline--fa fa-chevron-right fs-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fa-solid fa-chevron-right fs-11"></span> Font Awesome fontawesome.com --></a></li>
+                              <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart me-2 text-body"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg><span class="text-body-highlight flex-1">View activiy</span><svg class="svg-inline--fa fa-chevron-right fs-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fa-solid fa-chevron-right fs-11"></span> Font Awesome fontawesome.com --></a></li>
+                            </ul>
+                          </div>
+                          <div class="p-3 d-flex justify-content-between"><a class="btn btn-link p-0 text-decoration-none" href="#!">Details </a><a class="btn btn-link p-0 text-decoration-none text-danger" href="#!">Unassign </a></div>
+                        </div><a class="dropdown-toggle dropdown-caret-none d-inline-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                          <div class="avatar avatar-s  rounded-circle">
+                            <img class="rounded-circle " src="images/12.webp" alt="">
+                          </div>
+                        </a>
+                        <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
+                          <div class="position-relative">
+                            <div class="bg-holder z-n1" style="background-image:url(images/bg-32.png);background-size: auto;"></div>
+                            <!--/.bg-holder-->
+                            <div class="p-3">
+                              <div class="text-end"><button class="btn p-0 me-2"><svg class="svg-inline--fa fa-user-plus text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path></svg><!-- <span class="fa-solid fa-user-plus text-white"></span> Font Awesome fontawesome.com --></button><button class="btn p-0"><svg class="svg-inline--fa fa-ellipsis text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg><!-- <span class="fa-solid fa-ellipsis text-white"></span> Font Awesome fontawesome.com --></button></div>
+                              <div class="text-center">
+                                <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/12.webp" alt=""></div>
+                                <h6 class="text-black">Luis Bunuel</h6>
+                                <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                                <div class="d-flex flex-center mb-3">
+                                  <h6 class="text mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><svg class="svg-inline--fa fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.375em;"><g transform="translate(256 256)"><g transform="translate(0, -64)  scale(0.375, 0.375)  rotate(0 0 0)"><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span> Font Awesome fontawesome.com -->
+                                  <h6 class="text mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="bg-body-emphasis">
+                            <div class="p-3 border-bottom border-translucent">
+                              <div class="d-flex justify-content-between">
+                                <div class="d-flex"><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><svg class="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg><!-- <span class="fa-solid fa-phone"></span> Font Awesome fontawesome.com --></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><svg class="svg-inline--fa fa-message" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="message" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"></path></svg><!-- <span class="fa-solid fa-message"></span> Font Awesome fontawesome.com --></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg"><svg class="svg-inline--fa fa-video" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="video" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"></path></svg><!-- <span class="fa-solid fa-video"></span> Font Awesome fontawesome.com --></button></div><button class="btn btn-phoenix-primary"><svg class="svg-inline--fa fa-envelope me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg><!-- <span class="fa-solid fa-envelope me-2"></span> Font Awesome fontawesome.com -->Send Email</button>
+                              </div>
+                            </div>
+                            <ul class="nav d-flex flex-column py-3 border-bottom">
+                              <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard me-2 text-body d-inline-block"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg><span class="text-body-highlight flex-1">Assigned Projects</span><svg class="svg-inline--fa fa-chevron-right fs-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fa-solid fa-chevron-right fs-11"></span> Font Awesome fontawesome.com --></a></li>
+                              <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart me-2 text-body"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg><span class="text-body-highlight flex-1">View activiy</span><svg class="svg-inline--fa fa-chevron-right fs-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fa-solid fa-chevron-right fs-11"></span> Font Awesome fontawesome.com --></a></li>
+                            </ul>
+                          </div>
+                          <div class="p-3 d-flex justify-content-between"><a class="btn btn-link p-0 text-decoration-none" href="#!">Details </a><a class="btn btn-link p-0 text-decoration-none text-danger" href="#!">Unassign </a></div>
+                        </div><a class="dropdown-toggle dropdown-caret-none d-inline-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                          <div class="avatar avatar-s  rounded-circle">
+                            <img class="rounded-circle " src="images/29.webp" alt="">
+                          </div>
+                        </a>
+                        <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
+                          <div class="position-relative">
+                            <div class="bg-holder z-n1" style="background-image:url(images/bg-32.png);background-size: auto;"></div>
+                            <!--/.bg-holder-->
+                            <div class="p-3">
+                              <div class="text-end"><button class="btn p-0 me-2"><svg class="svg-inline--fa fa-user-plus text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path></svg><!-- <span class="fa-solid fa-user-plus text-white"></span> Font Awesome fontawesome.com --></button><button class="btn p-0"><svg class="svg-inline--fa fa-ellipsis text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg><!-- <span class="fa-solid fa-ellipsis text-white"></span> Font Awesome fontawesome.com --></button></div>
+                              <div class="text-center">
+                                <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/29.webp" alt=""></div>
+                                <h6 class="text-black">Raymond Mims</h6>
+                                <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                                <div class="d-flex flex-center mb-3">
+                                  <h6 class="text-black mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><svg class="svg-inline--fa fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.375em;"><g transform="translate(256 256)"><g transform="translate(0, -64)  scale(0.375, 0.375)  rotate(0 0 0)"><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span> Font Awesome fontawesome.com -->
+                                  <h6 class="text-black mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="bg-body-emphasis">
+                            <div class="p-3 border-bottom border-translucent">
+                              <div class="d-flex justify-content-between">
+                                <div class="d-flex"><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><svg class="svg-inline--fa fa-phone" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg><!-- <span class="fa-solid fa-phone"></span> Font Awesome fontawesome.com --></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><svg class="svg-inline--fa fa-message" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="message" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"></path></svg><!-- <span class="fa-solid fa-message"></span> Font Awesome fontawesome.com --></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg"><svg class="svg-inline--fa fa-video" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="video" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"></path></svg><!-- <span class="fa-solid fa-video"></span> Font Awesome fontawesome.com --></button></div><button class="btn btn-phoenix-primary"><svg class="svg-inline--fa fa-envelope me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg><!-- <span class="fa-solid fa-envelope me-2"></span> Font Awesome fontawesome.com -->Send Email</button>
+                              </div>
+                            </div>
+                            <ul class="nav d-flex flex-column py-3 border-bottom">
+                              <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard me-2 text-body d-inline-block"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg><span class="text-body-highlight flex-1">Assigned Projects</span><svg class="svg-inline--fa fa-chevron-right fs-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fa-solid fa-chevron-right fs-11"></span> Font Awesome fontawesome.com --></a></li>
+                              <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart me-2 text-body"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg><span class="text-body-highlight flex-1">View activiy</span><svg class="svg-inline--fa fa-chevron-right fs-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fa-solid fa-chevron-right fs-11"></span> Font Awesome fontawesome.com --></a></li>
+                            </ul>
+                          </div>
+                          <div class="p-3 d-flex justify-content-between"><a class="btn btn-link p-0 text-decoration-none" href="#!">Details </a><a class="btn btn-link p-0 text-decoration-none text-danger" href="#!">Unassign </a></div>
+                        </div>
+                      </div>
+                    </td>
+                    
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">NHC</a></td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Software Engineer</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Computer Dep.</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Busy</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
@@ -274,24 +378,6 @@
                     </td>
                   </tr>
 
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="chat.php">Musa Matiko</a></td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Back-end Team</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="mailto:matiko@gmail.com">matiko@gmail.com</a></td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">NHC</a></td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Software Engineer</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Computer Dep.</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Available</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                        <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                        </div>
-                    </td>
-                  </tr>
-
-    
                 </tbody>
               </table>
             </div>
