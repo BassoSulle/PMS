@@ -364,7 +364,7 @@
                       </div>
                     </td>
                     
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">NHC</a></td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="project-details.php">NHC</a></td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Computer Dep.</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Busy</td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">

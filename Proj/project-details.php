@@ -46,7 +46,9 @@
                   <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
                     <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
                   </div>
-                </div><span class="badge badge-phoenix badge-phoenix-primary">Ongoing<span class="ms-1 uil uil-stopwatch"></span></span>
+                </div>
+             
+                <span class="badge badge-phoenix badge-phoenix-primary">Ongoing<span class="ms-1 uil uil-stopwatch"></span></span>
               </div>
               <div class="row gx-0 gx-sm-5 gy-8 mb-8">
                 <div class="col-12 col-xl-3 col-xxl-4 pe-xl-0">
@@ -70,13 +72,22 @@
                               </td>
                               <td class="ps-1 py-1"><a class="fw-semibold d-block lh-sm" href="#!">Gobble the Bleep Inc</a></td>
                             </tr>
+
                             <tr>
                               <td class="align-top py-1">
                                 <div class="d-flex"><span class="fa-regular fa-credit-card me-2 text-body-tertiary fs-9"></span>
-                                  <h5 class="text-body mb-0 text-nowrap">Budget : </h5>
+                                  <h5 class="text-body mb-0 text-nowrap">Sub-budget : </h5>
                                 </div>
                               </td>
-                              <td class="fw-bold ps-1 py-1 text-body-highlight">$8,742</td>
+                              <td class="fw-bold ps-1 py-1 text-body-highlight">Tsh. 87.42M</td>
+                            </tr>
+                            <tr>
+                            <td class="align-top py-1">
+                                <div class="d-flex"><span class="fa-regular fa-credit-card me-2 text-body-tertiary fs-9"></span>
+                                  <h5 class="text-body mb-0 text-nowrap">Total Budget : </h5>
+                                </div>
+                              </td>
+                              <td class="fw-bold ps-1 py-1 text-body-highlight">Tsh. 87.42M</td>
                             </tr>
                           </tbody>
                         </table>

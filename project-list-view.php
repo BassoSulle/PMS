@@ -103,7 +103,7 @@
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="proj/index.php">Project Doughnut Dungeon</a></td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="project-details.php">Project Doughnut Dungeon</a></td>
                     <td class="align-middle white-space-nowrap assignees ps-3 py-4">
                       <div class="avatar-group avatar-group-dense"><a class="dropdown-toggle dropdown-caret-none d-inline-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                           <div class="avatar avatar-s  rounded-circle">
@@ -181,7 +181,7 @@
                       </div>
                       
                     </td>
-                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a class="fw-bold fs-8" href="#">Project Descriptio</a></td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Project Doughnut Dungeon</a></td>
                     <td class="align-middle white-space-nowrap deadline ps-3 py-4">
                       <p class="mb-0 fs-9 text-body">May 21, 2028</p>
                     </td>
