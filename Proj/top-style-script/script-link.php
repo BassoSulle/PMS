@@ -24,6 +24,7 @@
     <link href="css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
     <link href="css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
     <link href="css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.css" integrity="sha512-7uSoC3grlnRktCWoO4LjHMjotq8gf9XDFQerPuaph+cqR7JC9XKGdvN+UwZMC14aAaBDItdRj3DcSDs4kMWUgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>
       var phoenixIsRTL = window.config.config.phoenixIsRTL;
       if (phoenixIsRTL) {

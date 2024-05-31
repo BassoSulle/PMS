@@ -65,7 +65,7 @@
 
               <li class="nav-item">
                   <div class="nav-item-wrapper">
-                    <a class="nav-link label-1" href="doduments.php" role="button" data-bs-toggle="" aria-expanded="false">
+                    <a class="nav-link label-1" href="documents.php" role="button" data-bs-toggle="" aria-expanded="false">
                     <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
                         <span data-feather="bookmark"></span></span>
@@ -113,7 +113,7 @@
 
               <li class="nav-item">
                   <div class="nav-item-wrapper">
-                    <a class="nav-link label-1" href="calendar.php" role="button" data-bs-toggle="" aria-expanded="false">
+                    <a class="nav-link label-1" href="event.php" role="button" data-bs-toggle="" aria-expanded="false">
                     <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
                         <span data-feather="calendar"></span></span>
@@ -125,7 +125,7 @@
 
               <li class="nav-item">
                   <div class="nav-item-wrapper">
-                    <a class="nav-link label-1" href="report.php" role="button" data-bs-toggle="" aria-expanded="false">
+                    <a class="nav-link label-1" href="generating-report.php" role="button" data-bs-toggle="" aria-expanded="false">
                     <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
                         <span data-feather="file-text"></span></span>

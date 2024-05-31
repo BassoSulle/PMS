@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>PMS | Dashboard</title>
+    <title>PMS | Generating Report</title>
     <?php include("top-style-script/script-link.php")?>
   </head>
 
@@ -38,13 +38,34 @@
      <?php include('top-nav/script-nav.php');?>
         
       <div class="content">
-        <div class="row gy-3 mb-6 justify-content-between">
+        <div class="row gy-3 mb-2 justify-content-between">
           <div class="col-md-9 col-auto">
-            <h2 class="mb-2 text-body-emphasis">Projects Dashboard</h2>
-            <h5 class="text-body-tertiary fw-semibold">Here’s what’s going on at your business right now</h5>
+            <h2 class="mb-2 text-body-emphasis">Project Report</h2>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Genereate Report</button>
+            <div class="card-body px-5 position-relative">
+                <div class="badge badge-phoenix fs-10 badge-phoenix-warning mb-4"><span class="fw-bold">On progress</span><span class="fa-solid fa-award ms-1"></span></div>
+                <h3 class="mb-5">TENANT PROJECT MANAGEMENT</h3>
+                <p class="text-body-tertiary fw-semibold">Main project for managent tenant <br class="d-none d-sm-block" />Client Company: NHC  
+                <br class="d-none d-sm-block" />
+                <span>
+                  Team Leader: <a href="#">Joiel Amosi</a>
+                </span><br>
+
+                <div >
+                Project Deliverables: 
+                  <ul>
+                    <li style="list-style-type: none;"><i class="fa fa-file"></i><a href="#"> Planning Phase Report</a> <span class="badge badge-phoenix badge-phoenix-secondary">In progress</span></li>
+                  </ul>
+                </div>
+                
+                
+                
+              </p>
+              </div>
           </div>
           <div class="col-md-3 col-auto">
-            <div class="flatpickr-input-container"><input class="form-control ps-6 datetimepicker" id="datepicker" type="text" data-options='{"dateFormat":"M j, Y","disableMobile":true,"defaultDate":"Mar 1, 2022"}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
+            <div class="flatpickr-input-container">
+              <input class="form-control ps-6 datetimepicker" id="datepicker" type="text" data-options='{"dateFormat":"M j, Y","disableMobile":true,"defaultDate":"Mar 1, 2022"}' /><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
           </div>
         </div>
 
@@ -53,8 +74,8 @@
                         <div class="col-sm-6 col-md-4 col-lg-3">
                                 <div class="card text-dark bg-light">
                                 <div class="card-body">
-                                    <h4 class="card-title text-dark">Phases Completed </h4>
-                                    <p class="card-text">1</p>
+                                    <h4 class="card-title text-dark">Project Status  </h4>
+                                    <p class="card-text">Its on initial phases</p>
                                 </div>
                                 </div>
                         </div>  
@@ -62,8 +83,8 @@
                         <div class="col-sm-6 col-md-4 col-lg-3">
                                 <div class="card text-dark bg-light">
                                 <div class="card-body">
-                                    <h4 class="card-title text-dark">Phases Completed Verified  </h4>
-                                    <p class="card-text">1</p>
+                                    <h4 class="card-title text-dark">Start date   </h4>
+                                    <p class="card-text">March 28, 2024</p>
                                 </div>
                                 </div>
                         </div>  
@@ -71,8 +92,8 @@
                         <div class="col-sm-6 col-md-4 col-lg-3">
                                 <div class="card text-dark bg-light">
                                 <div class="card-body">
-                                    <h4 class="card-title text-dark">Continuinig Phases </h4>
-                                    <p class="card-text">0</p>
+                                    <h4 class="card-title text-dark">Estimated End Date  </h4>
+                                    <p class="card-text">April 4, 2024 </p>
                                 </div>
                                 </div>
                         </div>  
@@ -80,8 +101,8 @@
                         <div class="col-sm-6 col-md-4 col-lg-3">
                                 <div class="card text-dark bg-light">
                                 <div class="card-body">
-                                    <h4 class="card-title text-dark">Phases Not Yet Started  </h4>
-                                    <p class="card-text">0</p>
+                                    <h4 class="card-title text-dark">Estimated project duration  </h4>
+                                    <p class="card-text">5 Days</p>
                                 </div>
                                 </div>
                         </div>  
@@ -89,90 +110,52 @@
                         <div class="col-sm-6 col-md-4 col-lg-3">
                                 <div class="card text-dark bg-light">
                                 <div class="card-body">
-                                    <h4 class="card-title text-dark">Total Task </h4>
-                                    <p class="card-text">26 May 2023</p>
-                                </div>
-                                </div>
-                        </div>  
-
-                        <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card text-dark bg-light">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Estimated End Date </h4>
-                                    <p class="card-text">26 May 2024</p>
-                                </div>
-                                </div>
-                        </div>  
-
-                        <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card text-dark bg-light">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Estimated project duration </h4>
-                                    <p class="card-text">1 Year</p>
-                                </div>
-                                </div>
-                        </div>  
-
-                        <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card text-dark bg-light">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Estimated budget</h4>
-                                    <p class="card-text">0</p>
+                                    <h4 class="card-title text-dark">Estimated budget </h4>
+                                    <p class="card-text">2M</p>
                                 </div>
                                 </div>
                         </div>  
                     </div>
                     
         </div>
+          <h3>Team members</h3>
+        <div id="tableExample3" data-list="{&quot;valueNames&quot;:[&quot;name&quot;,&quot;description&quot;,&quot;age&quot;],&quot;page&quot;:5,&quot;pagination&quot;:true}">
+                        <div class="search-box mb-3 mx-auto">
+                          <form class="position-relative"><input class="form-control search-input search form-control-sm" type="search" placeholder="Search" aria-label="Search">
+                            <svg class="svg-inline--fa fa-magnifying-glass search-box-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg><!-- <span class="fas fa-search search-box-icon"></span> Font Awesome fontawesome.com -->
+                          </form>
+                        </div>
+                        <div class="table-responsive">
+                          <table class="table table-striped table-sm fs-9 mb-0">
+                            <thead>
+                              <tr>
+                                <th class="sort border-top border-translucent ps-3" data-sort="name">Role</th>
+                                <th class="sort border-top" data-sort="description">Number of users</th>
+                                <th class="sort border-top" data-sort="date">User</th>
+                              </tr>      
+                            </thead>
+                            <tbody class="list">
+                                
+                            <tr>
+                                <td class="align-middle ps-3 name">Admin</td>
+                                <td class="align-middle description">1</td>
+                                <td class="align-middle date">Null</td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3"><span class="d-none d-sm-inline-block" data-list-info="data-list-info">1 to 5 <span class="text-body-tertiary"> Task report of </span>43</span>
+                          <div class="d-flex"><button class="page-link disabled" data-list-pagination="prev" disabled=""><svg class="svg-inline--fa fa-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"></path></svg><!-- <span class="fas fa-chevron-left"></span> Font Awesome fontawesome.com --></button>
+                            <ul class="mb-0 pagination"><li class="active"><button class="page" type="button" data-i="1" data-page="5">1</button></li><li><button class="page" type="button" data-i="2" data-page="5">2</button></li><li><button class="page" type="button" data-i="3" data-page="5">3</button></li><li class="disabled"><button class="page" type="button">...</button></li></ul><button class="page-link pe-0" data-list-pagination="next"><svg class="svg-inline--fa fa-chevron-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg><!-- <span class="fas fa-chevron-right"></span> Font Awesome fontawesome.com --></button>
+                          </div>
+                        </div>
+                      </div>
+                    
        
-        <div class="row mb-3 gy-6" >
-          <div class="col-12 col-xl-6 col-xxl-5">
-            <div class="mx-xxl-0">
-              <h3>Project: zero Roadmap</h3>
-              <p class="text-body-tertiary">Phase 2 is now ongoing</p>
-              <div class="gantt-zero-roadmap">
-                <div class="row g-2 flex-between-center mb-3">
-                  <div class="col-12 col-sm-auto">
-                    <div class="d-flex">
-                      <div class="d-flex align-items-end me-3"><label class="form-check-label mb-0 me-2 lh-1 text-body" for="progress">Progress</label>
-                        <div class="form-check form-switch min-h-auto mb-0"><input class="form-check-input" id="progress" type="checkbox" checked="" data-gantt-progress="data-gantt-progress" /></div>
-                      </div>
-                      <div class="d-flex align-items-end flex-1"><label class="form-check-label mb-0 me-2 lh-1 text-body" for="links">Links</label>
-                        <div class="form-check form-switch min-h-auto flex-1 mb-0"><input class="form-check-input" id="links" type="checkbox" checked="" data-gantt-links="data-gantt-links" /></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-auto">
-                    <div class="btn-group" role="group" data-gantt-scale="data-gantt-scale"><input class="btn-check" id="weekView" type="radio" name="scaleView" value="week" checked="" /><label class="btn btn-phoenix-secondary bg-body-highlight-hover fs-10 py-1 mb-0" for="weekView">Week</label><input class="btn-check" id="monthView" type="radio" name="scaleView" value="month" /><label class="btn btn-phoenix-secondary bg-body-highlight-hover fs-10 py-1 mb-0" for="monthView">Month</label><input class="btn-check" id="yearView" type="radio" name="scaleView" value="year" /><label class="btn btn-phoenix-secondary bg-body-highlight-hover fs-10 py-1 mb-0" for="yearView">Year</label></div>
-                  </div>
-                </div>
-                <div class="gantt-zero-roadmap-chart"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-xl-6 col-xxl-5">
-            <div class="card border h-100 w-100 overflow-hidden">
-              <div class="bg-holder d-block bg-card" style="background-image:url(img/spot-illustrations/32.png);background-position: top right;"></div>
-              <!--/.bg-holder-->
-              <div class="d-dark-none">
-                <div class="bg-holder d-none d-sm-block d-xl-none d-xxl-block bg-card" style="background-image:url(img/spot-illustrations/21.png);background-position: bottom right; background-size: auto;"></div>
-                <!--/.bg-holder-->
-              </div>
-              <div class="d-light-none">
-                <div class="bg-holder d-none d-sm-block d-xl-none d-xxl-block bg-card" style="background-image:url(img/spot-illustrations/dark_21.png);background-position: bottom right; background-size: auto;"></div>
-                <!--/.bg-holder-->
-              </div>
-              <div class="card-body px-5 position-relative">
-                <div class="badge badge-phoenix fs-10 badge-phoenix-warning mb-4"><span class="fw-bold">Coming soon</span><span class="fa-solid fa-award ms-1"></span></div>
-                <h3 class="mb-5">Early bird gets the warm leads!</h3>
-                <p class="text-body-tertiary fw-semibold">Phoenix CRM Dashboard is coming to <br class="d-none d-sm-block" />market soon for fulfilling your every <br class="d-none d-sm-block" />CRM related needs. </p>
-              </div>
-              <div class="card-footer border-0 py-0 px-5 z-1">
-                <p class="text-body-tertiary fw-semibold">Follow <a href="https://themewagon.com/">ThemeWagon </a>at <br class="d-none d-xxl-block" />Bootstrap Marketplace for updates.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
+        
         <div class="mx-n4 px-4 mx-lg-n6 px-lg-6 bg-body-emphasis pt-7 pb-3 border-y">
           <div class="row">
             <div class="col-12 col-xl-7 col-xxl-6">
