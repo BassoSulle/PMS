@@ -42,14 +42,14 @@
                         </a><!-- more inner pages-->
                       </li>
                       
-                      <li class="nav-item"><a class="nav-link" href="todo-list.php" data-bs-toggle="" aria-expanded="false">
+                      <!-- <li class="nav-item"><a class="nav-link" href="todo-list.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Todo list</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
-                      <li class="nav-item"><a class="nav-link" href="project-details.php" data-bs-toggle="" aria-expanded="false">
+                        </a>
+                      </li> -->
+                      <!-- <li class="nav-item"><a class="nav-link" href="project-details.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Project details</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
+                        </a>
+                      </li> -->
                       <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
 
                       <li class="nav-item"><a class="nav-link" href="upload-project.php" data-bs-toggle="" aria-expanded="false">
@@ -73,10 +73,10 @@
                           <div class="d-flex align-items-center"><span class="nav-link-text">User list</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
+                      <!-- <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
                           <div class="d-flex align-items-center"><span class="nav-link-text">Role list</span></div>
-                        </a><!-- more inner pages-->
-                      </li>
+                        </a>
+                      </li> -->
                     
                     </ul>
                   </div>

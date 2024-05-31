@@ -71,7 +71,7 @@
                       </li>
                       </ul>
                     <div class="tab-content mt-3" id="myTabContent">
-                      <div class="tab-pane fade show active" id="tab-home" role="tabpanel" aria-labelledby="home-tab"></a></div>
+                      <div class="tab-pane fade show active" id="tab-home" role="tabpanel" aria-labelledby="home-tab">Pro member</div>
                       </div>
                   </div>
 
