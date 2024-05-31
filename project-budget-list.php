@@ -43,7 +43,11 @@
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Project Budget</h2>
+                <h2 class="mb-0">Project Details</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project Budget</a></span>
+              </div>
               </div>
 
          <!-- Model Project budget-->
@@ -88,10 +92,10 @@
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">tax</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">300000</td>    
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">tax</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">300000</td>    
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">
                        <div style="display: flex; align-items: center;">
                           <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
                           <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>

@@ -227,16 +227,13 @@
                                   <option value="1">Available</option>
                                   <option value="2">Busy</option>
                                 </select>
-                            </div>
-
-                            
+                            </div> 
                             </div>
                             <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
                           </div>
                         </div>
                       </div>
-              </div>
-
+                 </div>
               <!-- <a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project type</a> -->
             </div>
 

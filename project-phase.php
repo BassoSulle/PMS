@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>PMS | Permisions</title>
+    <title>PMS | Project phase</title>
     <?php include("top-style-script/script-link.php")?>
   </head>
 
@@ -42,22 +42,53 @@
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Permisions</h2>
+                <h2 class="mb-0">Main Project</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project phase</a></span>
               </div>
+              </div>
+             
 
-         <!-- model -->
+             <!-- Model Create project phase -->
               <div class="col">
-                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add new Permision</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ create new phase</button>
                       <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Add new Permision </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">Add phase information </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label class="form-label" for="project type">Permision </label>
-                                <input class="form-control" id="role" type="text" placeholder="" />
+                                <label class="form-label" for="deliverable">Phase </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select phase</option>
+                                    <option value="1">Planing</option>
+                                    <option value="2">Designing</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Duration </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Quantity </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select quantity</option>
+                                    <option value="1">Days</option>
+                                    <option value="2">Weeks</option>
+                                    <option value="2">Months</option>
+                                    <option value="2">Year</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">StartDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">EndDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
                             </div>
                             </div>
                             <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
@@ -67,12 +98,17 @@
               </div>
             </div>
 
+            <!-- User Permission table list -->
             <div class="table-responsive scrollbar">
               <table class="table fs-9 mb-0 border-top border-translucent">
                 <thead>
                   <tr>
                     <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
-                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">PERMISSION NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">START DATE</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">END DATE</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">STATUS</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">PROGRESS</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
                 
                   </tr>
@@ -80,40 +116,103 @@
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Create Project</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Planning phase</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">12/4/2024</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1/10/2024</td>
+                    <td><span class=" badge bg-warning">In initial state</span></td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: {{phase.progressBar}}%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">{{phase.progressBar}}%</div>
+                        </div>
+                    </td>
                     <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
                     <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
+                            <button title="Verification" class="btn btn-phoenix-warning btn-icon me-1 fs-10 text-warning px-0"
+                             data-bs-toggle="modal" data-bs-target="#ViewPermissionModal" ><span class="fas fa-pen"></span>
+                            </button>
+                            <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-primary px-0" 
+                            data-bs-toggle="modal" data-bs-target="#EditPermissionModal" ><span class="fas fa-edit"></span>
+                            </button>
+                             <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0 " 
+                             data-bs-toggle="modal" data-bs-target="#DeletePermissionModel"><span class="fas fa-trash"></span></button>
                         </div>
                     </td>
                   </tr>
-                  <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">2</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Delete Project</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
-                       <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                        </div>
-                    </td>
-                  </tr>
-    
+               
                 </tbody>
               </table>
+
+            <!-- Model Edit Project Phase -->
+                <div class="modal fade" id="EditPermissionModal" tabindex="-1" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Edit Project phase </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="mb-3">
+                                <label class="form-label" for="deliverable">Phase </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select phase</option>
+                                    <option value="1">Planing</option>
+                                    <option value="2">Designing</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Duration </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Quantity </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select quantity</option>
+                                    <option value="1">Days</option>
+                                    <option value="2">Weeks</option>
+                                    <option value="2">Months</option>
+                                    <option value="2">Year</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">StartDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">EndDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-warning" type="button">Update</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
+                <div class="d-flex">
+                    <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
+                </div>
+                <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
+                    <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
+                </div>
+                </div>
             </div>
-            <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
-              <div class="d-flex">
-                <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
-              </div>
-              <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-              </div>
             </div>
-          </div>
-        </div>
+
+            <!-- Model Delete  -->
+            <div class="modal fade" id="DeletePermissionModel" tabindex="-1" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                    <div class="mb-3">
+                    <h4>Are you sure you want to delete?</h4>
+                    </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-danger" type="button">Yes</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                    </div>
+                </div>
+            </div>
         
-        <?php include('footer.php')?>
+    <?php include('footer.php')?>
       </div>
       <div class="support-chat-container">
         <div class="container-fluid support-chat">

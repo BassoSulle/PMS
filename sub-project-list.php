@@ -43,7 +43,11 @@
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Sub Project</h2>
+                <h2 class="mb-0">Project Details</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Sub project</a></span>
+              </div>
               </div>
 
          <!-- model -->
@@ -104,20 +108,73 @@
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Mobile development</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Mobile development for android</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Inprogress</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Mobile app software development</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">Mobile development</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">Mobile development for android</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">Inprogress</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">Mobile app software development</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">
                        <div style="display: flex; align-items: center;">
-                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
+                          <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-primary px-0" data-bs-toggle="modal" data-bs-target="#EditSubProject" ><span class="fas fa-edit"></span></button>
+                          <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0" data-bs-toggle="modal" data-bs-target="#DeleteSubproject"><span class="fas fa-trash"></span></button>
                         </div>
                     </td>
                   </tr>
                 </tbody>
               </table>
+
+              <!-- Model Edit subproject -->
+              <div class="modal fade" id="EditSubProject" tabindex="-1" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Add new subproject </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="mb-3">
+                                <label class="form-label" for="project type">Sub Project Name </label>
+                                <input class="form-control" id="project_type" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Description </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                             <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Status </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Estimated Time(in Days) </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Category </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select category</option>
+                                    <option value="1">Software</option>
+                                    <option value="2">Hardware</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                          </div>
+                        </div>
+                      </div>
+
+          <!-- Model Delete  -->
+            <div class="modal fade" id="DeleteSubproject" tabindex="-1" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                    <div class="mb-3">
+                    <h4>Are you sure you want to delete?</h4>
+                    </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-danger" type="button">Yes</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                    </div>
+                </div>
+            </div>
+            
             </div>
             <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
               <div class="d-flex">
