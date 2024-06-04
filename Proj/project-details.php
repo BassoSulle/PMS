@@ -42,14 +42,40 @@
             <div class="px-4 px-lg-6 pt-6 pb-9">
               <div class="mb-5">
                 <div class="d-flex justify-content-between">
-                  <h2 class="text-body-emphasis fw-bolder mb-2">Retrieving Old Repos to Redirect to a new URL</h2>
-                  <div class="btn-reveal-trigger"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
+                  <h2 class="text-body-emphasis fw-bolder mb-2">Project name run here</h2>
+                  <div class="btn-reveal-trigger">
+                  <span><a href="proj/index.php" class="btn"><button class="btn btn-primary me-1 mb-1" type="button">More details</button></a></span>
+                  <button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h"></span></button>
                     <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">Edit</a><a class="dropdown-item text-danger" href="#!">Delete</a><a class="dropdown-item" href="#!">Download</a><a class="dropdown-item" href="#!">Report abuse</a></div>
                   </div>
                 </div>
-             
+                
                 <span class="badge badge-phoenix badge-phoenix-primary">Ongoing<span class="ms-1 uil uil-stopwatch"></span></span>
+             
               </div>
+              
+            <div class="row">
+                    <ul class="nav nav-underline fs-9" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#" role="tab" aria-controls="tab-home" aria-selected="true">Overview</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#" role="tab" aria-controls="tab-profile" aria-selected="false" tabindex="-1">Sub project</a>
+                      </li>
+
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#" role="tab" aria-controls="tab-profile" aria-selected="false" tabindex="-1">Budget project</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#" role="tab" aria-controls="tab-profile" aria-selected="false" tabindex="-1">Member</a>
+                      </li>
+                      </ul>
+                    <div class="tab-content mt-3" id="myTabContent">
+                      <div class="tab-pane fade show active" id="tab-home" role="tabpanel" aria-labelledby="home-tab">Pro member</div>
+                      </div>
+                  </div>
+
+                    
               <div class="row gx-0 gx-sm-5 gy-8 mb-8">
                 <div class="col-12 col-xl-3 col-xxl-4 pe-xl-0">
                   <div class="mb-4 mb-xl-7">
@@ -72,22 +98,31 @@
                               </td>
                               <td class="ps-1 py-1"><a class="fw-semibold d-block lh-sm" href="#!">Gobble the Bleep Inc</a></td>
                             </tr>
+                            <tr>
+                              <td class="align-top py-1">
+                                <div class="d-flex"><span class="fa-regular fa-credit-card me-2 text-body-tertiary fs-9"></span>
+                                  <h5 class="text-body mb-0 text-nowrap">Production Budget : </h5>
+                                </div>
+                              </td>
+                              <td class="fw-bold ps-1 py-1 text-body-highlight">$8,742</td>
+                            </tr>
 
                             <tr>
                               <td class="align-top py-1">
                                 <div class="d-flex"><span class="fa-regular fa-credit-card me-2 text-body-tertiary fs-9"></span>
-                                  <h5 class="text-body mb-0 text-nowrap">Sub-budget : </h5>
+                                  <h5 class="text-body mb-0 text-nowrap">Other cost : </h5>
                                 </div>
                               </td>
-                              <td class="fw-bold ps-1 py-1 text-body-highlight">Tsh. 87.42M</td>
+                              <td class="fw-bold ps-1 py-1 text-body-highlight">$8,742</td>
                             </tr>
+
                             <tr>
-                            <td class="align-top py-1">
+                              <td class="align-top py-1">
                                 <div class="d-flex"><span class="fa-regular fa-credit-card me-2 text-body-tertiary fs-9"></span>
-                                  <h5 class="text-body mb-0 text-nowrap">Total Budget : </h5>
+                                  <h5 class="text-body mb-0 text-nowrap">Total Project Budget : </h5>
                                 </div>
                               </td>
-                              <td class="fw-bold ps-1 py-1 text-body-highlight">Tsh. 87.42M</td>
+                              <td class="fw-bold ps-1 py-1 text-body-highlight">$8,742</td>
                             </tr>
                           </tbody>
                         </table>
@@ -133,55 +168,18 @@
                   <div class="echart-completed-task-chart" style="min-height:200px;width:100%"></div>
                 </div>
                 <div class="col-12 col-sm-5 col-lg-4 col-xl-3 col-xxl-4">
-                  <div class="mb-5">
-                    <h4 class="text-body-emphasis">Work loads</h4>
-                    <h6 class="text-body-tertiary">Last 7 days</h6>
-                  </div>
-                  <div class="echart-top-coupons mb-5" style="height:115px;width:100%;"></div>
-                  <div class="row justify-content-center">
-                    <div class="col-auto col-sm-12">
-                      <div class="row justify-content-center justify-content-sm-between g-5 g-sm-0 mb-2">
-                        <div class="col">
-                          <div class="d-flex align-items-center">
-                            <div class="bullet-item me-2 bg-primary"></div>
-                            <h6 class="text-body fw-semibold flex-1 mb-0">Shantinan Mekalan</h6>
-                          </div>
-                        </div>
-                        <div class="col-auto">
-                          <h6 class="text-body fw-semibold mb-0">72%</h6>
-                        </div>
-                      </div>
-                      <div class="row justify-content-center justify-content-sm-between g-5 g-sm-0 mb-2">
-                        <div class="col">
-                          <div class="d-flex align-items-center">
-                            <div class="bullet-item me-2 bg-primary-lighter"></div>
-                            <h6 class="text-body fw-semibold flex-1 mb-0">Makena Zikonn</h6>
-                          </div>
-                        </div>
-                        <div class="col-auto">
-                          <h6 class="text-body fw-semibold mb-0">18%</h6>
-                        </div>
-                      </div>
-                      <div class="row justify-content-center justify-content-sm-between g-5 g-sm-0 mb-2">
-                        <div class="col">
-                          <div class="d-flex align-items-center">
-                            <div class="bullet-item me-2 bg-info"></div>
-                            <h6 class="text-body fw-semibold flex-1 mb-0">Meena Kumari</h6>
-                          </div>
-                        </div>
-                        <div class="col-auto">
-                          <h6 class="text-body fw-semibold mb-0">10%</h6>
-                        </div>
-                      </div>
+            
+                <div class="card text-white overflow-hidden" style="max-width:30rem;">
+                      <img class="card-img-top" src="images/qr.png" alt="...">
                     </div>
-                  </div>
+                  
                 </div>
                 <div class="col-12 col-sm-7 col-lg-8 col-xl-5">
                   <h4 class="text-body-emphasis mb-4">Team members</h4>
                   <div class="d-flex mb-8">
                     <div class="dropdown"><a class="dropdown-toggle dropdown-caret-none d-inline-block outline-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                         <div class="avatar avatar-xl  me-1">
-                          <img class="rounded-circle " src="images/33.webp" alt="" />
+                          <img class="rounded-circle " src="images/29.webp" alt="" />
                         </div>
                       </a>
                       <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
@@ -191,12 +189,12 @@
                           <div class="p-3">
                             <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
                             <div class="text-center">
-                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/33.webp" alt="" /></div>
-                              <h6 class="text-white">Tyrion Lannister</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/29.webp" alt="" /></div>
+                              <h6 class="text-black">Tyrion Lannister</h6>
+                              <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
                               <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
+                                <h6 class="text-black mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
+                                <h6 class="text-black mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
                               </div>
                             </div>
                           </div>
@@ -208,7 +206,7 @@
                             </div>
                           </div>
                           <ul class="nav d-flex flex-column py-3 border-bottom">
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Projects</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
+                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Task</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
                             <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body" data-feather="pie-chart"></span><span class="text-body-highlight flex-1">View activiy</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
                           </ul>
                         </div>
@@ -228,11 +226,11 @@
                             <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
                             <div class="text-center">
                               <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/30.webp" alt="" /></div>
-                              <h6 class="text-white">Milind Mikuja</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                              <h6 class="text-black">Milind Mikuja</h6>
+                              <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
                               <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
+                                <h6 class="text mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
+                                <h6 class="text mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
                               </div>
                             </div>
                           </div>
@@ -244,7 +242,7 @@
                             </div>
                           </div>
                           <ul class="nav d-flex flex-column py-3 border-bottom">
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Projects</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
+                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Task</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
                             <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body" data-feather="pie-chart"></span><span class="text-body-highlight flex-1">View activiy</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
                           </ul>
                         </div>
@@ -253,7 +251,7 @@
                     </div>
                     <div class="dropdown"><a class="dropdown-toggle dropdown-caret-none d-inline-block outline-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                         <div class="avatar avatar-xl  me-1">
-                          <img class="rounded-circle " src="images/31.webp" alt="" />
+                          <img class="rounded-circle " src="images/58.webp" alt="" />
                         </div>
                       </a>
                       <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
@@ -263,12 +261,12 @@
                           <div class="p-3">
                             <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
                             <div class="text-center">
-                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/31.webp" alt="" /></div>
-                              <h6 class="text-white">Stanly Drinkwater</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/58.webp" alt="" /></div>
+                              <h6 class="text-black">Stanly Drinkwater</h6>
+                              <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
                               <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
+                                <h6 class="text mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
+                                <h6 class="text mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
                               </div>
                             </div>
                           </div>
@@ -280,87 +278,16 @@
                             </div>
                           </div>
                           <ul class="nav d-flex flex-column py-3 border-bottom">
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Projects</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
+                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Task</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
                             <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body" data-feather="pie-chart"></span><span class="text-body-highlight flex-1">View activiy</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
                           </ul>
                         </div>
                         <div class="p-3 d-flex justify-content-between"><a class="btn btn-link p-0 text-decoration-none" href="#!">Details </a><a class="btn btn-link p-0 text-decoration-none text-danger" href="#!">Unassign </a></div>
                       </div>
                     </div>
-                    <div class="dropdown"><a class="dropdown-toggle dropdown-caret-none d-inline-block outline-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                        <div class="avatar avatar-xl  me-1">
-                          <img class="rounded-circle " src="images/60.webp" alt="" />
-                        </div>
-                      </a>
-                      <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
-                        <div class="position-relative">
-                          <div class="bg-holder z-n1" style="background-image:url(../../assets/img/bg/bg-32.png);background-size: auto;"></div>
-                          <!--/.bg-holder-->
-                          <div class="p-3">
-                            <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
-                            <div class="text-center">
-                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/60.webp" alt="" /></div>
-                              <h6 class="text-white">Josef Stravinsky</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
-                              <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bg-body-emphasis">
-                          <div class="p-3 border-bottom border-translucent">
-                            <div class="d-flex justify-content-between">
-                              <div class="d-flex"><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><span class="fa-solid fa-phone"></span></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><span class="fa-solid fa-message"></span></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg"><span class="fa-solid fa-video"></span></button></div><button class="btn btn-phoenix-primary"><span class="fa-solid fa-envelope me-2"></span>Send Email</button>
-                            </div>
-                          </div>
-                          <ul class="nav d-flex flex-column py-3 border-bottom">
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Projects</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body" data-feather="pie-chart"></span><span class="text-body-highlight flex-1">View activiy</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
-                          </ul>
-                        </div>
-                        <div class="p-3 d-flex justify-content-between"><a class="btn btn-link p-0 text-decoration-none" href="#!">Details </a><a class="btn btn-link p-0 text-decoration-none text-danger" href="#!">Unassign </a></div>
-                      </div>
-                    </div>
-                    <div class="dropdown"><a class="dropdown-toggle dropdown-caret-none d-inline-block outline-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                        <div class="avatar avatar-xl  me-1">
-                          <img class="rounded-circle " src="images/65.webp" alt="" />
-                        </div>
-                      </a>
-                      <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
-                        <div class="position-relative">
-                          <div class="bg-holder z-n1" style="background-image:url(../../assets/img/bg/bg-32.png);background-size: auto;"></div>
-                          <!--/.bg-holder-->
-                          <div class="p-3">
-                            <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
-                            <div class="text-center">
-                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/65.webp" alt="" /></div>
-                              <h6 class="text-white">Igor Borvibson</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
-                              <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="bg-body-emphasis">
-                          <div class="p-3 border-bottom border-translucent">
-                            <div class="d-flex justify-content-between">
-                              <div class="d-flex"><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><span class="fa-solid fa-phone"></span></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg me-2"><span class="fa-solid fa-message"></span></button><button class="btn btn-phoenix-secondary btn-icon btn-icon-lg"><span class="fa-solid fa-video"></span></button></div><button class="btn btn-phoenix-primary"><span class="fa-solid fa-envelope me-2"></span>Send Email</button>
-                            </div>
-                          </div>
-                          <ul class="nav d-flex flex-column py-3 border-bottom">
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body d-inline-block" data-feather="clipboard"></span><span class="text-body-highlight flex-1">Assigned Projects</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
-                            <li class="nav-item"><a class="nav-link px-3 d-flex flex-between-center" href="#!"> <span class="me-2 text-body" data-feather="pie-chart"></span><span class="text-body-highlight flex-1">View activiy</span><span class="fa-solid fa-chevron-right fs-11"></span></a></li>
-                          </ul>
-                        </div>
-                        <div class="p-3 d-flex justify-content-between"><a class="btn btn-link p-0 text-decoration-none" href="#!">Details </a><a class="btn btn-link p-0 text-decoration-none text-danger" href="#!">Unassign </a></div>
-                      </div>
-                    </div>
+                  
                   </div>
-                  <h4 class="text-body-emphasis mb-4">Tags</h4><span class="badge badge-tag me-2 mb-1">Unused_brain</span><span class="badge badge-tag me-2 mb-1">Machine</span><span class="badge badge-tag me-2 mb-1">Coding</span><span class="badge badge-tag me-2 mb-1">Meseeks</span><span class="badge badge-tag me-2 mb-1">Smithpeople</span><span class="badge badge-tag me-2 mb-1">Rick</span><span class="badge badge-tag me-2 mb-1">Biology</span><span class="badge badge-tag me-2 mb-1">Neurology</span><span class="badge badge-tag me-2 mb-1">Brainlessness</span><span class="badge badge-tag me-2 mb-1">Stupidity</span><span class="badge badge-tag me-2 mb-1">Jerry</span><span class="badge badge-tag me-2 mb-1">Not _the_mouse</span>
+                  <!-- <h4 class="text-body-emphasis mb-4">Tags</h4><span class="badge badge-tag me-2 mb-1">Unused_brain</span><span class="badge badge-tag me-2 mb-1">Machine</span><span class="badge badge-tag me-2 mb-1">Coding</span><span class="badge badge-tag me-2 mb-1">Meseeks</span><span class="badge badge-tag me-2 mb-1">Smithpeople</span><span class="badge badge-tag me-2 mb-1">Rick</span><span class="badge badge-tag me-2 mb-1">Biology</span><span class="badge badge-tag me-2 mb-1">Neurology</span><span class="badge badge-tag me-2 mb-1">Brainlessness</span><span class="badge badge-tag me-2 mb-1">Stupidity</span><span class="badge badge-tag me-2 mb-1">Jerry</span><span class="badge badge-tag me-2 mb-1">Not _the_mouse</span> -->
                 </div>
               </div>
               <h3 class="text-body-emphasis mb-4">Project overview</h3>

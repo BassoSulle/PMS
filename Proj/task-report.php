@@ -39,15 +39,25 @@
         
      <div class="content">
 
-     <h3>Task Report</h3>
+     <div class="col-auto">
+          <h2 class="mb-0"> Project Details</h2>
+          <!-- <button class="btn btn-primary" type="button" style="float: right;">Back</button> -->
+          <a href="project-phase.php" class="btn btn-primary" type="button" style="float: right;">Back</a>
+
+
+          <hr>
+          <div class="col-auto">
+          <h5 class="mb-0">Dashboard/</h5<span> <a href="">Task Report</a></span>
+        </div>
+      </div>
 
      <div class="col mb-5">
-                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Create new Report</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Create new Task</button>
                       <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Create new report</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                              <h5 class="modal-title" id="exampleModalLabel">Create new Task for (name of phase)</h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
                             </div>
                             <div class="modal-body">
                             <div class="form-group">
@@ -100,7 +110,7 @@
                               <tr>
                                 <th class="sort border-top border-translucent ps-3" data-sort="name">Task Name</th>
                                 <th class="sort border-top" data-sort="description">Task Decsription</th>
-                                <th class="sort border-top" data-sort="date">Challenges face</th>
+                                <th class="sort border-top" data-sort="date">Phase</th>
                                 <th class="sort border-top" data-sort="date">Duration</th>
                                 <th class="sort border-top" data-sort="date">Status</th>
                                 <th class="sort text-end align-middle pe-0 border-top" scope="col" style="display: flex; align-items: center;">ACTION</th>
@@ -111,50 +121,16 @@
                             <tr>
                                 <td class="align-middle ps-3 name">Installation of Task 1</td>
                                 <td class="align-middle description">This provide the description of the Task</td>
-                                <td class="align-middle date">Null</td>
+                                <td class="align-middle date">Planning Phase</td>
                                 <td class="align-middle date">20 days</td>
                                 <td class="align-middle date"><span class="badge badge-phoenix badge-phoenix-success">Completed</span></td>
                                 <td class="align-middle time white-space-nowrap ps-0 py-4">
                                     <div style="display: flex; align-items: center;">
-                                    <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
+                                    <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-primary px-0" ><span class="fas fa-edit"></span></button>
                                     <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
                                     </div>
                                 </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle ps-3 name">Installation of Task 2</td>
-                                <td class="align-middle description">This provide the description of the Task</td>
-                                <td class="align-middle date">Null</td>
-                                <td class="align-middle date">20 days</td>
-                                <td class="align-middle date"><span class="badge badge-phoenix badge-phoenix-secondary">In progress</span></td>
-                                <td class="align-middle time white-space-nowrap ps-0 py-4">
-                                    <div style="display: flex; align-items: center;">
-                                    <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                                    <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              
-                              <tr>
-                                <td class="align-middle ps-3 name">Installation of Task 3</td>
-                                <td class="align-middle description">This provide the description of the Task</td>
-                                <td class="align-middle date">Money</td>
-                                <td class="align-middle date">20 days</td>
-                                <td class="align-middle date"><span class="badge badge-phoenix badge-phoenix-danger">failed</span></td>
-                                <td class="align-middle time white-space-nowrap ps-0 py-4">
-                                    <div style="display: flex; align-items: center;">
-                                    <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                                    <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              
-
-                              
-                              
+                              </tr>        
                             </tbody>
                           </table>
                         </div>

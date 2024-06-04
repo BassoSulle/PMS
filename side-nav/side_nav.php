@@ -24,36 +24,29 @@
                   <div class="parent-wrapper label-1">
                     <ul class="nav collapse parent " data-bs-parent="#navbarVerticalCollapse" id="nv-project-management">
                       <!-- <li class="collapsed-nav-item-title d-none">Project management</li> -->
-                      <li class="nav-item"><a class="nav-link" href="project-type.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Project type</span></div>
+                      
+                      <li class="nav-item"> <a class="nav-link " href="project-type.php" data-bs-toggle="" aria-expanded="false">
+                          <div class="d-flex align-items-center"><span class="nav-link-text "><span class="fas fa-th-list"></span>  Project type</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="project-category.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Project category</span></div>
+                      <li class="nav-item"><a class="nav-link " href="project-category.php" data-bs-toggle="" aria-expanded="false">
+                          <div class="d-flex align-items-center"><span class="nav-link-text "><span class="fas fa-tag"></span>  Project category</span></div>
                         </a><!-- more inner pages-->
                       </li>
                       <li class="nav-item"><a class="nav-link" href="create-new.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Create new</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"><span class="fas fa-file"></span>  Create new</span></div>
                         </a><!-- more inner pages-->
                       </li>
 
                       <li class="nav-item"><a class="nav-link active" href="project-list-view.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Project list view</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"><span class="fas fa-list"></span>  Project list view</span></div>
                         </a><!-- more inner pages-->
                       </li>
-                      
-                      <!-- <li class="nav-item"><a class="nav-link" href="todo-list.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Todo list</span></div>
-                        </a>
-                      </li> -->
-                      <!-- <li class="nav-item"><a class="nav-link" href="project-details.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Project details</span></div>
-                        </a>
-                      </li> -->
+                  
                       <li class="nav-item"><a class="nav-link" href="resource.php" data-bs-toggle="" aria-expanded="false">
 
                       <li class="nav-item"><a class="nav-link" href="upload-project.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Upload project</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"> <span class="fas fa-upload"></span>  Upload project</span></div>
                         </a><!-- more inner pages-->
                       </li>
                     </ul>
@@ -70,7 +63,7 @@
                     <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-user-management">
                       <li class="collapsed-nav-item-title d-none">User management</li>
                       <li class="nav-item"><a class="nav-link" href="user.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">User list</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"> <span class="fas fa-user"></span>  User list</span></div>
                         </a><!-- more inner pages-->
                       </li>
                       <!-- <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
@@ -83,6 +76,8 @@
                 </div>
 
                <!-- Members -->
+            
+               
                <div class="nav-item-wrapper"><a class="nav-link label-1" href="team.php" role="button" data-bs-toggle="" aria-expanded="false">
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span data-feather="users"></span></span><span class="nav-link-text-wrapper"><span class="nav-link-text">Team</span></span></div>
                   </a>
@@ -111,11 +106,11 @@
                     <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-report">
                       <li class="collapsed-nav-item-title d-none">Customization</li>
                       <li class="nav-item"><a class="nav-link" href="./general-report.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">General report</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"><span class="fas fa-chart-bar"></span>   General report</span></div>
                         </a><!-- more inner pages-->
                       </li>
                       <li class="nav-item"><a class="nav-link" href="../../documentation/customization/styling.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Individual reporrt</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"><span class="fas fa-clipboard"></span>    Individual reporrt</span></div>
                         </a><!-- more inner pages-->
                       </li>
                      
@@ -133,11 +128,11 @@
                     <ul class="nav collapse parent" data-bs-parent="#navbarVerticalCollapse" id="nv-settings">
                       <li class="collapsed-nav-item-title d-none">Settings</li>
                       <li class="nav-item"><a class="nav-link" href="role.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Role</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"> <span class="fas fa-id-badge"></span>   Role</span></div>
                         </a><!-- more inner pages-->
                       </li>
                       <li class="nav-item"><a class="nav-link" href="permission.php" data-bs-toggle="" aria-expanded="false">
-                          <div class="d-flex align-items-center"><span class="nav-link-text">Permission</span></div>
+                          <div class="d-flex align-items-center"><span class="nav-link-text"><span class="fas fa-unlock"></span>    Permission</span></div>
                         </a><!-- more inner pages-->
                       </li>
                     </ul>

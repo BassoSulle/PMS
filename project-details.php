@@ -179,7 +179,7 @@
                   <div class="d-flex mb-8">
                     <div class="dropdown"><a class="dropdown-toggle dropdown-caret-none d-inline-block outline-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                         <div class="avatar avatar-xl  me-1">
-                          <img class="rounded-circle " src="images/33.webp" alt="" />
+                          <img class="rounded-circle " src="images/58.webp" alt="" />
                         </div>
                       </a>
                       <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
@@ -189,12 +189,12 @@
                           <div class="p-3">
                             <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
                             <div class="text-center">
-                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/33.webp" alt="" /></div>
-                              <h6 class="text-white">Tyrion Lannister</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/58.webp" alt="" /></div>
+                              <h6 class="text-black">Tyrion Lannister</h6>
+                              <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
                               <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
+                                <h6 class="text-black mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
+                                <h6 class="text-black mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
                               </div>
                             </div>
                           </div>
@@ -226,11 +226,11 @@
                             <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
                             <div class="text-center">
                               <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/30.webp" alt="" /></div>
-                              <h6 class="text-white">Milind Mikuja</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                              <h6 class="text-black">Milind Mikuja</h6>
+                              <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
                               <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
+                                <h6 class="text-black mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
+                                <h6 class="text-black mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
                               </div>
                             </div>
                           </div>
@@ -251,7 +251,7 @@
                     </div>
                     <div class="dropdown"><a class="dropdown-toggle dropdown-caret-none d-inline-block outline-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                         <div class="avatar avatar-xl  me-1">
-                          <img class="rounded-circle " src="images/31.webp" alt="" />
+                          <img class="rounded-circle " src="images/59.webp" alt="" />
                         </div>
                       </a>
                       <div class="dropdown-menu avatar-dropdown-menu p-0 overflow-hidden" style="width: 320px;">
@@ -261,12 +261,12 @@
                           <div class="p-3">
                             <div class="text-end"><button class="btn p-0 me-2"><span class="fa-solid fa-user-plus text-white"></span></button><button class="btn p-0"><span class="fa-solid fa-ellipsis text-white"></span></button></div>
                             <div class="text-center">
-                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/31.webp" alt="" /></div>
-                              <h6 class="text-white">Stanly Drinkwater</h6>
-                              <p class="text-light text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
+                              <div class="avatar avatar-xl status-online position-relative me-2 me-sm-0 me-xl-2 mb-2"><img class="rounded-circle border border-light-subtle" src="images/59.webp" alt="" /></div>
+                              <h6 class="text-black">Stanly Drinkwater</h6>
+                              <p class="text text-opacity-50 fw-semibold fs-10 mb-2">@tyrion222</p>
                               <div class="d-flex flex-center mb-3">
-                                <h6 class="text-white mb-0">224 <span class="fw-normal text-light text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
-                                <h6 class="text-white mb-0">23 <span class="fw-normal text-light text-opacity-75">mutual</span></h6>
+                                <h6 class="text-white mb-0">224 <span class="fw-normal text text-opacity-75">connections</span></h6><span class="fa-solid fa-circle text-body-tertiary mx-1" data-fa-transform="shrink-10 up-2"></span>
+                                <h6 class="text-white mb-0">23 <span class="fw-normal text text-opacity-75">mutual</span></h6>
                               </div>
                             </div>
                           </div>

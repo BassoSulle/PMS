@@ -42,7 +42,11 @@
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0"> Project Resources</h2>
+                <h2 class="mb-0"> Project Details</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project resources</a></span>
+              </div>
               </div>
 
          <!-- model -->

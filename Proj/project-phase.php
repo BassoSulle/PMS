@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>PMS | Create New</title>
+    <title>PMS | Project phase</title>
     <?php include("top-style-script/script-link.php")?>
   </head>
 
@@ -38,100 +38,181 @@
      <?php include('top-nav/script-nav.php');?>
 
       <div class="content">
-        <h2 class="mb-4">Create a project</h2>
-        <div class="row">
-          <div class="col-xl-9">
-            <form class="row g-3 mb-6">
-              <div class="col-sm-6 col-md-8">
-                <div class="form-floating">
-                  <input class="form-control" id="floatingInputGrid" type="text" placeholder="Project title" />
-                  <label for="floatingInputGrid">Project title</label>
+        <div class="mb-9">
+          <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
+            <div class="row mb-4 gx-6 gy-3 align-items-center">
+              <div class="col-auto">
+                <h2 class="mb-0">Main Project</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project phase</a></span>
+              </div>
+              </div>
+             
+
+             <!-- Model Create project phase -->
+              <div class="col">
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ create new phase</button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Add phase information </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Phase </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select phase</option>
+                                    <option value="1">Planing</option>
+                                    <option value="2">Designing</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Duration </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Quantity </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select quantity</option>
+                                    <option value="1">Days</option>
+                                    <option value="2">Weeks</option>
+                                    <option value="2">Months</option>
+                                    <option value="2">Year</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">StartDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">EndDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-primary" type="button">Save</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
+
+            <!-- User Permission table list -->
+            <div class="table-responsive scrollbar">
+              <table class="table fs-9 mb-0 border-top border-translucent">
+                <thead>
+                  <tr>
+                    <th class="sort white-space-nowrap align-middle ps-0" scope="col" data-sort="projectName" style="width:5%;">S/N</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">NAME</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">START DATE</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">END DATE</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">STATUS</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">PROGRESS</th>
+                    <th class="sort align-middle ps-3" scope="col" data-sort="deadline" style="width:15%;">ACTIONS</th>
+                
+                  </tr>
+                </thead>
+                <tbody class="list" id="project-list-table-body">
+                  <tr class="position-static">
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="task-report.php">Planning phase</a></td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">12/4/2024</td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">1/10/2024</td>
+                    <td><span class=" badge bg-warning">In initial state</span></td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: {{phase.progressBar}}%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">{{phase.progressBar}}%</div>
+                        </div>
+                    </td>
+                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <div style="display: flex; align-items: center;">
+                            <button title="Verification" class="btn btn-phoenix-warning btn-icon me-1 fs-10 text-warning px-0"
+                             data-bs-toggle="modal" data-bs-target="#ViewPermissionModal" ><span class="fas fa-pen"></span>
+                            </button>
+                            <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-primary px-0" 
+                            data-bs-toggle="modal" data-bs-target="#EditPermissionModal" ><span class="fas fa-edit"></span>
+                            </button>
+                             <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0 " 
+                             data-bs-toggle="modal" data-bs-target="#DeletePermissionModel"><span class="fas fa-trash"></span></button>
+                        </div>
+                    </td>
+                  </tr>
+               
+                </tbody>
+              </table>
+
+            <!-- Model Edit Project Phase -->
+                <div class="modal fade" id="EditPermissionModal" tabindex="-1" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Edit Project phase </h5><button class="btn p-1" type="button" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-inline--fa fa-xmark fs-9" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg><!-- <span class="fas fa-times fs-9"></span> Font Awesome fontawesome.com --></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="mb-3">
+                                <label class="form-label" for="deliverable">Phase </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select phase</option>
+                                    <option value="1">Planing</option>
+                                    <option value="2">Designing</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">Duration </label>
+                                <input class="form-control" id="description" type="text" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="deliverable">Quantity </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected="">Select quantity</option>
+                                    <option value="1">Days</option>
+                                    <option value="2">Weeks</option>
+                                    <option value="2">Months</option>
+                                    <option value="2">Year</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">StartDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput">EndDate </label>
+                                <input class="form-control" id="description" type="date" placeholder="" />
+                            </div>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-warning" type="button">Update</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                        </div>
+                    </div>
+                    </div>
+
                 </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectTask">
-                    <option selected="selected">Select Project type</option>
-                    <option value="1">technical</option>
-                    <option value="2">external</option>
-                    <option value="3">organizational</option>
-                  </select><label for="floatingSelectTask">Defult task view</label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectPrivacy">
-                    <option selected="selected">Select project category</option>
-                    <option value="1">Data Privacy One</option>
-                    <option value="2">Data Privacy Two</option>
-                    <option value="3">Data Privacy Three</option>
-                  </select><label for="floatingSelectPrivacy">Project privacy</label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectTeam">
-                    <option selected="selected">Select team</option>
-                    <option value="1">Team One</option>
-                    <option value="2">Team Two</option>
-                    <option value="3">Team Three</option>
-                  </select><label for="floatingSelectTeam">Team </label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectAssignees">
-                    <option selected="selected">Select assignees </option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select><label for="floatingSelectAssignees">People </label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="form-floating"><select class="form-select" id="floatingSelectAdmin">
-                    <option selected="selected">Select admin</option>
-                    <option value="1">Data Privacy One</option>
-                    <option value="2">Data Privacy Two</option>
-                    <option value="3">Data Privacy Three</option>
-                  </select><label for="floatingSelectAdmin">Project Lead</label></div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="flatpickr-input-container">
-                  <div class="form-floating"><input class="form-control datetimepicker" id="floatingInputStartDate" type="text" placeholder="end date" data-options='{"disableMobile":true}' /><label class="ps-6" for="floatingInputStartDate">Start date</label><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
+                <div class="d-flex flex-wrap align-items-center justify-content-between py-3 pe-0 fs-9 border-bottom border-translucent">
+                <div class="d-flex">
+                    <p class="mb-0 d-none d-sm-block me-3 fw-semibold text-body" data-list-info="data-list-info"></p><a class="fw-semibold" href="#!" data-list-view="*">View all<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a><a class="fw-semibold d-none" href="#!" data-list-view="less">View Less<span class="fas fa-angle-right ms-1" data-fa-transform="down-1"></span></a>
                 </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="flatpickr-input-container">
-                  <div class="form-floating"><input class="form-control datetimepicker" id="floatingInputDeadline" type="text" placeholder="deadline" data-options='{"disableMobile":true}' /><label class="ps-6" for="floatingInputDeadline">Deadline</label><span class="uil uil-calendar-alt flatpickr-icon text-body-tertiary"></span></div>
+                <div class="d-flex"><button class="page-link" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
+                    <ul class="mb-0 pagination"></ul><button class="page-link pe-0" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
                 </div>
-              </div>
-              <div class="col-12 gy-6">
-                <div class="form-floating"><textarea class="form-control" id="floatingProjectOverview" placeholder="Leave a comment here" style="height: 100px"></textarea><label for="floatingProjectOverview">project overview</label></div>
-              </div>
-              <div class="col-md-6 gy-6">
-                <div class="form-floating"><select class="form-select" id="floatingSelectClient">
-                    <option selected="selected">Select client</option>
-                    <option value="1">Client One</option>
-                    <option value="2">Client Two</option>
-                    <option value="3">Client Three</option>
-                  </select><label for="floatingSelectClient">client</label></div>
-              </div>
-              <div class="col-md-6 gy-6">
-                <div class="form-floating"><input class="form-control" id="floatingInputBudget" type="text" placeholder="Budget" /><label for="floatingInputBudget">Budget</label></div>
-              </div>
-              <div class="col-12 gy-6"><select class="form-select" id="organizerMultiple" data-choices="data-choices" multiple="multiple" data-options='{"removeItemButton":true,"placeholder":true}'>
-                  <option value="">Add tags</option>
-                  <option>Stupidity</option>
-                  <option>Jerry</option>
-                  <option>Not_the_mouse</option>
-                  <option>Rick</option>
-                  <option>Biology</option>
-                  <option>Neurology</option>
-                  <option>Brainlessness</option>
-                </select></div>
-              <div class="col-12 gy-6">
-                <div class="row g-3 justify-content-end">
-                  <div class="col-auto"><button class="btn btn-phoenix-primary px-5">Cancel</button></div>
-                  <div class="col-auto"><button class="btn btn-primary px-5 px-sm-15">Create Project</button></div>
                 </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <?php include('footer.php')?>
+            </div>
+            </div>
+
+            <!-- Model Delete  -->
+            <div class="modal fade" id="DeletePermissionModel" tabindex="-1" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                    <div class="mb-3">
+                    <h4>Are you sure you want to delete?</h4>
+                    </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-danger" type="button">Yes</button><button class="btn btn-outline-primary" type="button" data-bs-dismiss="modal">Cancel</button></div>
+                    </div>
+                </div>
+            </div>
+        
+    <?php include('footer.php')?>
       </div>
       <div class="support-chat-container">
         <div class="container-fluid support-chat">
@@ -154,7 +235,7 @@
                     <p class="mb-0 fw-semibold fs-9">My payment method not working</p><span class="fa-solid fa-paper-plane text-primary fs-9 ms-3"></span>
                   </a></div>
                 <div class="text-center mt-auto">
-                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="../../assets/img/team/30.webp" alt="" /></div>
+                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-light-subtle" src="images/team/30.webp" alt="" /></div>
                   <h5 class="mt-2 mb-3">Eric</h5>
                   <p class="text-center text-body-emphasis mb-0">Ask us anything – we’ll get back to you here or by email within 24 hours.</p>
                 </div>
@@ -243,12 +324,11 @@
 
     <!-- ===============================================-->
     <!--    JavaScripts-->
-    <!-- ===============================================
+    <!-- ===============================================-->
     
-    <script src="../../vendors/choices/choices.min.js"></script>-->
-   
 
-      <script src="js/popper.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/anchor.min.js"></script>
     <script src="js/is.min.js"></script>
@@ -259,7 +339,9 @@
     <script src="js/feather.min.js"></script>
     <script src="js/dayjs.min.js"></script>
     <script src="js/phoenix.js"></script>
-    
+
+
   </body>
 
+  
 </html>

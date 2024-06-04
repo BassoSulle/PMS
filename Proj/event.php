@@ -39,7 +39,13 @@
         
      <div class="content">
 
-     <h3>Event</h3>
+     <div class="col-auto">
+        <h2 class="mb-0"> Project Details</h2>
+        <hr>
+        <div class="col-auto">
+        <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project Events</a></span>
+      </div>
+    </div>
 
      <div class="col mb-5">
                 <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add Event</button>
@@ -156,26 +162,7 @@
                                 </td>
                               </tr>
 
-                              <tr>
-                                <td class="align-middle ps-3 name">Data collection</td>
-                                <td class="align-middle description">This provide the description</td>
-                                <td class="align-middle date">25 May 2024</td>
-                                <td class="align-middle">16:00</td>
-                                <td class="align-middle">Tanzania, Dar es salaam</td>
-                                <td class="align-middle">JK hall</td>
-                                <td class="align-middle"><span class="badge badge-phoenix badge-phoenix-danger">Failed</span></td>
-                                <td class="align-middle time white-space-nowrap ps-0 py-4">
-                                    <div style="display: flex; align-items: center;">
-                                    <button title="View" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-eye"></span></button>
-                                    <button title="Edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                                    <button title="Delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                                    </div>
-                                </td>
-                              </tr>
-                              
-
-                              
-                              
+  
                             </tbody>
                           </table>
                         </div>

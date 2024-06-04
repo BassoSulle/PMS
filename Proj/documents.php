@@ -39,7 +39,13 @@
         
      <div class="content">
 
-     <h3>Documents</h3>
+     <div class="col-auto">
+                <h2 class="mb-0"> Project Details</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project Documents</a></span>
+              </div>
+              </div>
 
      <div class="col mb-5">
                 <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="float: right;">+ Add Document</button>
@@ -93,42 +99,13 @@
                                 <td class="align-middle date">25 May 2024</td>
                                 <td class="align-middle time white-space-nowrap ps-0 py-4">
                                     <div style="display: flex; align-items: center;">
-                                    <button title="View" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-eye"></span></button>
-                                    <button title="Edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
+                                    <button title="download" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-warning px-0" ><span class="fas fa-download"></span></button>
+                                    <button title="Edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-primary px-0" ><span class="fas fa-edit"></span></button>
                                     <button title="Delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
                                     </div>
                                 </td>
                               </tr>
-
-                              <tr>
-                                <td class="align-middle ps-3 name">Planning Report Phase 2</td>
-                                <td class="align-middle description">This provide the description of the document</td>
-                                <td class="align-middle date">25 May 2024</td>
-                                <td class="align-middle time white-space-nowrap ps-0 py-4">
-                                    <div style="display: flex; align-items: center;">
-                                    <button title="View" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-eye"></span></button>
-                                    <button title="Edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                                    <button title="Delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle ps-3 name">Planning Report Phase 3</td>
-                                <td class="align-middle description">This provide the description of the document</td>
-                                <td class="align-middle date">25 May 2024</td>
-                                <td class="align-middle time white-space-nowrap ps-0 py-4">
-                                    <div style="display: flex; align-items: center;">
-                                    <button title="View" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-eye"></span></button>
-                                    <button title="Edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
-                                    <button title="Delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
-                                    </div>
-                                </td>
-                              </tr>
-                              
-
-                              
-                              
+            
                             </tbody>
                           </table>
                         </div>

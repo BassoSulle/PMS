@@ -40,7 +40,7 @@
       <div class="content">
         <div class="row gy-3 mb-6 justify-content-between">
           <div class="col-md-9 col-auto">
-            <h2 class="mb-2 text-body-emphasis">Projects Dashboard</h2>
+            <h2 class="mb-2 text-body-emphasis">Project Overview</h2>
             <h5 class="text-body-tertiary fw-semibold">Here’s what’s going on at your business right now</h5>
           </div>
           <div class="col-md-3 col-auto">

@@ -37,20 +37,17 @@
      <?php include('top-nav/top-nav.php');?>
      <?php include('top-nav/script-nav.php');?>
       <div class="content">
-        <nav class="mb-2" aria-label="breadcrumb">
-          <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="#!">Page 1</a></li>
-            <li class="breadcrumb-item"><a href="#!">Page 2</a></li>
-            <li class="breadcrumb-item active">Default</li>
-          </ol>
-        </nav>
         <div class="mb-9">
           <div id="projectSummary" data-list='{"valueNames":["projectName","assigness","start","deadline","task","projectprogress","status","action"],"page":6,"pagination":true}'>
             <div class="row mb-4 gx-6 gy-3 align-items-center">
               <div class="col-auto">
-                <h2 class="mb-0">Projects<span class="fw-normal text-body-tertiary ms-3">(32)</span></h2>
+                <h2 class="mb-0">Projects</h2>
+                <hr>
+                <div class="col-auto">
+                <h5 class="mb-0">Dashboard/</h5<span> <a href="">Project phase</a></span>
               </div>
-              <div class="col-auto"><a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project</a></div>
+              </div>
+              <div class="col-auto" style="float: right;"> <a class="btn btn-primary px-5" href="create-new.php"><i class="fa-solid fa-plus me-2"></i>Add new project</a></div>
             </div>
             <div class="row g-3 justify-content-between align-items-end mb-4">
               <div class="col-12 col-sm-auto">
@@ -95,8 +92,8 @@
                     <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">TEAM</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="assigness" style="width:10%;">DESCRIPTION</th>
                     <th class="sort align-middle ps-3" scope="col" data-sort="start" style="width:10%;">DURATION(DAYS)</th>
-                    <th class="sort align-middle text-end" scope="col" data-sort="statuses" style="width:10%;">STATUS</th>
                     <th class="sort align-middle text-end" scope="col" data-sort="statuses" style="width:10%;">CATERGORY</th>
+                    <th class="sort align-middle text-end" scope="col" data-sort="statuses" style="width:10%;">STATUS</th>
                   
                     <th class="sort align-middle text-end" scope="col" style="width:10%;">ACTION</th>
                   </tr>
@@ -185,8 +182,8 @@
                     <td class="align-middle white-space-nowrap deadline ps-3 py-4">
                       <p class="mb-0 fs-9 text-body">May 21, 2028</p>
                     </td>
-                    <td class="align-middle white-space-nowrap text-end statuses"><span class="badge badge-phoenix fs-10 badge-phoenix-success">completed</span></td>
                     <td class="align-middle white-space-nowrap text-end statuses"><span class="badge badge-phoenix fs-10 badge-phoenix-success">Front end</span></td>
+                    <td class="align-middle white-space-nowrap text-end statuses"><span class="badge badge-phoenix fs-10 badge-phoenix-success">completed</span></td>
                     <td class="align-middle text-end white-space-nowrap pe-0 action">
                       <div class="btn-reveal-trigger position-static"><button class="btn btn-sm dropdown-toggle dropdown-caret-none transition-none btn-reveal fs-10" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h fs-10"></span></button>
                         <div class="dropdown-menu dropdown-menu-end py-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>

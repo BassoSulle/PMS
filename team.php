@@ -253,8 +253,8 @@
                 </thead>
                 <tbody class="list" id="project-list-table-body">
                   <tr class="position-static">
-                    <td class="align-middle time white-space-nowrap py-0 projectName py-4">1</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="#">Back-end Team</a></td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">1</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4"><a href="#">Back-end Team</a></td>
 
                     <!-- table data for team member -->
                     <td class="align-middle white-space-nowrap assignees ps-3 py-4">
@@ -364,10 +364,10 @@
                       </div>
                     </td>
                     
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4"><a href="project-details.php">NHC</a></td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Computer Dep.</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">Busy</td>
-                    <td class="align-middle time white-space-nowrap ps-0 projectName py-4">
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4"><a href="project-details.php">NHC</a></td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">Computer Dep.</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">Busy</td>
+                    <td class="align-middle time white-space-nowrap ps-3 projectName py-4">
                         <div style="display: flex; align-items: center;">
                           <button title="edit" class="btn btn-phoenix-secondary btn-icon me-1 fs-10 text-body px-0" ><span class="fas fa-edit"></span></button>
                           <button title="delete" class="btn btn-phoenix-secondary btn-icon fs-10 text-danger px-0"><span class="fas fa-trash"></span></button>
